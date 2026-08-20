@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-CLIP_PHYS_0002">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 3.5.1</pc:Creator>
+        <pc:Created>2026-08-13T09:32:44.012543</pc:Created>
+        <pc:LastChange>2026-08-13T09:32:44.012543</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-olena-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="sauvola-ms-split" type="impl"/>
+                <pc:Label value="0.34" type="k"/>
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="0" type="win-size"/>
+                <pc:Label value="0" type="dpi"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="2.0.0" type="ocrd-olena-binarize"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/despeckling" value="ocrd-cis-ocropy-denoise">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="2.0" type="noise_maxsize"/>
+                <pc:Label value="0" type="dpi"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.0" type="ocrd-cis-ocropy-denoise"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/deskewing" value="ocrd-cis-ocropy-deskew">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="2.0" type="maxskew"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.0" type="ocrd-cis-ocropy-deskew"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment-region">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="False" type="find_tables"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="4" type="padding"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="True" type="overwrite_regions"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="crop_polygons"/>
+                <pc:Label value="False" type="find_staves"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.20.1" type="ocrd-tesserocr-segment-region"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="True" type="plausibilize"/>
+                <pc:Label value="False" type="sanitize"/>
+                <pc:Label value="5" type="sanitize_padding"/>
+                <pc:Label value="0" type="simplify"/>
+                <pc:Label value="0.9" type="plausibilize_merge_min_overlap"/>
+                <pc:Label value="0" type="spread"/>
+                <pc:Label value="region" type="spread_level"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.1" type="ocrd-segment-repair"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-cis-ocropy-clip">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="region" type="level-of-operation"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.7" type="min_fraction"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.0" type="ocrd-cis-ocropy-clip"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG-360/St_Fiden_from_SdK_StGallen-kirchen_Page_02.tif" imageWidth="2553" imageHeight="3615" orientation="0.0">
+        <pc:AlternativeImage filename="OCR-D-BIN/OCR-D-BIN_PHYS_0002_.IMG-BIN.png" comments="binarized"/>
+        <pc:AlternativeImage filename="OCR-D-DEN/OCR-D-DEN_PHYS_0002_PHYS_0002.IMG-DESPECK.png" comments="binarized,despeckled"/>
+        <pc:AlternativeImage filename="OCR-D-DSK/OCR-D-DSK_PHYS_0002_.IMG-DESKEW.png" comments="binarized,despeckled,deskewed"/>
+        <pc:AlternativeImage filename="OCR-D-SEG-REG/OCR-D-SEG-REG_PHYS_0002_.IMG-BIN.png" comments="binarized,despeckled,deskewed,binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="-0.219588820907774" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="378,311 1543,311 1543,357 378,357"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0001" orientation="-0.219588820907774" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:AlternativeImage filename="OCR-D-CLIP/OCR-D-CLIP_PHYS_0002_region0001.IMG_CLIP.png" comments="binarized,despeckled,binarized,clipped"/>
+            <pc:Coords points="362,383 2187,383 2187,2725 362,2725"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0002" orientation="-0.219588820907774" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:AlternativeImage filename="OCR-D-CLIP/OCR-D-CLIP_PHYS_0002_region0002.IMG_CLIP.png" comments="binarized,despeckled,binarized,clipped"/>
+            <pc:Coords points="364,2725 2173,2725 2173,3115 364,3115"/>
+        </pc:TextRegion>
+    </pc:Page>
+</pc:PcGts>

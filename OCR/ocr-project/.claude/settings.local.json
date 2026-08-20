@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(grep -E \"^## Page|^- \\\\`\\(applied|MISMATCH|no footnotes\\)\" review/report.md)",
+      "Bash(awk '/^## Page 0002/,/^## Page 0003/' review/report.md)",
+      "Bash(grep -E \"^## Page|^- \\\\`\\(applied|partial|MISMATCH|no footnotes\\)\" review/report.md)",
+      "Bash(awk '/^## Page 0003/,/^## Page 0004/' review/report.md)",
+      "Bash(echo \"--- exit: $? \\(no output = no rm commands in session\\) ---\")",
+      "Bash(mkdir -p /Users/diazm/.claude/jobs/7ac7dac0/tmp/baseline)",
+      "Bash(cp -R corrected review /Users/diazm/.claude/jobs/7ac7dac0/tmp/baseline/)",
+      "Bash(echo \"=== corrected diff status: $? ===\")",
+      "Bash(awk '/^## Page 0003/,/^## Page 0004/' /Users/diazm/.claude/jobs/7ac7dac0/tmp/baseline/review/report.md)"
+    ]
+  }
+}

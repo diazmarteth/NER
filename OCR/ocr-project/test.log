@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/ocrd", line 8, in <module>
+    sys.exit(cli())
+  File "/usr/local/lib/python3.8/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.8/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.8/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.8/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/build/core/src/ocrd/cli/process.py", line 32, in process_cli
+    run_tasks(mets, log_level, page_id, tasks, overwrite=overwrite, mets_server_url=mets_server_url)
+  File "/build/core/src/ocrd/task_sequence.py", line 126, in run_tasks
+    validate_tasks(tasks, workspace, page_id, overwrite)
+  File "/build/core/src/ocrd/task_sequence.py", line 114, in validate_tasks
+    raise Exception("Invalid task sequence input/output file groups: %s" % report.errors)
+Exception: Invalid task sequence input/output file groups: ["Output fileGrp[@USE='OCR-D-BIN'] already contains output for page PHYS_0006", "Output fileGrp[@USE='OCR-D-DEN'] already contains output for page PHYS_0006", "Output fileGrp[@USE='OCR-D-DSK'] already contains output for page PHYS_0006", "Output fileGrp[@USE='OCR-D-SEG-REG'] already contains output for page PHYS_0006", "Output fileGrp[@USE='OCR-D-SEG-REP'] already contains output for page PHYS_0006", "Output fileGrp[@USE='OCR-D-CLIP'] already contains output for page PHYS_0006", "Output fileGrp[@USE='OCR-D-SEG-LINE'] already contains output for page PHYS_0006", "Output fileGrp[@USE='OCR-D-DEW'] already contains output for page PHYS_0006"]

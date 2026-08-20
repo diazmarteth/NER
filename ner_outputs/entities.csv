@@ -1,0 +1,263 @@
+﻿sentence_id,text,label,score,start,end,sentence
+1,St. Fiden,LOC,1.0,0,9,"St. Fiden wurde erst im Jahre 1918 durch die Eingemeindung von Tablat, dem die Siedlung zugehörte, ein Teil des Stadtgebietes."
+1,Tablat,LOC,1.0,63,69,"St. Fiden wurde erst im Jahre 1918 durch die Eingemeindung von Tablat, dem die Siedlung zugehörte, ein Teil des Stadtgebietes."
+3,St. Fiden,ORG,0.997,101,110,"Die Ortschaft verdankte, wie schon der Name erkennen läßt, allein der Kirche, die bis 1777 den Titel St. Fiden trug, ihr Dasein."
+4,Eichbohl,LOC,1.0,25,33,"Ehemals hieß die Gegend «Eichbohl» (Eichenhügel) oder auch «Farna», Die Legende bringt die Gründung der Kirche mit einem wunderhaften, dem Abt Ulrich III."
+4,Eichenhügel,LOC,1.0,36,47,"Ehemals hieß die Gegend «Eichbohl» (Eichenhügel) oder auch «Farna», Die Legende bringt die Gründung der Kirche mit einem wunderhaften, dem Abt Ulrich III."
+4,Farna,LOC,1.0,60,65,"Ehemals hieß die Gegend «Eichbohl» (Eichenhügel) oder auch «Farna», Die Legende bringt die Gründung der Kirche mit einem wunderhaften, dem Abt Ulrich III."
+4,Ulrich III,PER,1.0,143,153,"Ehemals hieß die Gegend «Eichbohl» (Eichenhügel) oder auch «Farna», Die Legende bringt die Gründung der Kirche mit einem wunderhaften, dem Abt Ulrich III."
+7,Oberrhein,LOC,1.0,97,106,"Jahrhunderts glaubhaft, da sich in dieser Zeit ein starker Aufschwung der St.-Fides-Verehrung am Oberrhein ereignete, der seinen Ursprung darin hatte, daß damals Kirche und Kloster zum hl."
+8,Schlettstadt,LOC,1.0,8,20,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+8,Elsaß,LOC,1.0,22,27,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+8,Hildegard von Hohenstaufen,PER,1.0,54,80,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+8,Sainte Foy des Conques,LOC,0.998,94,116,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+8,Chur,LOC,1.0,277,281,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+8,Schlettstadt,LOC,1.0,290,302,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+8,Kollegiatstift Straßburg,ORG,0.999,337,361,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+8,St. Gallen,LOC,1.0,381,391,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+8,UB,MISC,0.832,526,528,"Grab in Schlettstadt (Elsaß) durch eine Schenkung der Hildegard von Hohenstaufen an die Abtei Sainte Foy des Conques übergingen, wo die Gebeine der Heiligen ruhten, Bei der wohl auf Reliquienübertragung zurückgehenden Titelverpflanzung ist an eine Vermittlung durch das Bistum Chur, das in Schlettstadt eine Kirche besaß, oder durch das Kollegiatstift Straßburg zu denken, das mit St. Gallen in Gebetsverbrüderung stand, Die erste urkundliche Erwähnung des Gotteshauses erfolgt anläßlich einer Jahrzeitstiftung im Jahre 1225 (UB III, S.69)."
+10,Ulrich VI,PER,1.0,85,94,"264), zwei Pfründen, die «mehrere » und die «mindere pfrund », von denen bereits Abt Ulrich VI."
+12,Ulrich VIII,PER,1.0,0,11,Ulrich VIII.
+14,St. Fiden,LOC,0.998,48,57,"An hohen Festtagen mußten auch die Priester von St. Fiden am Chordienst der Stiftskirche teilnehmen (UB III, S.73) und am ersten Tag der Rogationen ging die Prozession zu diesem"
+14,UB,MISC,0.502,101,103,"An hohen Festtagen mußten auch die Priester von St. Fiden am Chordienst der Stiftskirche teilnehmen (UB III, S.73) und am ersten Tag der Rogationen ging die Prozession zu diesem"
+17,Ulrich VI,PER,1.0,47,56,Im Jahre 1208 — während der Fehde zwischen Abt Ulrich VI.
+18,Werner von Konstanz,PER,1.0,12,31,"und Bischof Werner von Konstanz — wurde nach der Schlacht auf dem Breitfeld die Kirche von St. Fiden, «die gar wol mit allerlei klainoter und kilchengeprenge begabt und geziert war», von einigen bischöflichen Edlen geplündert."
+18,Breitfeld,LOC,1.0,66,75,"und Bischof Werner von Konstanz — wurde nach der Schlacht auf dem Breitfeld die Kirche von St. Fiden, «die gar wol mit allerlei klainoter und kilchengeprenge begabt und geziert war», von einigen bischöflichen Edlen geplündert."
+18,St. Fiden,LOC,1.0,91,100,"und Bischof Werner von Konstanz — wurde nach der Schlacht auf dem Breitfeld die Kirche von St. Fiden, «die gar wol mit allerlei klainoter und kilchengeprenge begabt und geziert war», von einigen bischöflichen Edlen geplündert."
+21,Fides,PER,0.999,58,63,"Es waren dies zwei Altäre, einer im Chor zu Ehren von St. Fides und ein anderer «in medio» zu Ehren von St. Agatha, 1644 schenkte Abt Pius eine Glocke und am 31. Juli 1661 fand nach umfassender Renovation eine Neuweihe der Kirche und folgender drei Altäre statt: 1."
+21,Agatha,PER,0.999,108,114,"Es waren dies zwei Altäre, einer im Chor zu Ehren von St. Fides und ein anderer «in medio» zu Ehren von St. Agatha, 1644 schenkte Abt Pius eine Glocke und am 31. Juli 1661 fand nach umfassender Renovation eine Neuweihe der Kirche und folgender drei Altäre statt: 1."
+21,Pius,PER,1.0,134,138,"Es waren dies zwei Altäre, einer im Chor zu Ehren von St. Fides und ein anderer «in medio» zu Ehren von St. Agatha, 1644 schenkte Abt Pius eine Glocke und am 31. Juli 1661 fand nach umfassender Renovation eine Neuweihe der Kirche und folgender drei Altäre statt: 1."
+22,St.,PER,0.822,21,24,"im Chor zu Ehren von St. Fides, 2."
+22,Fides,PER,0.988,25,30,"im Chor zu Ehren von St. Fides, 2."
+24,Tablat,LOC,1.0,41,47,"Am 7. April 1776 schlossen die Gemeinden Tablat und Rotmonten mit dem Offizial P. Iso Walser, der zahlreiche Kirchenbauten im Abteigebiet leitete, einen Vertrag über den Neubau der Kirche St. Fiden ab®."
+24,Rotmonten,LOC,1.0,52,61,"Am 7. April 1776 schlossen die Gemeinden Tablat und Rotmonten mit dem Offizial P. Iso Walser, der zahlreiche Kirchenbauten im Abteigebiet leitete, einen Vertrag über den Neubau der Kirche St. Fiden ab®."
+24,Iso Walser,PER,1.0,82,92,"Am 7. April 1776 schlossen die Gemeinden Tablat und Rotmonten mit dem Offizial P. Iso Walser, der zahlreiche Kirchenbauten im Abteigebiet leitete, einen Vertrag über den Neubau der Kirche St. Fiden ab®."
+24,St. Fiden,LOC,0.999,188,197,"Am 7. April 1776 schlossen die Gemeinden Tablat und Rotmonten mit dem Offizial P. Iso Walser, der zahlreiche Kirchenbauten im Abteigebiet leitete, einen Vertrag über den Neubau der Kirche St. Fiden ab®."
+27,Ferdinand Beer,PER,1.0,0,14,Ferdinand Beer aus der Au im Bregenzerwald den Bauakkord zu vereinbaren.
+27,Au,LOC,1.0,23,25,Ferdinand Beer aus der Au im Bregenzerwald den Bauakkord zu vereinbaren.
+27,Bregenzerwald,LOC,1.0,29,42,Ferdinand Beer aus der Au im Bregenzerwald den Bauakkord zu vereinbaren.
+30,Ferdinand Beer,PER,0.989,0,14,"Ferdinand Beer, ein Neffe des Joh."
+30,Joh,PER,0.986,30,33,"Ferdinand Beer, ein Neffe des Joh."
+31,Michael Beer von Bildstein,PER,0.884,0,26,"Michael Beer von Bildstein, leitete damals den Bau der Neuen Pfalz in St. Gallen®."
+31,Neuen Pfalz,LOC,0.998,55,66,"Michael Beer von Bildstein, leitete damals den Bau der Neuen Pfalz in St. Gallen®."
+31,St. Gallen,LOC,1.0,70,80,"Michael Beer von Bildstein, leitete damals den Bau der Neuen Pfalz in St. Gallen®."
+32,Beer,PER,1.0,46,50,Am 14. Juni 1776 schloß der Offizial dann mit Beer den Bauvertrag ab.
+37,Antoni Dick,PER,1.0,139,150,"Schon im Sommer des gleichen Jahres war die neue Kirche unter Dach und am 14. Juli 1778 auch der Turm vollendet, Die Deckenmalereien schuf Antoni Dick aus Isny, die Stukkaturen Peter Antoni Moosbrugger."
+37,Isny,LOC,1.0,155,159,"Schon im Sommer des gleichen Jahres war die neue Kirche unter Dach und am 14. Juli 1778 auch der Turm vollendet, Die Deckenmalereien schuf Antoni Dick aus Isny, die Stukkaturen Peter Antoni Moosbrugger."
+37,Peter Antoni Moosbrugger,PER,1.0,177,201,"Schon im Sommer des gleichen Jahres war die neue Kirche unter Dach und am 14. Juli 1778 auch der Turm vollendet, Die Deckenmalereien schuf Antoni Dick aus Isny, die Stukkaturen Peter Antoni Moosbrugger."
+38,Dick,PER,1.0,0,4,"Dick übernahm auch die Ausführung «von 100 Stuck großen Malereien», die im einzelnen nicht mehr nachzuweisen sind."
+39,Franz Antoni Dürr,PER,1.0,119,136,"Die sechseckigen Wabenscheiben bestanden aus «schönem weißlechtem durchsichtigen Kemptner Glas», Den Hochaltar erbaute Franz Antoni Dürr aus Überlingen, die nun nicht mehr vorhandene Orgel Joh."
+39,Überlingen,LOC,1.0,141,151,"Die sechseckigen Wabenscheiben bestanden aus «schönem weißlechtem durchsichtigen Kemptner Glas», Den Hochaltar erbaute Franz Antoni Dürr aus Überlingen, die nun nicht mehr vorhandene Orgel Joh."
+39,Joh.,PER,0.997,189,193,"Die sechseckigen Wabenscheiben bestanden aus «schönem weißlechtem durchsichtigen Kemptner Glas», Den Hochaltar erbaute Franz Antoni Dürr aus Überlingen, die nun nicht mehr vorhandene Orgel Joh."
+40,Michael Grass,PER,1.0,0,13,Michael Grass in Lommis (Thurgau).
+40,Lommis,LOC,1.0,17,23,Michael Grass in Lommis (Thurgau).
+40,Thurgau,LOC,1.0,25,32,Michael Grass in Lommis (Thurgau).
+41,Beda,PER,1.0,45,49,Konsekration der vier Seitenaltäre durch Abt Beda am 5. Oktober 1778 und des Hochaltars durch den Konstanzer Weihbischof Baron von Hornstein am 24.
+41,Baron von Hornstein,PER,1.0,121,140,Konsekration der vier Seitenaltäre durch Abt Beda am 5. Oktober 1778 und des Hochaltars durch den Konstanzer Weihbischof Baron von Hornstein am 24.
+44,Fides,PER,1.0,0,5,"Fides an die zweite Stelle rückte, an die erste aber der Titel «z."
+45,Jesu,PER,1.0,15,19,"E. des Herzens Jesu», trägt seither auch die Kirche diesen Namen."
+47,Idda,PER,1.0,0,4,Idda (s. unten S. 196).
+53,Kesselhalden,LOC,1.0,68,80,"Auflassung des Friedhofes 1909, nach Eröffnung des Gottesackers auf Kesselhalden."
+55,Hans Burkard,PER,1.0,39,51,"Letzte große Renovation 1954/55 (Arch. Hans Burkard, St. Gallen): Verlängerung des Schiffes gegen Westen um 6,25 m; neuer Innenanstrich und Außenverputz; Restaurierung der Deckengemälde, des Stucks und der Altäre (durch K."
+55,St. Gallen,LOC,1.0,53,63,"Letzte große Renovation 1954/55 (Arch. Hans Burkard, St. Gallen): Verlängerung des Schiffes gegen Westen um 6,25 m; neuer Innenanstrich und Außenverputz; Restaurierung der Deckengemälde, des Stucks und der Altäre (durch K."
+55,K,PER,1.0,220,221,"Letzte große Renovation 1954/55 (Arch. Hans Burkard, St. Gallen): Verlängerung des Schiffes gegen Westen um 6,25 m; neuer Innenanstrich und Außenverputz; Restaurierung der Deckengemälde, des Stucks und der Altäre (durch K."
+56,Haaga,PER,1.0,0,5,"Haaga, Rorschach); Eliminierung der Glasmalereien von 1895; neue Empore, Orgel, Windfangtüren, Beichtstühle und Bodenbelag."
+56,Rorschach,LOC,1.0,7,16,"Haaga, Rorschach); Eliminierung der Glasmalereien von 1895; neue Empore, Orgel, Windfangtüren, Beichtstühle und Bodenbelag."
+60,Naef,PER,1.0,0,4,"Naef, S.101f."
+61,Nüscheler,PER,1.0,2,11,"— Nüscheler, S. 107. — HBLS VI, S.622 (Art. Tablat)."
+61,HBLS,ORG,0.835,23,27,"— Nüscheler, S. 107. — HBLS VI, S.622 (Art. Tablat)."
+62,P.,PER,0.981,2,4,— P.
+63,Staerkle,PER,1.0,0,8,"Staerkle, Die hl."
+63,Die hl.,MISC,0.979,10,17,"Staerkle, Die hl."
+64,Fides,MISC,1.0,0,5,Fides (St.Gallen 1931).
+64,St.Gallen,LOC,1.0,7,16,Fides (St.Gallen 1931).
+65,Gaudy,PER,1.0,2,7,"— Gaudy, S.77, Abb."
+68,Thomas Scherrer,PER,1.0,2,17,"— Thomas Scherrer, Bau- und Renovationsgeschichte der Kirche St. Fiden (1940), Ms. im Pfarrarch."
+68,St. Fiden,LOC,0.996,61,70,"— Thomas Scherrer, Bau- und Renovationsgeschichte der Kirche St. Fiden (1940), Ms. im Pfarrarch."
+69,St. Fiden,LOC,0.997,0,9,St. Fiden.
+81,Scherrer,PER,1.0,123,131,"Sie sollte der Bestattung der geistlichen Herren dienen und barg ein «schönes Altärlein in Form schwarzen Marmels gefaßt» (Scherrer, S.53)."
+101,Niederbüren,LOC,1.0,159,170,"In seiner ganzen Disposition, dem nur wenig vortretenden Querschiff und der Placierung des Turmes am Chorhaupt ist der Bau augenscheinlich durch die Kirche zu Niederbüren (Kanton St.Gallen) beeinflußt, die 1761-1765 von Joh."
+101,Kanton,LOC,0.986,172,178,"In seiner ganzen Disposition, dem nur wenig vortretenden Querschiff und der Placierung des Turmes am Chorhaupt ist der Bau augenscheinlich durch die Kirche zu Niederbüren (Kanton St.Gallen) beeinflußt, die 1761-1765 von Joh."
+101,St.Gallen,LOC,0.945,179,188,"In seiner ganzen Disposition, dem nur wenig vortretenden Querschiff und der Placierung des Turmes am Chorhaupt ist der Bau augenscheinlich durch die Kirche zu Niederbüren (Kanton St.Gallen) beeinflußt, die 1761-1765 von Joh."
+101,Joh.,PER,0.743,220,224,"In seiner ganzen Disposition, dem nur wenig vortretenden Querschiff und der Placierung des Turmes am Chorhaupt ist der Bau augenscheinlich durch die Kirche zu Niederbüren (Kanton St.Gallen) beeinflußt, die 1761-1765 von Joh."
+102,Michael Beer von Bildstein,PER,1.0,0,26,"Michael Beer von Bildstein, einem Onkel des Joh."
+102,Joh.,PER,0.926,44,48,"Michael Beer von Bildstein, einem Onkel des Joh."
+103,Ferdinand Beer,PER,1.0,0,14,"Ferdinand Beer, erbaut wurde (SKL I, S.71)."
+103,SKL I,MISC,0.863,30,35,"Ferdinand Beer, erbaut wurde (SKL I, S.71)."
+106,Peter Anton Moosbrugger,PER,1.0,9,32,"Meister: Peter Anton Moosbrugger, 1778"" (Abb. 188)."
+114,Fides,PER,1.0,0,5,Fides bekennt mit erhobener Hand vor dem römischen Statthalter Dacianus ihren Glauben an Christus.
+114,Dacianus,PER,1.0,63,71,Fides bekennt mit erhobener Hand vor dem römischen Statthalter Dacianus ihren Glauben an Christus.
+114,Christus,PER,1.0,89,97,Fides bekennt mit erhobener Hand vor dem römischen Statthalter Dacianus ihren Glauben an Christus.
+117,Christus,PER,1.0,16,24,"Oben zeigt sich Christus, das Kreuz mit der Rechten haltend, auf Wolken thronend, und ihm gegenüber ein Engel mit dem Märtyrerkranz."
+118,Diana,PER,1.0,50,55,"Die auf einem Postament rechts stehende Figur der Diana mit dem Bogen in der Linken und der Mondsichel auf der Stirn soll daran erinnern, daß Dacianus die Heilige aufforderte, dieser Göttin zu opfern."
+118,Dacianus,PER,1.0,142,150,"Die auf einem Postament rechts stehende Figur der Diana mit dem Bogen in der Linken und der Mondsichel auf der Stirn soll daran erinnern, daß Dacianus die Heilige aufforderte, dieser Göttin zu opfern."
+120,Langhaus,LOC,0.509,3,11,Im Langhaus: Die Heilige wird auf dem glühenden Rost gefoltert.
+121,Caprasius,PER,1.0,47,56,"Die Gestalt ganz links außen darf man wohl mit Caprasius identifizieren, der nach einer späteren Ausschmückung der Legende durch die Standhaftigkeit der Fides bewogen wurde, mit ihr das Martyrium zu teilen."
+121,Fides,PER,1.0,153,158,"Die Gestalt ganz links außen darf man wohl mit Caprasius identifizieren, der nach einer späteren Ausschmückung der Legende durch die Standhaftigkeit der Fides bewogen wurde, mit ihr das Martyrium zu teilen."
+124,Fides,PER,1.0,71,76,"Zwei herabschwebende Engel tragen einen großen Kruzifixus, vor dem St. Fides kniet, ein flammendes Herz in der Rechten haltend."
+125,Katharina,PER,1.0,19,28,Im Vordergrund St. Katharina und Agnes.
+125,Agnes,PER,1.0,33,38,Im Vordergrund St. Katharina und Agnes.
+126,Fides,PER,1.0,38,43,"Die Darstellung versinnbildlicht, daß Fides ihr in Glaubenstreue brennendes Herz Christus darbietet und in die Schar der Märtyrerinnen aufgenommen wird‘."
+126,Christus,PER,1.0,81,89,"Die Darstellung versinnbildlicht, daß Fides ihr in Glaubenstreue brennendes Herz Christus darbietet und in die Schar der Märtyrerinnen aufgenommen wird‘."
+129,Antoni Dick pinx,PER,0.912,44,60,Seine Signatur steht auf dem Bild im Chor: «Antoni Dick pinx.
+132,Franz Antoni Dürr von Überlingen,PER,0.996,51,83,"Der für den Hochaltar dokumentarisch nachgewiesene Franz Antoni Dürr von Überlingen ist auch als Meister der Seitenaltäre anzunehmen, wie ein Vergleich gewisser dekorativer Elemente, wie etwa der Putten am Hauptaltar mit denen der Nebenaltäre, beweist."
+138,Franz Antoni Dürr,PER,1.0,26,43,"Im gleichen Jahr lieferte Franz Antoni Dürr bereits einen Entwurf, der im architektonischen Aufbau annähernd dem hernach ausgeführten Werk entsprach und sich von ihm nur dadurch unterschied, daß er an Stelle des inneren Säulenpaares gestufte Pilaster und statt eines Altarblattes eine Nische mit der Figur der hl."
+139,Fides,PER,1.0,0,5,Fides anordnete.
+141,Antoni Dürr,PER,1.0,25,36,Am 8. Januar 1784 schloß Antoni Dürr (Dür) mit P.
+141,Dür,PER,1.0,38,41,Am 8. Januar 1784 schloß Antoni Dürr (Dür) mit P.
+141,P.,PER,0.991,47,49,Am 8. Januar 1784 schloß Antoni Dürr (Dür) mit P.
+142,Iso Walser,PER,1.0,0,10,Iso Walser einen Vertrag über die Herstellung des Hochaltars.
+143,Dürr,PER,1.0,16,20,"Daraufhin legte Dürr einen neuen Entwurf vor, an dem bei der Ausführung nur geringfügige Modifikationen vorgenommen wurden (Abb. 193)."
+145,Beda Angehrn,PER,0.919,26,38,"Hier das Wappen des Abtes Beda Angehrn, umgeben von Putten."
+146,Gallus,PER,1.0,60,66,"Zu Füßen der Säulen stehen vier Statuen: die Klosterpatrone Gallus und Otmar sowie St. Fides und Magdalena, die beiden Nebenpatroninnen des Altars."
+146,Otmar,PER,1.0,71,76,"Zu Füßen der Säulen stehen vier Statuen: die Klosterpatrone Gallus und Otmar sowie St. Fides und Magdalena, die beiden Nebenpatroninnen des Altars."
+146,Fides,PER,1.0,87,92,"Zu Füßen der Säulen stehen vier Statuen: die Klosterpatrone Gallus und Otmar sowie St. Fides und Magdalena, die beiden Nebenpatroninnen des Altars."
+146,Magdalena,PER,1.0,97,106,"Zu Füßen der Säulen stehen vier Statuen: die Klosterpatrone Gallus und Otmar sowie St. Fides und Magdalena, die beiden Nebenpatroninnen des Altars."
+148,Drei Könige,MISC,0.742,34,45,Altarblatt: Anbetung der Heiligen Drei Könige von Severin Benz in München 1869.
+148,Severin Benz,PER,1.0,50,62,Altarblatt: Anbetung der Heiligen Drei Könige von Severin Benz in München 1869.
+148,München,LOC,1.0,66,73,Altarblatt: Anbetung der Heiligen Drei Könige von Severin Benz in München 1869.
+149,Dick,PER,1.0,45,49,"Im Frontispiz Herz-Jesu-Bild, vermutlich von Dick', wie die anderen Giebelstücke?"
+151,Maria,PER,1.0,130,135,"Die Seitenaltäre sind paarweise als Pendants konzipiert: Die beiden zu seiten des Choreingangs stehenden Altäre, zu Ehren von St. Maria und Joseph, zeigen zweisäulige Aufsätze mit geschweiften Giebeln über «zurückgedrängtem » Hauptgesims."
+151,Joseph,PER,1.0,140,146,"Die Seitenaltäre sind paarweise als Pendants konzipiert: Die beiden zu seiten des Choreingangs stehenden Altäre, zu Ehren von St. Maria und Joseph, zeigen zweisäulige Aufsätze mit geschweiften Giebeln über «zurückgedrängtem » Hauptgesims."
+153,Joachim,PER,1.0,243,250,"An ihrer Stelle wurden 1954 eingesetzt: an der Evangelienseite eine aus dem schweizerischen Kunsthandel stammende neu gefaßte Figur der Muttergottes, an der Epistelseite eine aus dem alten Bestand noch vorhandene Statue, die ursprünglich wohl Joachim darstellen sollte, hier jedoch als St. Joseph (Altarpatron) interpretiert ist."
+153,St.,PER,0.756,286,289,"An ihrer Stelle wurden 1954 eingesetzt: an der Evangelienseite eine aus dem schweizerischen Kunsthandel stammende neu gefaßte Figur der Muttergottes, an der Epistelseite eine aus dem alten Bestand noch vorhandene Statue, die ursprünglich wohl Joachim darstellen sollte, hier jedoch als St. Joseph (Altarpatron) interpretiert ist."
+153,Joseph,PER,0.999,290,296,"An ihrer Stelle wurden 1954 eingesetzt: an der Evangelienseite eine aus dem schweizerischen Kunsthandel stammende neu gefaßte Figur der Muttergottes, an der Epistelseite eine aus dem alten Bestand noch vorhandene Statue, die ursprünglich wohl Joachim darstellen sollte, hier jedoch als St. Joseph (Altarpatron) interpretiert ist."
+154,Maria vom Guten Rat,PER,0.999,18,37,"Frontispizbilder: Maria vom Guten Rat, Josephs Tod."
+154,Josephs,PER,1.0,39,46,"Frontispizbilder: Maria vom Guten Rat, Josephs Tod."
+155,Wiborada,PER,1.0,43,51,"Bei den Querschiffaltären zu Ehren von St. Wiborada und Theodora (Evangelienseite) und des Schutzengels (Epistelseite) sind glatte Säulen mit Pilastern kombiniert, das Gebälk segmentförmig hinaufgetrieben."
+155,Theodora,PER,1.0,56,64,"Bei den Querschiffaltären zu Ehren von St. Wiborada und Theodora (Evangelienseite) und des Schutzengels (Epistelseite) sind glatte Säulen mit Pilastern kombiniert, das Gebälk segmentförmig hinaufgetrieben."
+157,Deschwandens,PER,1.0,34,46,"Die Hauptbilder aus der Werkstatt Deschwandens; an der Evangelienseite St. Fides und oben Kreuzigung (von Dick), an der Epistelseite Schutzengel und oben Auferstehung, Das Schutzengelbild signiert «Paul Deschwanden 1853»."
+157,St. Fides,MISC,0.725,71,80,"Die Hauptbilder aus der Werkstatt Deschwandens; an der Evangelienseite St. Fides und oben Kreuzigung (von Dick), an der Epistelseite Schutzengel und oben Auferstehung, Das Schutzengelbild signiert «Paul Deschwanden 1853»."
+157,Dick,PER,1.0,106,110,"Die Hauptbilder aus der Werkstatt Deschwandens; an der Evangelienseite St. Fides und oben Kreuzigung (von Dick), an der Epistelseite Schutzengel und oben Auferstehung, Das Schutzengelbild signiert «Paul Deschwanden 1853»."
+157,Paul Deschwanden,PER,1.0,198,214,"Die Hauptbilder aus der Werkstatt Deschwandens; an der Evangelienseite St. Fides und oben Kreuzigung (von Dick), an der Epistelseite Schutzengel und oben Auferstehung, Das Schutzengelbild signiert «Paul Deschwanden 1853»."
+164,St.Anna,PER,1.0,76,83,"Auf der Glorie des Oberteils ein Laubkranz, belegt mit Relieffiguren: unten St.Anna und Maria, zu seiten des Hostienbehälters allegorische Gestalten von Glaube und Hoffnung, oben Gottvater mit der Taube."
+164,Maria,PER,1.0,88,93,"Auf der Glorie des Oberteils ein Laubkranz, belegt mit Relieffiguren: unten St.Anna und Maria, zu seiten des Hostienbehälters allegorische Gestalten von Glaube und Hoffnung, oben Gottvater mit der Taube."
+164,Gottvater,PER,0.999,179,188,"Auf der Glorie des Oberteils ein Laubkranz, belegt mit Relieffiguren: unten St.Anna und Maria, zu seiten des Hostienbehälters allegorische Gestalten von Glaube und Hoffnung, oben Gottvater mit der Taube."
+165,Augsburg,LOC,1.0,15,23,"Beschauzeichen Augsburg, Meistermarke des Joh."
+166,Joachim Lutz,PER,0.978,0,12,"Joachim Lutz (gest. 1727), Rosenberg Nr. 759; Schröder Nr. 7a (Abb. 196)."
+166,Rosenberg,PER,0.988,27,36,"Joachim Lutz (gest. 1727), Rosenberg Nr. 759; Schröder Nr. 7a (Abb. 196)."
+166,Schröder,PER,0.958,46,54,"Joachim Lutz (gest. 1727), Rosenberg Nr. 759; Schröder Nr. 7a (Abb. 196)."
+171,Christus,PER,1.0,76,84,"Auf dem am Rand gewellten Fuß silbern ausgesparte getriebene Medaillons: a) Christus am Ölberg; b) Kreuzigung; c) Wappen Meyer-Bircher, Luzern."
+171,Ölberg,LOC,0.997,88,94,"Auf dem am Rand gewellten Fuß silbern ausgesparte getriebene Medaillons: a) Christus am Ölberg; b) Kreuzigung; c) Wappen Meyer-Bircher, Luzern."
+171,Meyer-Bircher,ORG,0.996,121,134,"Auf dem am Rand gewellten Fuß silbern ausgesparte getriebene Medaillons: a) Christus am Ölberg; b) Kreuzigung; c) Wappen Meyer-Bircher, Luzern."
+171,Luzern,LOC,1.0,136,142,"Auf dem am Rand gewellten Fuß silbern ausgesparte getriebene Medaillons: a) Christus am Ölberg; b) Kreuzigung; c) Wappen Meyer-Bircher, Luzern."
+174,St.,PER,1.0,33,36,König mit Vexillum und Kruzifix (St. Ludwig?)
+174,Ludwig,PER,0.837,37,43,König mit Vexillum und Kruzifix (St. Ludwig?)
+175,Otmar,PER,0.996,9,14,; b) St. Otmar; c) hl.
+176,St.,PER,0.999,18,21,"Mönch, vermutlich St. Magnus."
+176,Magnus,PER,0.994,22,28,"Mönch, vermutlich St. Magnus."
+184,Münsterlingen,LOC,1.0,57,70,Dazwischen ovale Emailmedaillons: a) Wappen des Klosters Münsterlingen.
+185,Maria Beatrix Abbatissa,PER,0.984,11,34,"Umschrift: Maria Beatrix Abbatissa Minsterlingensis, 1707; b) St. Scholastika oder Walburga?"
+185,Minsterlingensis,PER,0.43,35,51,"Umschrift: Maria Beatrix Abbatissa Minsterlingensis, 1707; b) St. Scholastika oder Walburga?"
+185,St.,PER,0.909,62,65,"Umschrift: Maria Beatrix Abbatissa Minsterlingensis, 1707; b) St. Scholastika oder Walburga?"
+185,Scholastika,PER,0.998,66,77,"Umschrift: Maria Beatrix Abbatissa Minsterlingensis, 1707; b) St. Scholastika oder Walburga?"
+185,Walburga,PER,1.0,83,91,"Umschrift: Maria Beatrix Abbatissa Minsterlingensis, 1707; b) St. Scholastika oder Walburga?"
+186,Conventus Münsterlingensis 1707,MISC,0.796,22,53,Umschrift in Kursiv: «Conventus Münsterlingensis 1707»; c) das hl.
+188,Engelputti,PER,0.98,9,19,Am Knauf Engelputti mit Kultgeräten.
+189,Christus am Ölberg,PER,0.695,82,100,Am Korb ebenfalls Engel mit Leidenssymbolen zwischen farbigen Emailmedaillons: a) Christus am Ölberg; b) Kreuztragung; c) Kreuzigung.
+190,Augsburg,LOC,1.0,15,23,"Beschauzeichen Augsburg, Meistermarke des Joh."
+190,Joh.,PER,1.0,42,46,"Beschauzeichen Augsburg, Meistermarke des Joh."
+191,Zeckel,PER,1.0,0,6,"Zeckel, Rosenberg Nr. 756, Schröder Nr. 8 (Abb. 197)."
+191,Rosenberg,LOC,0.911,8,17,"Zeckel, Rosenberg Nr. 756, Schröder Nr. 8 (Abb. 197)."
+191,Schröder,PER,0.991,27,35,"Zeckel, Rosenberg Nr. 756, Schröder Nr. 8 (Abb. 197)."
+197,Augsburg,LOC,1.0,15,23,Beschauzeichen Augsburg mit Lit.
+199,Franz Thaddäus Lang,PER,1.0,19,38,"Meisterzeichen des Franz Thaddäus Lang, Rosenberg Nr. 869, Schröder Nr. 18. Im Fuß eine aufgelötete Plakette mit dem quadrierten Wappen Abt Coelestins II."
+199,Rosenberg,LOC,0.842,40,49,"Meisterzeichen des Franz Thaddäus Lang, Rosenberg Nr. 869, Schröder Nr. 18. Im Fuß eine aufgelötete Plakette mit dem quadrierten Wappen Abt Coelestins II."
+199,Schröder,PER,0.942,59,67,"Meisterzeichen des Franz Thaddäus Lang, Rosenberg Nr. 869, Schröder Nr. 18. Im Fuß eine aufgelötete Plakette mit dem quadrierten Wappen Abt Coelestins II."
+199,Coelestins II,PER,1.0,140,153,"Meisterzeichen des Franz Thaddäus Lang, Rosenberg Nr. 869, Schröder Nr. 18. Im Fuß eine aufgelötete Plakette mit dem quadrierten Wappen Abt Coelestins II."
+200,Schloss Roggwil,LOC,0.999,24,39,und der Beischrift « 17 Schloss Roggwil 42 ».
+204,Augsburg,LOC,1.0,15,23,Beschauzeichen Augsburg mit Lit.
+206,Rosenberg,PER,0.99,18,27,Meistermarke nach Rosenberg Nr. 922 vielleicht Joh.
+206,Joh.,PER,0.999,47,51,Meistermarke nach Rosenberg Nr. 922 vielleicht Joh.
+207,Christ,PER,0.94,0,6,Christ.
+208,Stenglin,PER,0.998,0,8,"Stenglin, nach Schröder Nr. 40 dagegen wahrscheinlich Joh."
+208,Schröder,PER,1.0,15,23,"Stenglin, nach Schröder Nr. 40 dagegen wahrscheinlich Joh."
+208,Joh,PER,0.957,54,57,"Stenglin, nach Schröder Nr. 40 dagegen wahrscheinlich Joh."
+209,Carl Ignaz Stippeldey,PER,1.0,0,21,Carl Ignaz Stippeldey ZUZUschreiben.
+216,Michael,PER,1.0,31,38,"Dazwischen Halbfiguren von St. Michael, Johannes Ev. und hl."
+216,Johannes Ev.,PER,1.0,40,52,"Dazwischen Halbfiguren von St. Michael, Johannes Ev. und hl."
+217,Hermann der Lahme,PER,1.0,18,35,Mönch mit Globus (Hermann der Lahme).
+218,St. Gallus,PER,0.94,46,56,"Am Korb in Rocaillekartuschen Halbfiguren von St. Gallus, Benedikt und Scholastika."
+218,Benedikt,PER,1.0,58,66,"Am Korb in Rocaillekartuschen Halbfiguren von St. Gallus, Benedikt und Scholastika."
+218,Scholastika,PER,1.0,71,82,"Am Korb in Rocaillekartuschen Halbfiguren von St. Gallus, Benedikt und Scholastika."
+219,Augsburg,LOC,0.999,15,23,Beschauzeichen Augsburg Lit.
+221,Jos.,PER,0.999,17,21,Meistermarke des Jos.
+222,Ant.,PER,1.0,0,4,Ant.
+223,Seethaler,PER,1.0,0,9,"Seethaler, Rosenberg Nr. 1018, Schröder Nr.26."
+223,Rosenberg,PER,1.0,11,20,"Seethaler, Rosenberg Nr. 1018, Schröder Nr.26."
+223,Schröder,PER,1.0,31,39,"Seethaler, Rosenberg Nr. 1018, Schröder Nr.26."
+227,Augsburg,LOC,1.0,15,23,"Beschauzeichen Augsburg, Lit."
+229,J.,PER,1.0,17,19,Meistermarke des J.
+230,C. Bertold,PER,1.0,0,10,"C. Bertold, Rosenberg Nr. 971, Schröder Nr. 24. Meßkännchen mit Platten."
+230,Rosenberg,PER,0.999,12,21,"C. Bertold, Rosenberg Nr. 971, Schröder Nr. 24. Meßkännchen mit Platten."
+230,Schröder,PER,1.0,31,39,"C. Bertold, Rosenberg Nr. 971, Schröder Nr. 24. Meßkännchen mit Platten."
+234,Rapperswil,LOC,0.999,15,25,Beschauzeichen Rapperswil Tab.
+235,Carl Ignaz Dietrich,PER,1.0,27,46,"I, Nr. 4, Meistermarke des Carl Ignaz Dietrich, Tab."
+237,MAGZ,ORG,1.0,0,4,"MAGZ 1949, S.46, 147."
+244,Augsburg,LOC,1.0,15,23,"Beschauzeichen Augsburg, Lit."
+254,Augsburg,LOC,1.0,15,23,"Beschauzeichen Augsburg, Lit."
+256,J CS,MISC,1.0,13,17,Meistermarke J CS nach Rosenberg Nr. 922 des Joh.
+256,Rosenberg,PER,1.0,23,32,Meistermarke J CS nach Rosenberg Nr. 922 des Joh.
+256,Joh.,PER,0.996,45,49,Meistermarke J CS nach Rosenberg Nr. 922 des Joh.
+257,Christ.,PER,0.998,0,7,Christ.
+258,Stenglin,PER,1.0,0,8,"Stenglin, nach Schröder Nr.40 wahrscheinlicher des Joh."
+258,Schröder,PER,1.0,15,23,"Stenglin, nach Schröder Nr.40 wahrscheinlicher des Joh."
+258,Joh,PER,0.995,51,54,"Stenglin, nach Schröder Nr.40 wahrscheinlicher des Joh."
+259,Carl Ign.,PER,0.857,0,9,Carl Ign.
+260,Stippeldey,PER,1.0,0,10,Stippeldey († 1766).
+264,Ecclesia,ORG,0.585,95,103,"Das Gehäuse ziert eine nimbierte weibliche Gestalt mit Kreuz, Kelch und Hostie, vermutlich die Ecclesia."
+265,Zug,LOC,0.991,15,18,Beschauzeichen Zug.
+266,Carl Amade Spillmann,PER,1.0,17,37,Meistermarke des Carl Amade Spillmann (1773 bis 1861).
+273,Christus,PER,1.0,104,112,Auf Stamm und Armen in flacher nachziselierter Treibarbeit ein Weinstock mit Trauben als Symbol des von Christus vergossenen Blutes.
+274,Matthäus,PER,1.0,137,145,"In den Enden zwischen zarten aufgelegten Ranken runde getriebene und vergoldete Medaillons: oben sowie rechts und links die Evangelisten Matthäus, Johannes und Markus, unten St. Fides in Halbfigur."
+274,Johannes,PER,1.0,147,155,"In den Enden zwischen zarten aufgelegten Ranken runde getriebene und vergoldete Medaillons: oben sowie rechts und links die Evangelisten Matthäus, Johannes und Markus, unten St. Fides in Halbfigur."
+274,Markus,PER,1.0,160,166,"In den Enden zwischen zarten aufgelegten Ranken runde getriebene und vergoldete Medaillons: oben sowie rechts und links die Evangelisten Matthäus, Johannes und Markus, unten St. Fides in Halbfigur."
+274,St.,PER,0.943,174,177,"In den Enden zwischen zarten aufgelegten Ranken runde getriebene und vergoldete Medaillons: oben sowie rechts und links die Evangelisten Matthäus, Johannes und Markus, unten St. Fides in Halbfigur."
+274,Fides,PER,1.0,178,183,"In den Enden zwischen zarten aufgelegten Ranken runde getriebene und vergoldete Medaillons: oben sowie rechts und links die Evangelisten Matthäus, Johannes und Markus, unten St. Fides in Halbfigur."
+275,Lukas,PER,1.0,27,32,Auf der Rückseite oben St. Lukas.
+278,Rapperswil,LOC,1.0,15,25,"Beschauzeichen Rapperswil, Tab."
+280,Joh.,PER,0.999,13,17,Meistermarke Joh.
+281,Dumeisen,PER,1.0,0,8,"Dumeisen, Tab."
+283,Mayi,MISC,0.796,228,232,"Spätere Zutaten sind zwei den Gekreuzigten einrahmende Weinranken, die wellenförmigen Strahlen und — auf der Rückseite unten — eine Blume mit Inschrift: Crucem Hanc Pancratius Princeps Osculatur Vere Latus Exilio Regressus 26ta Mayi (1799) In Introitu Matricis Ecclesle S. Galli.* (Abb. 195)."
+283,Matricis Ecclesle S. Galli.,MISC,0.783,252,279,"Spätere Zutaten sind zwei den Gekreuzigten einrahmende Weinranken, die wellenförmigen Strahlen und — auf der Rückseite unten — eine Blume mit Inschrift: Crucem Hanc Pancratius Princeps Osculatur Vere Latus Exilio Regressus 26ta Mayi (1799) In Introitu Matricis Ecclesle S. Galli.* (Abb. 195)."
+284,Johann Dumeisen von Rapperswil,PER,1.0,47,77,"Das Kreuz ist auch archivalisch als Arbeit des Johann Dumeisen von Rapperswil, eines Sohnes des Heinrich Dumeisen®, aus der Zeit um 1708 nachgewiesen}."
+284,Heinrich Dumeisen,PER,1.0,96,113,"Das Kreuz ist auch archivalisch als Arbeit des Johann Dumeisen von Rapperswil, eines Sohnes des Heinrich Dumeisen®, aus der Zeit um 1708 nachgewiesen}."
+287,St. Gallus,LOC,0.999,3,13,"1. St. Gallus, Höhe ohne Postament 57 cm."
+289,St. Otmar,LOC,0.992,0,9,"St. Otmar, H. 57 cm."
+291,St. Agnes,LOC,0.97,0,9,"St. Agnes, H. 65 cm."
+293,Christian Wenzinger,PER,1.0,15,34,Vielleicht von Christian Wenzinger.
+296,St. Fides,LOC,0.995,0,9,"St. Fides, H. 65 cm."
+298,Lindau,LOC,0.999,15,21,Beschauzeichen Lindau Tab.
+300,C.,MISC,0.627,13,15,Meistermarke C.
+301,F.,MISC,0.994,0,2,"F., Tab."
+302,A.,MISC,0.522,93,95,"I, Nr. 26. Auf eine spätere Renovation bezieht sich die Inschrift auf einer Deckelplakette: «A. Barb."
+302,Barb.,PER,0.612,96,101,"I, Nr. 26. Auf eine spätere Renovation bezieht sich die Inschrift auf einer Deckelplakette: «A. Barb."
+303,Kroemler,PER,0.971,0,8,Kroemler maritata Wonlich MDCCCXVIII» (1818.)
+311,Gebrüder Graßmayr,ORG,0.986,34,51,Fünfteiliges Geläute der Gießerei Gebrüder Graßmayr in Feldkirch (1874).
+311,Feldkirch,LOC,1.0,55,64,Fünfteiliges Geläute der Gießerei Gebrüder Graßmayr in Feldkirch (1874).
+315,Theodosius Ernst,PER,1.0,17,33,Vier Glocken von Theodosius Ernst in Lindau (1642).
+315,Lindau,LOC,1.0,37,43,Vier Glocken von Theodosius Ernst in Lindau (1642).
+317,St. Georgen,LOC,1.0,8,19,"Das von St. Georgen ostwärts sich erstreckende Hügelgebiet wird schon von altersher die «Nöggersberge» genannt, welcher Name die Erinnerung an einen Eigentümer Notker wach erhält."
+317,Nöggersberge,LOC,1.0,89,101,"Das von St. Georgen ostwärts sich erstreckende Hügelgebiet wird schon von altersher die «Nöggersberge» genannt, welcher Name die Erinnerung an einen Eigentümer Notker wach erhält."
+317,Notker,PER,1.0,160,166,"Das von St. Georgen ostwärts sich erstreckende Hügelgebiet wird schon von altersher die «Nöggersberge» genannt, welcher Name die Erinnerung an einen Eigentümer Notker wach erhält."
+318,Ulrich von Notkersegg,PER,1.0,90,111,"Es handelt sich hier vielleicht um die gleiche Familie, die noch 1346 in der Person eines Ulrich von Notkersegg vorkommt (UB III, S. 563)."
+318,UB,MISC,0.965,122,124,"Es handelt sich hier vielleicht um die gleiche Familie, die noch 1346 in der Person eines Ulrich von Notkersegg vorkommt (UB III, S. 563)."
+319,Notkersegg,LOC,1.0,0,10,"Notkersegg stellt das östliche, ehemals «Kapf» benannte Ende dieses Höhenzuges dar (UB III, S. 326)."
+319,Kapf,LOC,1.0,41,45,"Notkersegg stellt das östliche, ehemals «Kapf» benannte Ende dieses Höhenzuges dar (UB III, S. 326)."
+319,UB,MISC,0.94,84,86,"Notkersegg stellt das östliche, ehemals «Kapf» benannte Ende dieses Höhenzuges dar (UB III, S. 326)."
+320,Notkersegg,LOC,1.0,19,29,"Als Flurname kommt Notkersegg urkundlich erstmals 1303 vor (UB III, S. 326)."
+320,UB III,MISC,0.961,60,66,"Als Flurname kommt Notkersegg urkundlich erstmals 1303 vor (UB III, S. 326)."
+321,Stäbiner,PER,1.0,40,48,"Am 17. August 1381 schenkten die Brüder Stäbiner eine Hofstatt «in dem tann» neben «Nöggersegge», die sie von der Stiftskustorei zu Erblehen hatten, den Schwestern Ursel Brunner aus dem Rheintal, der Elisabeth Schneider von Berg und der Anna Frig von Utwil «zu rechten Gemeinden» (also zur Begründung einer religiösen Gemeinschaft)."
+321,Nöggersegge,LOC,1.0,84,95,"Am 17. August 1381 schenkten die Brüder Stäbiner eine Hofstatt «in dem tann» neben «Nöggersegge», die sie von der Stiftskustorei zu Erblehen hatten, den Schwestern Ursel Brunner aus dem Rheintal, der Elisabeth Schneider von Berg und der Anna Frig von Utwil «zu rechten Gemeinden» (also zur Begründung einer religiösen Gemeinschaft)."
+321,Ursel Brunner,PER,1.0,164,177,"Am 17. August 1381 schenkten die Brüder Stäbiner eine Hofstatt «in dem tann» neben «Nöggersegge», die sie von der Stiftskustorei zu Erblehen hatten, den Schwestern Ursel Brunner aus dem Rheintal, der Elisabeth Schneider von Berg und der Anna Frig von Utwil «zu rechten Gemeinden» (also zur Begründung einer religiösen Gemeinschaft)."
+321,Rheintal,LOC,1.0,186,194,"Am 17. August 1381 schenkten die Brüder Stäbiner eine Hofstatt «in dem tann» neben «Nöggersegge», die sie von der Stiftskustorei zu Erblehen hatten, den Schwestern Ursel Brunner aus dem Rheintal, der Elisabeth Schneider von Berg und der Anna Frig von Utwil «zu rechten Gemeinden» (also zur Begründung einer religiösen Gemeinschaft)."
+321,Elisabeth Schneider von Berg,PER,1.0,200,228,"Am 17. August 1381 schenkten die Brüder Stäbiner eine Hofstatt «in dem tann» neben «Nöggersegge», die sie von der Stiftskustorei zu Erblehen hatten, den Schwestern Ursel Brunner aus dem Rheintal, der Elisabeth Schneider von Berg und der Anna Frig von Utwil «zu rechten Gemeinden» (also zur Begründung einer religiösen Gemeinschaft)."
+321,Anna Frig von Utwil,PER,1.0,237,256,"Am 17. August 1381 schenkten die Brüder Stäbiner eine Hofstatt «in dem tann» neben «Nöggersegge», die sie von der Stiftskustorei zu Erblehen hatten, den Schwestern Ursel Brunner aus dem Rheintal, der Elisabeth Schneider von Berg und der Anna Frig von Utwil «zu rechten Gemeinden» (also zur Begründung einer religiösen Gemeinschaft)."
+322,UB IV,MISC,0.926,90,95,"Die Frauen sollen «in göttlichem Leben» immer auf der fraglichen Hofstatt wohnen bleiben (UB IV, S.265)."
+323,Kuno,PER,1.0,31,35,"In einer Bestätigung des Abtes Kuno vom 17. August 1396 wird Ursula als «Meisterin» genannt (UB IV, S.1119)."
+323,Ursula,PER,1.0,61,67,"In einer Bestätigung des Abtes Kuno vom 17. August 1396 wird Ursula als «Meisterin» genannt (UB IV, S.1119)."
+325,Portnerhofes,LOC,1.0,108,120,Außer dem Haus «im Tann» besaßen die Schwestern vorübergehend noch ein Gebäude in der Stadt im Quartier des Portnerhofes.
+326,Hus,ORG,0.349,75,78,"Es figuriert im ältesten Häuserverzeichnis (nach 1480) als «der Schwestren Hus uß nögersegg» (Mitt. XI, S. 186)."
+326,nögersegg,PER,0.473,82,91,"Es figuriert im ältesten Häuserverzeichnis (nach 1480) als «der Schwestren Hus uß nögersegg» (Mitt. XI, S. 186)."
+328,Notkersegg,LOC,1.0,50,60,Über das Verhältnis der beiden Niederlassungen in Notkersegg und dem Portnerhof ist nichts bekannt.
+328,Portnerhof,LOC,1.0,69,79,Über das Verhältnis der beiden Niederlassungen in Notkersegg und dem Portnerhof ist nichts bekannt.

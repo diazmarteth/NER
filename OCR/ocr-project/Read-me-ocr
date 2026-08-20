@@ -1,0 +1,60 @@
+READ-ME_OCR
+
+OCR application based on ocrd (https://ocr-d.de/en/use) and a customised post-processing script.
+
+Five stages: 01 builds the OCR-D workspace, 02 runs the OCR chain, extract.py pulls
+the text out of the PAGE-XML, 03 corrects it, 04 joins the pages into one text.
+See PIPELINE.md for the reasoning behind each one.
+
+Directory layout:
+ocr-project/
+├── 01_setup_workspace.sh	Stage 1: build the workspace (two image fileGrps)
+├── 02_run_ocr.sh		Stage 2: the OCR-D chain, nine processors
+├── extract.py			Stage 3: PAGE-XML -> plaintext/
+├── 03_postprocess.py		Stage 4: correction pass (machinery only)
+├── 03_rules.py			Stage 4: every editable rule lives here
+├── 04_assemble.py		Stage 5: the pages as one continuous text
+├── crop.py			Cut a line/word out of the page image to check a reading
+├── originals/			Master TIFs, 16 pages. Read-only, never referenced by METS.
+├── tessdata/			deu.traineddata (mounted into the container)
+├── plaintext/			Raw extraction, one file per page
+├── corrected/			Output of 03_postprocess.py, page layout preserved (line per line)
+├── reflowed/			Output of 03_postprocess.py, page layout lost: hyphenation
+│				closed up, small caps recased, one paragraph per line
+├── assembled/			Output of 04_assemble.py
+│	├── full.txt		reflowed/ concatenated, verbatim
+│	├── reading.txt		running text, captions and footnotes moved to the end
+│	└── body.txt		running text only
+├── review/			Output of 03_postprocess.py: what it changed and why
+│	├── report.md		every change, grouped by page and kind
+│	├── diff.txt		unified diff against plaintext/
+│	└── crops/		images cut by crop.py while adjudicating readings
+├── __pycache__/		03_rules and 03_postprocess are imported as modules
+├── PIPELINE.md			Description of the case study Die Kunstdenkmäler der Schweiz, St. Gallen volume, St. Fiden
+├── PIPELINE.md.pdf		Description of the case study Die Kunstdenkmäler der Schweiz, St. Gallen volume, St. Fiden
+├── ocrd.log, test.log		Console logs from Stage 2
+└── ocrd-work/			The OCR-D workspace (mets.xml + all fileGrps)
+	├── mets.xml		The source of truth for what exists — not the filesystem
+	├── OCR-D-IMG		144 dpi originals, kept for provenance
+	├── OCR-D-IMG-360	Upscaled derivatives, the grid the workflow runs on
+	├── OCR-D-BIN		binarize
+	├── OCR-D-DEN		denoise
+	├── OCR-D-DSK		deskew
+	├── OCR-D-SEG-REG	region segmentation
+	├── OCR-D-SEG-REP	region repair
+	├── OCR-D-CLIP		clip
+	├── OCR-D-SEG-LINE	line segmentation
+	├── OCR-D-DEW		dewarp
+	├── OCR-D-OCR		recognition: PAGE-XML with words, coordinates, confidences
+	├── OCR-D-ALTO		ALTO export
+	├── OCR-D-TXT		empty, see PIPELINE.md
+	├── ocrd.log
+	├── test.log
+	└── ?			stray: a container process wrote an xmlresolver cache to an
+				unset $HOME. Not in METS, safe to delete.
+
+Usage:
+  ./01_setup_workspace.sh
+  ./02_run_ocr.sh
+  python3 03_postprocess.py	-> corrected/, reflowed/, review/
+  python3 04_assemble.py	-> assembled/

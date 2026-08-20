@@ -1,0 +1,288 @@
+--- plaintext/0001
++++ corrected/0001
+@@ -26,2 +26,2 @@
+-Teil der Einkünfte an den Klostertisch zog5. Ulrich VIII. inkorporierte dann die
+-größere Pfrund dem Kloster zur Dotierung der Prädikatur®. An hohen Festtagen
++Teil der Einkünfte an den Klostertisch zog⁵. Ulrich VIII. inkorporierte dann die
++größere Pfrund dem Kloster zur Dotierung der Prädikatur⁶. An hohen Festtagen
+@@ -29,2 +29,2 @@
+-(UB I1I, S.73) und am ersten Tag der Rogationen ging die Prozession zu diesem
+-ı Vad. I, S.225, und J. v. Arx I, S.288f.
++(UB III, S.73) und am ersten Tag der Rogationen ging die Prozession zu diesem
++1 Vad. I, S.225, und J. v. Arx I, S.288f.
+@@ -32,3 +32,3 @@
+-MEYERS von Knonavu, 5.63 und 64, ferner J. von Arx I, S.283, und STAERKLE, S.22f.
+-3 K. Künsrtie, Ikonographie der christlichen Kunst, Bd.2 (1926), S.229.
+-4 Bündner UB I, S.go und 9ı, Liber confr., S. 144. Vgl. ZISKG 1954, S. 118f.
++MEYERS von KNONAU, S.63 und 64, ferner J. von Arx I, S.283, und STAERKLE, S.22f.
++3 K. KÜNSTLE, Ikonographie der christlichen Kunst, Bd.2 (1926), S.229.
++4 Bündner UB I, S.90 und 91, Liber confr., S. 144. Vgl. ZfSKG 1954, S. 118f.
+--- plaintext/0002
++++ corrected/0002
+@@ -6,2 +6,2 @@
+-war», von einigen bischöflichen Edlen geplündert‘. Ob eine Rekonziliation vom
+-8. April 1495 auf einen Umbau zu beziehen ist, wissen wir nicht?. 1528/29 wurden
++war», von einigen bischöflichen Edlen geplündert¹. Ob eine Rekonziliation vom
++8. April 1495 auf einen Umbau zu beziehen ist, wissen wir nicht². 1528/29 wurden
+@@ -10 +10 @@
+-von St. Agatha3, 1644 schenkte Abt Pius eine Glocke* und am 31. Juli 1661 fand
++von St. Agatha³, 1644 schenkte Abt Pius eine Glocke* und am 31. Juli 1661 fand
+@@ -12 +12 @@
+-statt: ı. im Chor zu Ehren von St. Fides, 2. auf der Evangelienseite zu Ehren der
++statt: 1. im Chor zu Ehren von St. Fides, 2. auf der Evangelienseite zu Ehren der
+@@ -19 +19 @@
+-(Joy.) FERDINAND BEER aus der Au im Bregenzerwald den Bauakkord zu vereinbaren.
++(JOH.) FERDINAND BEER aus der Au im Bregenzerwald den Bauakkord zu vereinbaren.
+@@ -21 +21 @@
+-JoH. FERDINAND BEER, ein Neffe des Jon. MICHAEL BEER von Bildstein, leitete
++JOH. FERDINAND BEER, ein Neffe des JOH. MICHAEL BEER von Bildstein, leitete
+@@ -30 +30 @@
+-ı Vad. I, S.252f., — Conr. de Fab. Mitt. XVII, S. 164f.
++1 Vad. I, S.252f., — Conr. de Fab. Mitt. XVII, S. 164f.
+@@ -41 +41 @@
+-8 * 1731, T 1789 in Au im Bregenzerwald. Allein im sanktgallischen Gebiet erbaute er 13 Kirchen
++8 * 1731, † 1789 in Au im Bregenzerwald. Allein im sanktgallischen Gebiet erbaute er 13 Kirchen
+--- plaintext/0003
++++ corrected/0003
+@@ -2,6 +2 @@
+-N
+-ae
+-|
+-FA.
+-1... 1776/78 0 10
+-L__}) Erweiterung 1953 | nn]
++L__}) Erweiterung 1953 nn]
+@@ -9,2 +4,2 @@
+-ANnToNnI Dick aus Isny!, die Stukkaturen PETER ANTONI MOSBRUGGER?. Dick über-
+-nahm auch die Ausführung «von ıo0 Stuck großen Malereien», die im einzelnen
++ANTONI DICK aus Isny¹, die Stukkaturen PETER ANTONI MOOSBRUGGER². DICK über-
++nahm auch die Ausführung «von 100 Stuck großen Malereien», die im einzelnen
+@@ -12,3 +7,3 @@
+-«schönem weißlechtem durchsichtigen Kemptner Glas»3, Den Hochaltar erbaute
+-FRANZ ANTONI DÜRR aus Überlingen*, die nun nicht mehr vorhandene Orgel Joy.
+-MICHAEL Grass in Lommis (Thurgau)5. Konsekration der vier Seitenaltäre durch
++«schönem weißlechtem durchsichtigen Kemptner Glas»³, Den Hochaltar erbaute
++FRANZ ANTONI DÜRR aus Überlingen⁴, die nun nicht mehr vorhandene Orgel JOH.
++MICHAEL Grass in Lommis (Thurgau)⁵. Konsekration der vier Seitenaltäre durch
+@@ -21 +16 @@
+-Berung der Empore. Aus den verschiedenen Renovationen des 19. Jahrhunderts?
++ßerung der Empore. Aus den verschiedenen Renovationen des 19. Jahrhunderts?
+@@ -26 +21 @@
+-ı Inschrift auf dem Deckenbild im Chor. Ferner Ausgabenliste in Bd.396, S. 113, Stiftsarch.,
++1 Inschrift auf dem Deckenbild im Chor. Ferner Ausgabenliste in Bd.396, S. 113, Stiftsarch.,
+--- plaintext/0004
++++ corrected/0004
+@@ -9 +9 @@
+-Literatur. NAEr, S.101f. — NÜSCHELER, S. 107. — HBLS VI, S.622 (Art. Tablat). — P. STAERKLE,
++Literatur. NAEF, S.101f. — NÜSCHELER, S. 107. — HBLS VI, S.622 (Art. Tablat). — P. STAERKLE,
+@@ -28 +28 @@
+-Hochaltar im Chor gab es noch einen Seitenaltar im Schiff5.
++Hochaltar im Chor gab es noch einen Seitenaltar im Schiff⁵.
+@@ -38 +38 @@
+-ı Für die Quellenstellen der einzelnen Daten, soweit sie hier nicht zitiert wurden, s. SCHERRER.
++1 Für die Quellenstellen der einzelnen Daten, soweit sie hier nicht zitiert wurden, s. SCHERRER.
+@@ -44 +44 @@
+-4 «Die fürstäbtisch-st.-gallische Grenze...» Bilder von Nörzuıı, Stiftsarch., Bd. 1204, Fol. ı6.
++4 «Die fürstäbtisch-st.-gallische Grenze...» Bilder von NÖTZLI, Stiftsarch., Bd. 1204, Fol. 16.
+--- plaintext/0005
++++ corrected/0005
+@@ -2 +1,0 @@
+-m A AN
+@@ -13 +12 @@
+-Dachmaße nicht‘ (Abb. 1:86). An der Nordseite des Chores die dreigeschossige
++Dachmaße nicht¹ (Abb. 186). An der Nordseite des Chores die dreigeschossige
+@@ -22,3 +21,3 @@
+-von Jon. MicHAEL BEER von Bildstein, einem Onkel des Joh. Ferdinand Beer, erbaut
+-wurde (SKL I, 5.71).
+-ı Bis 1922 bestand der Verputz aus einem «Besenwurf», was vermutlich dem ursprünglichen
++von JOH. MICHAEL BEER von Bildstein, einem Onkel des Joh. Ferdinand Beer, erbaut
++wurde (SKL I, S.71).
++1 Bis 1922 bestand der Verputz aus einem «Besenwurf», was vermutlich dem ursprünglichen
+--- plaintext/0006
++++ corrected/0006
+@@ -2 +1,0 @@
+-”
+@@ -12 +11 @@
+-ı Siche oben S. 195. Peter Anton Moosbrugger arbeitete zeitweise zusammen mit Andreas Moos-
++1 Siehe oben S. 195. Peter Anton Moosbrugger arbeitete zeitweise zusammen mit Andreas Moos-
+--- plaintext/0007
++++ corrected/0007
+@@ -12 +12 @@
+-brugger. Vgl. SKL IV, S.318, TH1EME-BECKER, Bd. 25, S. 108. — F. Gysı, Die Entwicklung der kirch-
++brugger. Vgl. SKL IV, S.318, THIEME-BECKER, Bd. 25, S. 108. — F. GYSI, Die Entwicklung der kirch-
+--- plaintext/0008
++++ corrected/0008
+@@ -9 +9 @@
+-Vom Chor her gelesen, erscheinen folgende Ereignisse: ı, Im Chor: Die hl. Fides
++Vom Chor her gelesen, erscheinen folgende Ereignisse: 1, Im Chor: Die hl. Fides
+--- plaintext/0009
++++ corrected/0009
+@@ -7 +7 @@
+-Chor: «ANnTonI DıcK pinx. »*.
++Chor: «ANTONI DICK pinx. »*.
+@@ -18 +18 @@
+-ı Dieses Motiv scheint sehr selten zu sein. Bei A. BOUILLET, Essai sur 1’Iconographie de Sainte Foy
++1 Dieses Motiv scheint sehr selten zu sein. Bei A. BOUILLET, Essai sur l’Iconographie de Sainte Foy
+@@ -20 +20 @@
+-2 Geb. 1754 .in Isny (Württemberg). — THJEME-BEcKEr, Bd. 9, S.215 mit weiteren Literatur-
++2 Geb. 1754 in Isny (Württemberg). — THIEME-BECKER, Bd. 9, S.215 mit weiteren Literatur-
+@@ -22 +22 @@
+-3 Im Museum Konstanz. Sign. IT, 21. Bezeichnet «Ant. Dürr Bilt: Überlingen 1779».
++3 Im Museum Konstanz. Sign. II, 21. Bezeichnet «Ant. Dürr Bilt: Überlingen 1779».
+--- plaintext/0010
++++ corrected/0010
+@@ -1,18 +1,5 @@
+-202 . DIE STADT ST. GALLEN
+--
+-*
+-. ww.
+-a 4 -
+-3
+-Low
+-Se
+-. Tel: ’
+-n
+-" 5
+-| A
+-8
+-ill
+-Si
+-Ga)
+-Abb. 192. Entwurf von Antoni Dürr für den Hoch- Abb. 193. Entwurf von Antoni Dürr für den
+-altar von St. Fiden. 1779. — Text unten. Hochaltar von St. Fiden. 1784. — Text unten.
++202 DIE STADT ST. GALLEN
++Abb. 192. Entwurf von Antoni Dürr für den Hoch-
++altar von St. Fiden. 1779. — Text unten.
++Abb. 193. Entwurf von Antoni Dürr für den
++Hochaltar von St. Fiden. 1784. — Text unten.
+@@ -25 +12 @@
+-satz noch nicht vorhanden. Im gleichen Jahr lieferte FRANZ ANTonı DÜRR bereits
++satz noch nicht vorhanden. Im gleichen Jahr lieferte FRANZ ANTONI DÜRR bereits
+--- plaintext/0011
++++ corrected/0011
+@@ -6,2 +6,2 @@
+-Am 8. Januar 1784 schloß AnTonı Dürr (Dür) mit P. Iso WALSER einen Vertrag
+-über die Herstellung des Hochaltars‘. Daraufhin legte Dürr einen neuen Entwurf
++Am 8. Januar 1784 schloß ANTONI Dürr (Dür) mit P. Iso WALSER einen Vertrag
++über die Herstellung des Hochaltars¹. Daraufhin legte Dürr einen neuen Entwurf
+@@ -9,4 +9,4 @@
+-wurden (Abb. 193)*.
+-ı Stiftsarch., Bd. 386, S. 139. Personalien DüÜrrs (Düer und Dirr) s. SKL I, S.372, und THIEME-
+-BECKER, Bd.g, S.328. Bruder des bekannten Bildhauers Joh. Gg. Dürr, s. RUTH SCHWEISHEIMER,
+-Joh. Gg. Dirr, Diss. (München 1935), S.3. — Ausführlicher über Werk und Person: ERwInN PoEsCHEL
++wurden (Abb. 193)².
++1 Stiftsarch., Bd. 386, S. 139. Personalien DÜRRS (Düer und Dirr) s. SKL I, S.372, und THIEME-
++BECKER, Bd.9, S.328. Bruder des bekannten Bildhauers Joh. Gg. Dürr, s. RUTH SCHWEISHEIMER,
++Joh. Gg. Dirr, Diss. (München 1935), S.3. — Ausführlicher über Werk und Person: ERWIN POESCHEL
+--- plaintext/0012
++++ corrected/0012
+@@ -9,2 +9,2 @@
+-stark bewegte Engel. Altarblatt: Anbetung der Heiligen Drei Könige von SEVERIN BENnz
+-in München 1869. Im Frontispiz Herz-Jesu-Bild, vermutlich von Dıck', wie die
++stark bewegte Engel. Altarblatt: Anbetung der Heiligen Drei Könige von SEVERIN BENZ
++in München 1869. Im Frontispiz Herz-Jesu-Bild, vermutlich von DICK', wie die
+@@ -25,2 +25,2 @@
+-dens; an der Evangelienseite St. Fides und oben Kreuzigung (von Dıck), an der
+-Epistelseite Schutzengel und oben Auferstehung, Das Schutzengelbild signiert «PAuL
++dens; an der Evangelienseite St. Fides und oben Kreuzigung (von DICK), an der
++Epistelseite Schutzengel und oben Auferstehung, Das Schutzengelbild signiert «PAUL
+@@ -34 +34 @@
+-Augsburg, Meistermarke des JoH. JoacHım LurTz (gest. 1727), Rosenberg Nr. 759;
++Augsburg, Meistermarke des JOH. JOACHIM LUTZ (gest. 1727), Rosenberg Nr. 759;
+@@ -36 +36 @@
+-Kelche. ı. Barockkelch. Silber, vergoldet. H. 25,5 cm. Auf dem am Rand gewellten
++Kelche. 1. Barockkelch. Silber, vergoldet. H. 25,5 cm. Auf dem am Rand gewellten
+@@ -39 +39 @@
+-ı AnTonı Dıck führte offenbar auch alle Altarblätter aus, denn er quittiert am 4. November 1784
++1 ANTONI DICK führte offenbar auch alle Altarblätter aus, denn er quittiert am 4. November 1784
+--- plaintext/0013
++++ corrected/0013
+@@ -2,2 +2,4 @@
+-Abb. 195. St. Fiden. Kirche. Vortragekreuz 1708. Abb. 196. St. Fiden. Kirche. Monstranz. Um
+-Die Zweige eine Zutat von 1799. — Text S. 207. 1720. — Text S. 204.
++Abb. 195. St. Fiden. Kirche. Vortragekreuz 1708. Abb.
++Die Zweige eine Zutat von 1799. — Text S. 207.
++196. St. Fiden. Kirche. Monstranz. Um
++1720. — Text S. 204.
+@@ -9 +11 @@
+-Münsterlingen. Umschrift: MARIA BEATRIX ABBATISSA MINSTERLINGENSIS, 1707';
++Münsterlingen. Umschrift: MARIA BEATRIX ABBATISSA MINSTERLINGENSIS, 1707¹;
+@@ -14 +16 @@
+-Meistermarke des Jon. ZEcKEL, Rosenberg Nr. 756, Schröder Nr. 8 (Abb. 197). —
++Meistermarke des JOH. ZECKEL, Rosenberg Nr. 756, Schröder Nr. 8 (Abb. 197). —
+@@ -16 +18 @@
+-zeichen Augsburg mit Lit. K für 1751/53. Meisterzeichen des FRAnz THADDÄUS LANG,
++zeichen Augsburg mit Lit. K für 1751/53. Meisterzeichen des FRANZ THADDÄUS LANG,
+@@ -18 +20 @@
+-drierten Wappen Abt Coelestins II. und der Beischrift « 17 SCHLOSS ROGGWIL 42 »®. —
++drierten Wappen Abt Coelestins II. und der Beischrift « 17 SCHLOSS ROGGWIL 42 »². —
+@@ -20 +22 @@
+-ı Die Äbtissin ist Maria Beatrix Schmid (reg. 1702-1728). Vgl. D. F. Rırrmeyer, Nbl. 1931,
++1 Die Äbtissin ist Maria Beatrix Schmid (reg. 1702-1728). Vgl. D. F. RITTMEYER, Nbl. 1931,
+--- plaintext/0014
++++ corrected/0014
+@@ -2,2 +2,2 @@
+-für 1761/63. Meistermarke nach Rosenberg Nr. 922 vielleicht JoH. CHRIST. STENGLIN,
+-nach Schröder Nr. 40 dagegen wahrscheinlich JoH. CARL IGNAZ STIPPELDEY ZUZU-
++für 1761/63. Meistermarke nach Rosenberg Nr. 922 vielleicht JOH. CHRIST. STENGLIN,
++nach Schröder Nr. 40 dagegen wahrscheinlich JOH. CARL IGNAZ STIPPELDEY ZUZU-
+@@ -8 +8 @@
+-zeichen Augsburg Lit. S für 1767/69. Meistermarke des Jos. AnT. SEETHALER,
++zeichen Augsburg Lit. S für 1767/69. Meistermarke des Jos. ANT. SEETHALER,
+@@ -12 +12 @@
+-Meßkännchen mit Platten. ı. Silber, Platte 29,6 x 23,8 cm. Kännchen H. ı2 cm,
++Meßkännchen mit Platten. 1. Silber, Platte 29,6 x 23,8 cm. Kännchen H. 12 cm,
+@@ -14,2 +14,2 @@
+-Carı Icnaz DIETRICH, Tab. I, Nr. 18. Vgl. MAGZ 1949, S.46, 147. Um 1730. —- 2. Sil-
+-ber, ziervergoldet. Platte 34 X 25,5 cm, Kännchen H. 15 cm. Rocaille. Beschauzei-
++CARL IGNAZ DIETRICH, Tab. I, Nr. 18. Vgl. MAGZ 1949, S.46, 147. Um 1730. —- 2. Sil-
++ber, ziervergoldet. Platte 34 × 25,5 cm, Kännchen H. 15 cm. Rocaille. Beschauzei-
+@@ -17 +17 @@
+-ziervergoldet. Platte 34 X 25,7 cm, Kännchen H. 15,5 cm. Pontifikalkanne H. 17,2
++ziervergoldet. Platte 34 × 25,7 cm, Kännchen H. 15,5 cm. Pontifikalkanne H. 17,2
+@@ -19,2 +19,2 @@
+-marke J CS nach Rosenberg Nr. 922 des JoH. CHRIST. STENGLIN, nach Schröder
+-Nr.40 wahrscheinlicher des Jon. CARL IGNn. STIPPELDEY (t 1766). — Versehkreuz,
++marke J CS nach Rosenberg Nr. 922 des JOH. CHRIST. STENGLIN, nach Schröder
++Nr.40 wahrscheinlicher des JOH. CARL IGN. STIPPELDEY († 1766). — Versehkreuz,
+@@ -25,2 +25,4 @@
+-Abb. 197. St. Fiden. Kirche. Kelch Nr. 2. Abb. 198. St. Fiden. Kirche.Kelch Nr. ı.
+-Von 1707. - Text S. 205. Ende 17. Jahrhundert. — Text S. 205.
++Abb. 197. St. Fiden. Kirche. Kelch Nr. 2.
++Von 1707. - Text S. 205.
++Abb. 198. St. Fiden. Kirche.Kelch Nr. 1.
++Ende 17. Jahrhundert. — Text S. 205.
+--- plaintext/0015
++++ corrected/0015
+@@ -11 +11 @@
+-Beschauzeichen Rapperswil, Tab. I, 4. Meistermarke JoH. Dumzısen, Tab. I, 17.
++Beschauzeichen Rapperswil, Tab. I, 4. Meistermarke JOH. DUMEISEN, Tab. I, 17.
+@@ -18 +18 @@
+-ı «Dieses Kreuz küßt der Fürst(abt) Pancratius, am 26. Mai wahrhaft froh aus dem Exil zurück-
++1 «Dieses Kreuz küßt der Fürst(abt) Pancratius, am 26. Mai wahrhaft froh aus dem Exil zurück-
+@@ -22 +22 @@
+-2 Zur Genealogie Dumeısens s. E, GERBER in Jahresbericht des SLM 1923, S.71. —- D. F. Rıtt-
++2 Zur Genealogie DUMEISENS s. E. GERBER in Jahresbericht des SLM 1923, S.71. —- D. F. RITT-
+@@ -24 +24 @@
+-3 Quittung vom 15. April 1708, Stiftsarch., Rubrik 74, Fasz. 10, Nr.6. — Vgl. auch D. F. Rırrt-
++3 Quittung vom 15. April 1708, Stiftsarch., Rubrik 74, Fasz. 10, Nr.6. — Vgl. auch D. F. RITT-
+--- plaintext/0016
++++ corrected/0016
+@@ -3 +3 @@
+-Die Figuren vollrund, aus Lindenholz geschnitzt und silbern gefaßt. ı. St. Gallus,
++Die Figuren vollrund, aus Lindenholz geschnitzt und silbern gefaßt. 1. St. Gallus,
+@@ -7 +7 @@
+-Beschläge und Schließen eines Missale, Bandwerk. Beschauzeichen Lindau Tab.1I, 10.
++Beschläge und Schließen eines Missale, Bandwerk. Beschauzeichen Lindau Tab. II, 10.
+@@ -15 +15 @@
+-Von den älteren Glocken sind zwei Geläute bekannt: ı. Vier Glocken, eine davon
++Von den älteren Glocken sind zwei Geläute bekannt: 1. Vier Glocken, eine davon
+@@ -17 +17 @@
+-TuEgopDosius Ernst in Lindau (1642) !.
++THEODOSIUS Ernst in Lindau (1642) !.
+@@ -25 +25 @@
+-kersegg urkundlich erstmals 1303 vor (UB III, 5. 326). Am 17. August 1381 schenkten
++kersegg urkundlich erstmals 1303 vor (UB III, S. 326). Am 17. August 1381 schenkten
+@@ -44 +44 @@
+-2 Nach Ekkehart, Cas., Cap. 29. Urkundlich erstmals als «Nöggersegge», 1303, Juli 10., UB IlI,
++2 Nach Ekkehart, Cas., Cap. 29. Urkundlich erstmals als «Nöggersegge», 1303, Juli 10., UB III,

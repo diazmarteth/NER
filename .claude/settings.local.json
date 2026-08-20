@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/diazm/anaconda3/envs/ner/bin/pip install *)",
+      "Bash(/Users/diazm/anaconda3/envs/ner/bin/python -)",
+      "Bash(python3 *)"
+    ]
+  }
+}

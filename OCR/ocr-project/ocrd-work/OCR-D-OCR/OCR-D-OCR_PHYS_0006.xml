@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-OCR_PHYS_0006">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 3.5.1</pc:Creator>
+        <pc:Created>2026-08-13T09:32:51.883976</pc:Created>
+        <pc:LastChange>2026-08-13T09:32:51.883976</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-olena-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="sauvola-ms-split" type="impl"/>
+                <pc:Label value="0.34" type="k"/>
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="0" type="win-size"/>
+                <pc:Label value="0" type="dpi"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="2.0.0" type="ocrd-olena-binarize"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/despeckling" value="ocrd-cis-ocropy-denoise">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="2.0" type="noise_maxsize"/>
+                <pc:Label value="0" type="dpi"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.0" type="ocrd-cis-ocropy-denoise"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/deskewing" value="ocrd-cis-ocropy-deskew">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="2.0" type="maxskew"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.0" type="ocrd-cis-ocropy-deskew"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment-region">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="False" type="find_tables"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="4" type="padding"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="True" type="overwrite_regions"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="crop_polygons"/>
+                <pc:Label value="False" type="find_staves"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.20.1" type="ocrd-tesserocr-segment-region"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="True" type="plausibilize"/>
+                <pc:Label value="False" type="sanitize"/>
+                <pc:Label value="5" type="sanitize_padding"/>
+                <pc:Label value="0" type="simplify"/>
+                <pc:Label value="0.9" type="plausibilize_merge_min_overlap"/>
+                <pc:Label value="0" type="spread"/>
+                <pc:Label value="region" type="spread_level"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.1" type="ocrd-segment-repair"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-cis-ocropy-clip">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="region" type="level-of-operation"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.7" type="min_fraction"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.0" type="ocrd-cis-ocropy-clip"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-cis-ocropy-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="region" type="level-of-operation"/>
+                <pc:Label value="2.4" type="spread"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="20" type="maxcolseps"/>
+                <pc:Label value="20" type="maxseps"/>
+                <pc:Label value="10" type="maximages"/>
+                <pc:Label value="4" type="csminheight"/>
+                <pc:Label value="10" type="hlminwidth"/>
+                <pc:Label value="0.01" type="gap_height"/>
+                <pc:Label value="1.5" type="gap_width"/>
+                <pc:Label value="True" type="overwrite_order"/>
+                <pc:Label value="True" type="overwrite_separators"/>
+                <pc:Label value="True" type="overwrite_regions"/>
+                <pc:Label value="True" type="overwrite_lines"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.0" type="ocrd-cis-ocropy-segment"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/dewarping" value="ocrd-cis-ocropy-dewarp">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4.0" type="range"/>
+                <pc:Label value="1.0" type="smoothness"/>
+                <pc:Label value="0.05" type="max_neighbour"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.2.0" type="ocrd-cis-ocropy-dewarp"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="deu" type="model"/>
+                <pc:Label value="word" type="segmentation_level"/>
+                <pc:Label value="word" type="textequiv_level"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0" type="padding"/>
+                <pc:Label value="False" type="overwrite_segments"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.20.1" type="ocrd-tesserocr-recognize"/>
+                <pc:Label value="3.5.1" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG-360/St_Fiden_from_SdK_StGallen-kirchen_Page_06.tif" imageWidth="2553" imageHeight="3615" orientation="0.0">
+        <pc:AlternativeImage filename="OCR-D-BIN/OCR-D-BIN_PHYS_0006_.IMG-BIN.png" comments="binarized"/>
+        <pc:AlternativeImage filename="OCR-D-DEN/OCR-D-DEN_PHYS_0006_PHYS_0006.IMG-DESPECK.png" comments="binarized,despeckled"/>
+        <pc:AlternativeImage filename="OCR-D-DSK/OCR-D-DSK_PHYS_0006_.IMG-DESKEW.png" comments="binarized,despeckled,deskewed"/>
+        <pc:AlternativeImage filename="OCR-D-SEG-REG/OCR-D-SEG-REG_PHYS_0006_.IMG-BIN.png" comments="binarized,despeckled,deskewed,binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="4" regionRef="region0004"/>
+                <pc:RegionRefIndexed index="5" regionRef="region0005"/>
+                <pc:RegionRefIndexed index="6" regionRef="region0006"/>
+                <pc:RegionRefIndexed index="7" regionRef="region0007"/>
+                <pc:RegionRefIndexed index="8" regionRef="region0008"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="-0.248462378406941" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="380,313 1540,313 1540,367 380,367"/>
+            <pc:TextLine id="region0000_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0000_region0000_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1308,313 1307,314 1200,314 1199,315 1164,314 1163,313 1103,313 1102,314 1059,314 1058,315 989,315 988,314 844,313 843,314 612,313 611,314 402,313 401,314 391,314 390,315 380,315 380,363 394,363 395,364 395,365 396,366 429,366 431,364 458,364 459,363 510,364 511,363 514,363 516,361 517,361 518,360 518,359 520,357 520,353 521,352 933,353 935,355 935,356 936,357 937,357 939,359 941,359 943,361 944,361 946,363 998,364 999,363 1024,363 1025,364 1113,364 1114,363 1141,363 1142,362 1389,363 1390,364 1430,365 1431,366 1479,366 1480,365 1515,365 1516,364 1531,364 1532,363 1539,363 1539,316 1533,316 1532,315 1439,315 1438,316 1416,315 1415,316 1398,316 1397,315 1382,315 1381,314 1363,314 1362,313"/>
+                <pc:Baseline points="502,313 810,353 1539,351"/>
+                <pc:Word id="region0000_line0001_word0000">
+                    <pc:Coords points="385,317 451,317 451,363 385,363"/>
+                    <pc:TextEquiv conf="0.942427520751953">
+                        <pc:Unicode>198</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0000_line0001_word0001">
+                    <pc:Coords points="1009,330 1084,330 1084,355 1009,355"/>
+                    <pc:TextEquiv conf="0.9608544921875">
+                        <pc:Unicode>DIE</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0000_line0001_word0002">
+                    <pc:Coords points="1110,330 1254,331 1254,356 1110,355"/>
+                    <pc:TextEquiv conf="0.962530288696289">
+                        <pc:Unicode>STADT</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0000_line0001_word0003">
+                    <pc:Coords points="1279,331 1336,331 1336,356 1279,356"/>
+                    <pc:TextEquiv conf="0.960720977783203">
+                        <pc:Unicode>ST.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0000_line0001_word0004">
+                    <pc:Coords points="1355,330 1537,331 1537,356 1355,355"/>
+                    <pc:TextEquiv conf="0.957918853759766">
+                        <pc:Unicode>GALLEN</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.956890426635742">
+                    <pc:Unicode>198 DIE STADT ST. GALLEN</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.956890426635742">
+                <pc:Unicode>198 DIE STADT ST. GALLEN</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0001" orientation="-0.248462378406941" type="caption" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:AlternativeImage filename="OCR-D-CLIP/OCR-D-CLIP_PHYS_0006_region0001.IMG_CLIP.png" comments="binarized,despeckled,binarized,clipped"/>
+            <pc:Coords points="1243,440 1386,440 1386,485 1243,485"/>
+            <pc:TextLine id="region0001_line">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0001_region0001_line.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1243,440 1386,440 1386,485 1243,485"/>
+                <pc:TextEquiv conf="0.0">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="1.0">
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0003" orientation="-0.248462378406941" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:AlternativeImage filename="OCR-D-CLIP/OCR-D-CLIP_PHYS_0006_region0003.IMG_CLIP.png" comments="binarized,despeckled,binarized,clipped"/>
+            <pc:Coords points="1337,1438 1366,1438 1366,1459 1337,1459"/>
+            <pc:TextLine id="region0003_line">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0003_region0003_line.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1337,1438 1366,1438 1366,1459 1337,1459"/>
+                <pc:Word id="region0003_line_word0000">
+                    <pc:Coords points="1363,1448 1342,1448 1342,1459 1363,1459"/>
+                    <pc:TextEquiv conf="0.0">
+                        <pc:Unicode>”</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="1.0">
+                    <pc:Unicode>”</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="1.0">
+                <pc:Unicode>”</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0004" orientation="-0.248462378406941" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="435,1500 2111,1500 2111,1547 435,1547"/>
+            <pc:TextLine id="region0004_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0004_region0004_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1872,1500 1871,1501 1742,1500 1741,1501 1729,1501 1728,1502 1713,1502 1712,1503 1655,1503 1654,1502 1654,1500 1633,1500 1632,1501 1628,1501 1627,1502 1623,1502 1622,1501 1536,1501 1535,1502 1528,1501 1527,1502 1475,1502 1474,1501 1457,1501 1456,1500 1393,1500 1392,1501 1156,1500 1153,1503 1048,1502 1047,1501 1042,1501 1041,1500 922,1500 921,1501 920,1501 919,1502 908,1502 907,1501 882,1501 881,1502 862,1502 861,1501 780,1500 779,1501 772,1501 771,1502 762,1502 761,1501 751,1501 750,1500 675,1500 674,1501 435,1500 435,1546 674,1547 675,1546 913,1547 914,1546 1152,1547 1153,1546 1388,1547 1389,1546 1423,1546 1424,1545 1528,1545 1529,1546 1618,1547 1619,1546 1842,1547 1843,1546 1862,1546 1863,1547 1871,1547 1872,1546 2087,1547 2088,1546 2110,1546 2110,1502 2063,1502 2062,1503 2046,1503 2045,1502 2040,1502 2039,1501"/>
+                <pc:Baseline points="435,1535 2110,1534"/>
+                <pc:Word id="region0004_line0001_word0000">
+                    <pc:Coords points="440,1505 524,1505 524,1535 440,1535"/>
+                    <pc:TextEquiv conf="0.95996337890625">
+                        <pc:Unicode>Abb.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0001">
+                    <pc:Coords points="544,1505 610,1505 610,1543 544,1543"/>
+                    <pc:TextEquiv conf="0.941596755981445">
+                        <pc:Unicode>187.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0002">
+                    <pc:Coords points="633,1506 678,1506 678,1536 633,1536"/>
+                    <pc:TextEquiv conf="0.824334335327148">
+                        <pc:Unicode>St.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0003">
+                    <pc:Coords points="696,1505 794,1505 794,1536 696,1536"/>
+                    <pc:TextEquiv conf="0.824334335327148">
+                        <pc:Unicode>Fiden.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0004">
+                    <pc:Coords points="811,1505 941,1506 941,1537 811,1536"/>
+                    <pc:TextEquiv conf="0.932725677490234">
+                        <pc:Unicode>Kirche.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0005">
+                    <pc:Coords points="957,1505 1243,1506 1243,1544 957,1543"/>
+                    <pc:TextEquiv conf="0.888616638183594">
+                        <pc:Unicode>Deckengemälde.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0006">
+                    <pc:Coords points="1259,1508 1319,1509 1319,1540 1259,1539"/>
+                    <pc:TextEquiv conf="0.969590072631836">
+                        <pc:Unicode>Die</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0007">
+                    <pc:Coords points="1333,1510 1376,1510 1376,1539 1333,1539"/>
+                    <pc:TextEquiv conf="0.932935180664062">
+                        <pc:Unicode>hl.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0008">
+                    <pc:Coords points="1392,1509 1483,1509 1483,1539 1392,1539"/>
+                    <pc:TextEquiv conf="0.929908599853516">
+                        <pc:Unicode>Fides</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0009">
+                    <pc:Coords points="1496,1518 1552,1519 1552,1539 1496,1538"/>
+                    <pc:TextEquiv conf="0.931765670776367">
+                        <pc:Unicode>vor</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0010">
+                    <pc:Coords points="1567,1508 1737,1508 1737,1538 1567,1538"/>
+                    <pc:TextEquiv conf="0.882035598754883">
+                        <pc:Unicode>Dacianus.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0011">
+                    <pc:Coords points="1843,1511 1758,1510 1758,1546 1842,1547 1843,1546"/>
+                    <pc:TextEquiv conf="0.915280990600586">
+                        <pc:Unicode>1778.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0012">
+                    <pc:Coords points="1862,1528 1882,1528 1882,1532 1862,1532"/>
+                    <pc:TextEquiv conf="0.683136215209961">
+                        <pc:Unicode>—</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0013">
+                    <pc:Coords points="1896,1511 1977,1511 1977,1541 1896,1541"/>
+                    <pc:TextEquiv conf="0.922009201049805">
+                        <pc:Unicode>Text</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0014">
+                    <pc:Coords points="1991,1510 2022,1511 2022,1541 1991,1540"/>
+                    <pc:TextEquiv conf="0.917008895874023">
+                        <pc:Unicode>S.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0015">
+                    <pc:Coords points="2038,1517 2108,1517 2108,1541 2038,1541"/>
+                    <pc:TextEquiv conf="0.956466369628906">
+                        <pc:Unicode>200.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.900731744766235">
+                    <pc:Unicode>Abb. 187. St. Fiden. Kirche. Deckengemälde. Die hl. Fides vor Dacianus. 1778. — Text S. 200.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.900731744766235">
+                <pc:Unicode>Abb. 187. St. Fiden. Kirche. Deckengemälde. Die hl. Fides vor Dacianus. 1778. — Text S. 200.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0005" orientation="-0.248462378406941" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="371,1626 2173,1626 2173,2097 371,2097"/>
+            <pc:TextLine id="region0005_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0005_region0005_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1948,1626 1947,1627 1918,1627 1916,1629 1916,1630 1915,1631 1869,1631 1868,1630 1868,1628 1867,1627 1800,1626 1798,1628 1798,1629 1797,1630 1761,1630 1760,1629 1760,1628 1759,1627 1759,1626 1731,1626 1731,1627 1730,1628 1730,1629 1729,1630 1710,1630 1709,1631 1607,1631 1606,1632 1578,1631 1577,1630 1575,1630 1574,1629 1574,1627 1573,1626 1547,1626 1547,1627 1546,1628 1545,1628 1543,1626 1517,1626 1516,1627 1516,1630 1515,1631 1405,1631 1404,1630 1404,1628 1403,1627 1324,1626 1324,1627 1322,1629 1312,1629 1311,1630 1267,1630 1266,1629 1265,1629 1264,1628 1264,1627 1222,1627 1222,1629 1221,1630 1193,1630 1191,1628 1179,1628 1177,1630 1157,1630 1156,1631 1139,1631 1138,1632 1129,1631 1128,1630 1128,1626 1057,1626 1056,1627 1056,1630 1055,1631 1040,1631 1039,1630 1030,1630 1029,1629 1029,1628 1028,1627 999,1627 999,1629 998,1630 976,1630 975,1631 913,1631 912,1632 870,1631 869,1630 869,1628 867,1626 836,1626 836,1627 834,1629 834,1630 833,1631 735,1631 734,1632 685,1632 684,1633 678,1633 677,1632 665,1631 664,1630 664,1629 663,1628 662,1628 660,1626 648,1626 646,1628 645,1628 642,1631 625,1631 624,1630 624,1628 622,1626 597,1626 596,1627 573,1627 571,1629 567,1629 566,1628 565,1628 564,1627 501,1627 499,1629 495,1629 494,1630 488,1630 487,1629 486,1629 485,1628 485,1627 371,1626 372,1627 372,1680 449,1681 450,1680 470,1680 471,1679 558,1679 559,1678 570,1678 571,1679 672,1679 673,1678 699,1679 700,1678 755,1678 756,1679 796,1679 797,1680 802,1680 803,1681 804,1681 805,1682 808,1682 809,1683 813,1683 814,1684 819,1684 820,1685 823,1685 824,1686 825,1685 826,1685 829,1682 829,1681 830,1680 839,1680 840,1679 877,1679 878,1680 889,1680 890,1681 898,1681 903,1686 904,1686 906,1689 928,1689 929,1688 930,1688 932,1686 933,1686 937,1682 947,1682 948,1681 955,1681 956,1680 966,1680 967,1679 1073,1679 1074,1678 1202,1679 1203,1678 1253,1678 1254,1677 1266,1677 1267,1678 1289,1678 1290,1679 1394,1680 1395,1679 1446,1679 1449,1682 1450,1682 1451,1683 1452,1683 1453,1684 1458,1684 1459,1685 1461,1685 1462,1686 1463,1686 1464,1687 1466,1687 1468,1689 1470,1689 1472,1687 1473,1687 1475,1685 1475,1684 1477,1682 1477,1680 1478,1679 1512,1679 1513,1678 1629,1679 1630,1678 1646,1678 1647,1677 1653,1677 1654,1678 1878,1679 1879,1678 2052,1678 2053,1677 2120,1678 2121,1679 2128,1679 2129,1680 2132,1680 2133,1681 2139,1681 2140,1682 2150,1682 2152,1684 2153,1684 2155,1686 2166,1686 2167,1685 2168,1685 2170,1683 2173,1683 2173,1631 2162,1631 2161,1630 2094,1630 2093,1629 2093,1627 2006,1626 2006,1627 2004,1629 1994,1629 1993,1628 1993,1627 1992,1626"/>
+                <pc:Baseline points="372,1668 2173,1670"/>
+                <pc:Word id="region0005_line0001_word0000">
+                    <pc:Coords points="428,1630 501,1631 501,1668 428,1667"/>
+                    <pc:TextEquiv conf="0.931909866333008">
+                        <pc:Unicode>Die</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0001">
+                    <pc:Coords points="515,1629 515,1667 734,1668 734,1632 685,1632 684,1633 678,1633 677,1632 665,1631 664,1630 664,1630 643,1630 642,1631 625,1631 624,1630 624,1629"/>
+                    <pc:TextEquiv conf="0.909949035644531">
+                        <pc:Unicode>Stukkaturen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0002">
+                    <pc:Coords points="836,1627 834,1629 834,1630 833,1631 750,1631 750,1676 980,1677 980,1630 976,1630 975,1631 913,1631 912,1632 870,1631 869,1630 869,1628 869,1628"/>
+                    <pc:TextEquiv conf="0.960958099365234">
+                        <pc:Unicode>empfangen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0003">
+                    <pc:Coords points="996,1631 1064,1631 1064,1668 996,1668"/>
+                    <pc:TextEquiv conf="0.963988494873047">
+                        <pc:Unicode>das</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0004">
+                    <pc:Coords points="1079,1631 1079,1669 1215,1670 1215,1632 1139,1631 1138,1632 1133,1631"/>
+                    <pc:TextEquiv conf="0.969124450683594">
+                        <pc:Unicode>Gesetz</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0005">
+                    <pc:Coords points="1231,1632 1333,1632 1333,1670 1231,1670"/>
+                    <pc:TextEquiv conf="0.962795639038086">
+                        <pc:Unicode>ihrer</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0006">
+                    <pc:Coords points="1620,1633 1348,1631 1348,1679 1395,1679 1395,1679 1446,1679 1447,1680 1477,1680 1478,1679 1512,1679 1513,1678 1620,1679"/>
+                    <pc:TextEquiv conf="0.96147216796875">
+                        <pc:Unicode>Komposition</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0007">
+                    <pc:Coords points="1635,1646 1711,1646 1711,1671 1635,1671"/>
+                    <pc:TextEquiv conf="0.96327522277832">
+                        <pc:Unicode>von</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0008">
+                    <pc:Coords points="1727,1635 1803,1635 1803,1671 1727,1671"/>
+                    <pc:TextEquiv conf="0.932944793701172">
+                        <pc:Unicode>den</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0009">
+                    <pc:Coords points="2168,1680 2168,1637 1819,1635 1819,1678 1879,1678 1879,1678 2052,1678 2053,1677 2120,1678 2121,1679 2128,1679 2129,1680"/>
+                    <pc:TextEquiv conf="0.91709342956543">
+                        <pc:Unicode>Gemäldefeldern,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.947351119995117">
+                    <pc:Unicode>Die Stukkaturen empfangen das Gesetz ihrer Komposition von den Gemäldefeldern,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0002">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0005_region0005_line0002.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="2053,1678 2052,1679 2046,1679 2044,1681 2043,1681 2041,1683 2041,1684 2039,1686 2039,1688 2038,1689 2032,1689 2031,1690 1946,1690 1945,1689 1945,1686 1943,1684 1943,1683 1941,1681 1940,1681 1938,1679 1924,1679 1922,1681 1921,1681 1920,1682 1920,1683 1918,1685 1918,1686 1917,1687 1917,1689 1916,1690 1820,1689 1819,1690 1767,1690 1766,1689 1766,1686 1764,1684 1764,1683 1762,1681 1761,1681 1759,1679 1746,1679 1744,1681 1743,1681 1741,1683 1741,1684 1739,1686 1739,1687 1738,1688 1738,1689 1737,1690 1692,1690 1691,1689 1688,1689 1687,1688 1687,1687 1685,1685 1685,1684 1682,1681 1681,1681 1679,1679 1651,1679 1649,1681 1648,1681 1646,1683 1646,1684 1644,1686 1644,1688 1643,1689 1620,1689 1619,1690 1608,1690 1607,1691 1510,1690 1509,1691 1480,1691 1479,1690 1468,1690 1466,1688 1464,1688 1463,1687 1462,1687 1461,1686 1459,1686 1458,1685 1453,1685 1452,1684 1451,1684 1450,1683 1449,1683 1446,1680 1420,1680 1419,1681 1410,1681 1409,1682 1407,1682 1405,1684 1389,1684 1387,1686 1386,1686 1385,1687 1385,1688 1383,1690 1344,1689 1342,1687 1329,1687 1327,1689 1312,1689 1311,1690 1290,1690 1289,1689 1283,1689 1282,1688 1282,1685 1280,1683 1280,1682 1278,1680 1277,1680 1276,1679 1267,1679 1266,1678 1254,1678 1253,1679 1203,1679 1202,1680 1200,1680 1198,1682 1198,1683 1196,1685 1196,1689 1195,1690 1173,1690 1172,1689 1161,1689 1160,1688 1160,1687 1158,1685 1158,1684 1156,1682 1155,1682 1153,1680 1141,1680 1140,1681 1138,1681 1136,1683 1135,1682 1133,1684 1133,1685 1130,1688 1106,1688 1105,1687 1105,1686 1103,1684 1103,1683 1101,1681 1100,1681 1098,1679 1086,1679 1085,1680 1083,1680 1081,1682 1080,1682 1078,1684 1078,1685 1076,1687 1076,1688 1075,1689 1065,1689 1064,1690 1043,1690 1042,1691 1011,1691 1010,1690 934,1690 933,1691 864,1690 863,1689 855,1689 854,1688 854,1687 852,1685 852,1684 850,1682 849,1682 847,1680 840,1680 839,1681 831,1681 825,1687 824,1687 823,1686 820,1686 819,1685 814,1685 813,1684 809,1684 808,1683 805,1683 804,1682 802,1682 801,1683 800,1683 799,1684 799,1685 796,1688 789,1688 787,1686 787,1685 784,1682 783,1682 781,1680 769,1680 767,1682 766,1682 763,1685 763,1686 762,1687 760,1687 759,1686 757,1686 753,1682 752,1682 750,1680 746,1680 745,1679 727,1679 725,1681 724,1681 723,1682 712,1682 711,1683 709,1683 707,1685 706,1685 705,1686 704,1686 703,1687 700,1687 699,1688 696,1688 695,1689 689,1689 688,1690 674,1689 673,1690 668,1690 667,1689 667,1688 666,1687 666,1686 664,1684 664,1683 663,1682 662,1682 660,1680 645,1680 643,1682 642,1682 640,1684 640,1685 638,1687 638,1689 637,1690 570,1690 569,1689 569,1688 567,1686 567,1685 564,1682 563,1682 561,1680 549,1680 547,1682 546,1682 543,1685 543,1686 541,1688 541,1690 540,1691 527,1691 526,1690 526,1687 524,1685 524,1684 523,1683 522,1683 520,1681 519,1681 518,1680 507,1680 506,1681 505,1680 471,1680 470,1681 456,1681 454,1683 453,1683 452,1684 452,1685 450,1687 450,1690 449,1691 410,1690 409,1689 409,1686 407,1684 407,1683 406,1682 405,1682 404,1681 386,1681 385,1682 384,1682 382,1684 382,1685 380,1687 380,1689 379,1690 372,1690 372,1738 451,1739 452,1738 527,1738 528,1739 537,1739 538,1738 716,1739 717,1738 797,1738 798,1737 854,1737 855,1738 867,1738 868,1739 871,1739 872,1740 875,1740 876,1741 876,1742 880,1747 881,1747 882,1748 900,1748 902,1746 903,1746 904,1746 905,1746 906,1747 907,1747 908,1748 913,1748 914,1749 923,1749 924,1748 929,1748 930,1747 931,1747 933,1745 933,1744 936,1742 936,1741 937,1740 944,1740 945,1739 957,1739 958,1738 1135,1738 1136,1738 1256,1738 1257,1737 1258,1738 1319,1738 1320,1737 1499,1738 1500,1739 1514,1739 1515,1740 1519,1740 1522,1743 1523,1743 1524,1745 1525,1745 1526,1746 1528,1746 1529,1747 1536,1747 1538,1745 1539,1745 1540,1744 1542,1744 1544,1743 1546,1743 1547,1742 1548,1742 1549,1741 1552,1741 1553,1740 1555,1740 1556,1739 1559,1739 1560,1740 1571,1740 1572,1739 1598,1740 1600,1742 1601,1742 1603,1744 1615,1744 1617,1742 1618,1742 1620,1740 1645,1740 1646,1739 1656,1739 1657,1738 1683,1738 1684,1737 1888,1738 1890,1740 1891,1740 1892,1741 1893,1741 1894,1742 1898,1742 1899,1743 1909,1743 1910,1742 1912,1742 1913,1741 1914,1741 1915,1740 1916,1740 1918,1738 1952,1738 1953,1737 2073,1738 2074,1737 2082,1737 2083,1736 2104,1736 2105,1737 2173,1737 2173,1690 2139,1690 2138,1689 2138,1687 2136,1685 2136,1684 2134,1682 2133,1682 2132,1681 2129,1681 2128,1680 2121,1680 2120,1679"/>
+                <pc:Baseline points="372,1726 2173,1725"/>
+                <pc:Word id="region0005_line0002_word0000">
+                    <pc:Coords points="386,1681 385,1682 384,1682 382,1684 382,1685 380,1687 380,1689 379,1690 377,1690 377,1717 453,1718 453,1683 452,1684 452,1685 450,1687 450,1690 449,1691 410,1690 409,1689 409,1686 407,1684 407,1683 406,1682 405,1682 404,1681"/>
+                    <pc:TextEquiv conf="0.96992317199707">
+                        <pc:Unicode>den</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0001">
+                    <pc:Coords points="475,1681 475,1717 612,1717 612,1690 570,1690 569,1689 569,1688 567,1686 567,1685 564,1682 563,1682 562,1681 548,1681 547,1682 546,1682 543,1685 543,1686 541,1688 541,1690 540,1691 527,1691 526,1690 526,1687 524,1685 524,1684 523,1683 522,1683 520,1681 519,1681 506,1681"/>
+                    <pc:TextEquiv conf="0.96609001159668">
+                        <pc:Unicode>Linien</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0002">
+                    <pc:Coords points="641,1683 640,1684 640,1685 638,1687 638,1689 637,1690 635,1690 635,1719 703,1720 703,1687 700,1687 699,1688 696,1688 695,1689 689,1689 688,1690 674,1689 673,1690 668,1690 667,1689 667,1688 666,1687 666,1686 664,1684 664,1683"/>
+                    <pc:TextEquiv conf="0.932959442138672">
+                        <pc:Unicode>der</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0003">
+                    <pc:Coords points="726,1682 726,1729 990,1730 990,1690 934,1690 933,1691 864,1690 863,1689 855,1689 854,1688 854,1687 852,1685 852,1684 850,1682 830,1682 825,1687 824,1687 823,1686 820,1686 819,1685 814,1685 813,1684 809,1684 808,1683 805,1683 804,1682 802,1682 801,1683 800,1683 799,1684 799,1685 796,1688 789,1688 787,1686 787,1685 784,1682 766,1682 763,1685 763,1686 762,1687 760,1687 759,1686 757,1686 753,1682"/>
+                    <pc:TextEquiv conf="0.922653198242188">
+                        <pc:Unicode>Stichkappen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0004">
+                    <pc:Coords points="1017,1720 1098,1720 1098,1683 1079,1683 1078,1684 1078,1685 1076,1687 1076,1688 1075,1689 1065,1689 1064,1690 1043,1690 1042,1691 1017,1691"/>
+                    <pc:TextEquiv conf="0.96146728515625">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0005">
+                    <pc:Coords points="1133,1684 1133,1685 1130,1688 1128,1688 1128,1720 1204,1721 1204,1685 1196,1685 1196,1685 1196,1689 1195,1690 1173,1690 1172,1689 1161,1689 1160,1688 1160,1687 1158,1685 1158,1684"/>
+                    <pc:TextEquiv conf="0.933022155761719">
+                        <pc:Unicode>den</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0006">
+                    <pc:Coords points="1231,1684 1231,1731 1616,1733 1616,1690 1608,1690 1607,1691 1510,1690 1509,1691 1480,1691 1479,1690 1468,1690 1466,1688 1464,1688 1463,1687 1462,1687 1461,1686 1459,1686 1458,1685 1388,1684 1387,1686 1386,1686 1385,1687 1385,1688 1383,1690 1344,1689 1342,1687 1329,1687 1327,1689 1312,1689 1311,1690 1290,1690 1289,1689 1283,1689 1282,1688 1282,1685 1281,1684"/>
+                    <pc:TextEquiv conf="0.916220932006836">
+                        <pc:Unicode>Fensteröffnungen,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0007">
+                    <pc:Coords points="1645,1685 1644,1686 1644,1688 1643,1689 1641,1689 1641,1722 1702,1722 1702,1690 1692,1690 1691,1689 1688,1689 1687,1688 1687,1687 1685,1685"/>
+                    <pc:TextEquiv conf="0.964069290161133">
+                        <pc:Unicode>die</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0008">
+                    <pc:Coords points="1739,1686 1739,1687 1738,1688 1738,1689 1737,1690 1730,1690 1730,1722 1782,1722 1782,1690 1767,1690 1766,1689 1766,1686"/>
+                    <pc:TextEquiv conf="0.931043167114258">
+                        <pc:Unicode>sie</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0009">
+                    <pc:Coords points="1918,1685 1918,1686 1917,1687 1917,1689 1916,1690 1820,1689 1819,1690 1812,1690 1812,1733 2056,1734 2056,1686 2039,1686 2039,1686 2039,1688 2038,1689 2032,1689 2031,1690 1946,1690 1945,1689 1945,1686 1945,1686"/>
+                    <pc:TextEquiv conf="0.905217514038086">
+                        <pc:Unicode>umspinnen.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0002_word0010">
+                    <pc:Coords points="2080,1688 2080,1725 2169,1725 2169,1690 2139,1690 2138,1689 2138,1688"/>
+                    <pc:TextEquiv conf="0.96972526550293">
+                        <pc:Unicode>Von</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.942944675792347">
+                    <pc:Unicode>den Linien der Stichkappen und den Fensteröffnungen, die sie umspinnen. Von</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0003">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0005_region0005_line0003.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="2115,1738 2113,1740 2112,1740 2110,1742 2110,1743 2108,1745 2107,1748 2106,1749 2012,1748 2011,1747 2011,1746 2010,1745 2011,1744 2009,1742 2009,1741 2008,1740 2007,1740 2005,1738 1991,1738 1990,1739 1988,1739 1986,1741 1985,1741 1984,1742 1984,1743 1981,1745 1981,1747 1980,1748 1964,1748 1963,1749 1953,1749 1952,1748 1941,1748 1940,1747 1936,1747 1931,1741 1930,1741 1928,1739 1918,1739 1916,1741 1915,1741 1914,1742 1913,1742 1912,1743 1910,1743 1909,1744 1899,1744 1898,1743 1894,1743 1893,1742 1892,1742 1891,1741 1890,1741 1888,1739 1879,1739 1878,1740 1871,1740 1870,1741 1869,1741 1867,1743 1866,1743 1862,1746 1859,1746 1858,1747 1851,1747 1850,1748 1821,1747 1819,1745 1809,1745 1807,1747 1799,1747 1798,1746 1798,1745 1797,1743 1797,1742 1795,1740 1794,1740 1792,1738 1779,1738 1778,1739 1776,1739 1774,1741 1773,1741 1772,1742 1772,1743 1769,1745 1769,1746 1768,1747 1763,1747 1762,1746 1762,1745 1761,1743 1761,1742 1759,1740 1758,1740 1756,1738 1743,1738 1741,1740 1740,1740 1738,1742 1738,1743 1735,1745 1735,1747 1734,1748 1729,1748 1728,1747 1727,1747 1726,1746 1726,1745 1725,1743 1725,1742 1723,1740 1722,1740 1720,1738 1706,1738 1705,1739 1704,1739 1702,1741 1701,1741 1700,1742 1700,1743 1697,1745 1697,1746 1696,1747 1686,1747 1685,1746 1678,1746 1676,1743 1676,1742 1674,1740 1673,1740 1672,1739 1657,1739 1656,1740 1655,1740 1653,1742 1653,1743 1650,1745 1650,1747 1649,1748 1637,1748 1636,1749 1592,1748 1591,1749 1580,1749 1579,1748 1565,1748 1564,1747 1564,1745 1563,1743 1563,1742 1562,1741 1560,1741 1559,1740 1556,1740 1555,1741 1553,1741 1552,1742 1549,1742 1548,1743 1547,1743 1545,1744 1543,1744 1542,1745 1540,1745 1539,1746 1538,1746 1536,1748 1529,1748 1528,1747 1513,1747 1512,1746 1499,1746 1498,1747 1481,1747 1480,1748 1455,1748 1453,1746 1441,1746 1440,1747 1438,1747 1437,1746 1420,1746 1419,1745 1416,1745 1415,1744 1414,1744 1414,1743 1413,1743 1412,1742 1411,1742 1410,1741 1408,1741 1407,1740 1404,1740 1403,1739 1320,1738 1319,1739 1309,1739 1307,1741 1306,1741 1302,1744 1301,1744 1301,1743 1301,1742 1299,1740 1298,1740 1297,1739 1280,1739 1278,1741 1277,1741 1276,1742 1276,1743 1273,1745 1273,1747 1272,1748 1240,1748 1239,1749 1199,1749 1198,1748 1193,1748 1192,1747 1191,1747 1190,1746 1190,1745 1189,1743 1188,1743 1186,1741 1185,1741 1184,1740 1181,1740 1180,1739 1136,1739 1135,1739 1120,1739 1119,1740 1118,1740 1116,1742 1115,1742 1113,1743 1113,1744 1109,1748 1099,1748 1098,1749 1065,1749 1064,1748 1064,1746 1062,1744 1062,1743 1060,1740 1059,1740 1058,1739 1041,1739 1039,1741 1038,1741 1037,1742 1036,1743 1034,1745 1034,1746 1033,1747 1021,1747 1018,1744 1018,1743 1016,1740 1015,1740 1014,1739 997,1739 995,1741 994,1741 993,1742 992,1743 990,1745 990,1747 989,1748 975,1748 974,1749 924,1749 923,1750 914,1750 913,1749 903,1748 902,1749 882,1749 881,1748 880,1748 874,1741 872,1741 871,1740 868,1740 867,1739 855,1739 854,1738 798,1738 797,1739 789,1739 787,1741 786,1741 781,1745 781,1746 779,1748 772,1748 771,1749 757,1749 756,1748 756,1746 754,1744 754,1743 753,1741 752,1741 750,1739 736,1739 734,1741 733,1741 730,1743 730,1744 728,1746 728,1748 727,1749 724,1749 723,1750 685,1750 684,1749 663,1748 662,1747 662,1746 660,1744 660,1743 658,1740 657,1740 656,1739 641,1739 639,1741 638,1741 635,1743 635,1744 633,1746 633,1747 632,1748 614,1748 613,1749 598,1749 597,1748 575,1748 573,1746 561,1746 559,1748 533,1748 532,1747 532,1744 530,1742 531,1741 530,1740 528,1740 527,1739 452,1739 451,1740 449,1740 448,1741 447,1741 445,1742 445,1743 443,1745 443,1748 442,1748 441,1748 440,1749 433,1749 432,1748 410,1748 409,1747 409,1746 407,1744 407,1743 406,1741 405,1741 403,1739 387,1739 385,1741 384,1741 382,1742 382,1743 380,1745 380,1747 379,1748 371,1748 371,1796 382,1796 383,1797 480,1798 481,1797 685,1798 686,1797 744,1797 745,1796 785,1796 786,1797 888,1797 889,1796 1090,1797 1091,1798 1097,1798 1098,1797 1106,1797 1107,1798 1110,1798 1111,1799 1112,1799 1113,1800 1116,1800 1117,1801 1119,1801 1120,1800 1122,1800 1123,1799 1132,1799 1133,1800 1150,1801 1151,1802 1152,1802 1153,1803 1154,1803 1155,1804 1158,1804 1159,1803 1161,1803 1162,1802 1163,1802 1164,1801 1178,1801 1179,1802 1181,1802 1182,1803 1183,1803 1184,1804 1195,1804 1196,1803 1199,1803 1200,1802 1201,1802 1202,1801 1203,1801 1204,1800 1205,1800 1206,1799 1208,1799 1209,1798 1213,1798 1214,1797 1236,1797 1237,1796 1240,1796 1241,1797 1252,1797 1253,1796 1267,1796 1268,1797 1393,1798 1394,1797 1496,1797 1497,1796 1500,1796 1501,1797 1579,1797 1580,1796 1637,1797 1638,1796 1712,1796 1713,1797 1810,1797 1811,1796 1850,1797 1851,1796 1862,1796 1863,1797 1880,1797 1881,1796 1995,1796 1996,1797 2008,1797 2009,1798 2020,1798 2022,1800 2026,1800 2027,1801 2032,1801 2033,1802 2048,1802 2049,1803 2051,1801 2057,1801 2058,1801 2063,1801 2064,1800 2069,1800 2070,1799 2077,1799 2078,1798 2094,1798 2095,1797 2149,1797 2150,1796 2172,1796 2172,1750 2159,1750 2156,1747 2156,1746 2156,1745 2155,1745 2153,1743 2134,1743 2131,1740 2130,1740 2128,1738"/>
+                <pc:Baseline points="371,1784 1170,1790 1232,1784 2172,1785"/>
+                <pc:Word id="region0005_line0003_word0000">
+                    <pc:Coords points="384,1741 382,1742 382,1743 380,1745 380,1747 379,1748 377,1748 376,1776 452,1777 452,1742 445,1742 445,1742 445,1743 443,1745 443,1748 442,1748 441,1748 440,1749 433,1749 432,1748 410,1748 409,1747 409,1746 407,1744 407,1743 406,1741"/>
+                    <pc:TextEquiv conf="0.968117523193359">
+                        <pc:Unicode>den</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0001">
+                    <pc:Coords points="476,1740 475,1776 719,1777 720,1750 685,1750 684,1749 663,1748 662,1747 662,1746 660,1744 660,1743 658,1741 639,1741 639,1741 638,1741 635,1743 635,1744 633,1746 633,1747 632,1748 614,1748 613,1749 598,1749 597,1748 575,1748 573,1746 561,1746 559,1748 533,1748 532,1747 532,1744 530,1742 531,1741 530,1740"/>
+                    <pc:TextEquiv conf="0.963992309570312">
+                        <pc:Unicode>Kartuschen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0002">
+                    <pc:Coords points="739,1742 738,1778 789,1778 790,1742 784,1742 781,1745 781,1746 779,1748 772,1748 771,1749 757,1749 756,1748 756,1746 754,1744 754,1743 753,1742"/>
+                    <pc:TextEquiv conf="0.968401565551758">
+                        <pc:Unicode>im</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0003">
+                    <pc:Coords points="810,1742 809,1778 915,1779 915,1750 914,1750 913,1749 903,1748 902,1749 882,1749 881,1748 880,1748 875,1742"/>
+                    <pc:TextEquiv conf="0.964075164794922">
+                        <pc:Unicode>Chor</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0004">
+                    <pc:Coords points="932,1778 1012,1778 1013,1742 993,1742 992,1743 990,1745 990,1747 989,1748 975,1748 974,1749 932,1749"/>
+                    <pc:TextEquiv conf="0.965990447998047">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0005">
+                    <pc:Coords points="1037,1742 1036,1743 1034,1745 1034,1746 1033,1747 1031,1747 1031,1778 1121,1778 1122,1742 1116,1742 1115,1742 1113,1743 1113,1744 1109,1748 1099,1748 1098,1749 1065,1749 1064,1748 1064,1746 1062,1744 1062,1743 1061,1742"/>
+                    <pc:TextEquiv conf="0.9324169921875">
+                        <pc:Unicode>dem</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0006">
+                    <pc:Coords points="1135,1742 1134,1788 1360,1789 1360,1743 1304,1743 1302,1744 1301,1744 1301,1743 1301,1743 1276,1743 1276,1743 1273,1745 1273,1747 1272,1748 1240,1748 1239,1749 1199,1749 1198,1748 1193,1748 1192,1747 1191,1747 1190,1746 1190,1745 1189,1743 1188,1743 1187,1742"/>
+                    <pc:TextEquiv conf="0.916352310180664">
+                        <pc:Unicode>Querschiff</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0007">
+                    <pc:Coords points="1372,1746 1372,1782 1514,1782 1514,1747 1513,1747 1512,1746 1499,1746 1498,1747 1481,1747 1480,1748 1455,1748 1453,1746 1441,1746 1440,1747 1438,1747 1437,1746 1420,1746"/>
+                    <pc:TextEquiv conf="0.913315582275391">
+                        <pc:Unicode>flattert</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0008">
+                    <pc:Coords points="1539,1745 1539,1746 1538,1746 1536,1748 1532,1748 1532,1781 1599,1782 1599,1748 1592,1748 1591,1749 1580,1749 1579,1748 1565,1748 1564,1747 1564,1745"/>
+                    <pc:TextEquiv conf="0.969400634765625">
+                        <pc:Unicode>das</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0009">
+                    <pc:Coords points="1650,1745 1650,1747 1649,1748 1637,1748 1636,1749 1618,1748 1618,1782 1688,1782 1688,1747 1686,1747 1685,1746 1678,1746 1677,1745"/>
+                    <pc:TextEquiv conf="0.967248306274414">
+                        <pc:Unicode>mit</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0010">
+                    <pc:Coords points="1708,1746 1708,1783 1864,1784 1864,1747 1858,1747 1858,1747 1851,1747 1850,1748 1821,1747 1821,1747 1807,1747 1807,1747 1799,1747 1799,1747 1769,1746 1768,1747 1763,1747 1762,1746 1735,1746 1735,1747 1734,1748 1729,1748 1728,1747 1727,1747 1726,1746"/>
+                    <pc:TextEquiv conf="0.9584130859375">
+                        <pc:Unicode>leichter</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0011">
+                    <pc:Coords points="1884,1746 1884,1782 2003,1782 2003,1746 1981,1746 1981,1747 1980,1748 1964,1748 1963,1749 1953,1749 1952,1748 1941,1748 1940,1747 1936,1747 1935,1746"/>
+                    <pc:TextEquiv conf="0.932829284667969">
+                        <pc:Unicode>Hand</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0003_word0012">
+                    <pc:Coords points="2108,1746 2107,1748 2106,1749 2023,1748 2023,1793 2170,1794 2170,1750 2159,1750 2156,1747 2156,1746 2156,1746"/>
+                    <pc:TextEquiv conf="0.909806518554688">
+                        <pc:Unicode>graziös</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.948489209688627">
+                    <pc:Unicode>den Kartuschen im Chor und dem Querschiff flattert das mit leichter Hand graziös</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0004">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0005_region0005_line0004.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1851,1797 1850,1798 1821,1797 1819,1799 1818,1799 1817,1800 1817,1801 1815,1803 1815,1804 1814,1805 1814,1807 1813,1808 1769,1808 1768,1807 1730,1807 1728,1805 1715,1805 1714,1804 1713,1804 1711,1802 1689,1802 1687,1804 1686,1804 1685,1805 1685,1806 1683,1808 1677,1808 1676,1807 1668,1807 1667,1806 1667,1805 1665,1803 1665,1802 1663,1800 1662,1800 1660,1798 1655,1798 1654,1797 1638,1797 1637,1798 1635,1798 1633,1800 1632,1800 1627,1805 1627,1806 1626,1807 1616,1807 1615,1808 1606,1808 1605,1809 1592,1808 1591,1809 1576,1809 1575,1808 1556,1808 1555,1807 1541,1807 1540,1806 1540,1804 1538,1802 1538,1801 1536,1799 1535,1799 1534,1798 1518,1798 1516,1800 1515,1800 1513,1802 1513,1803 1511,1805 1511,1806 1510,1807 1492,1807 1491,1808 1469,1808 1468,1809 1451,1809 1450,1808 1439,1808 1438,1807 1438,1805 1437,1804 1437,1803 1435,1801 1435,1800 1434,1799 1433,1799 1432,1798 1415,1798 1413,1800 1412,1800 1410,1802 1410,1803 1408,1805 1408,1807 1407,1808 1392,1808 1391,1809 1343,1808 1342,1807 1320,1807 1319,1806 1319,1804 1317,1802 1317,1801 1315,1799 1314,1799 1313,1798 1296,1798 1294,1800 1293,1800 1291,1802 1291,1803 1289,1805 1282,1805 1280,1803 1280,1802 1278,1800 1277,1800 1275,1798 1268,1798 1267,1797 1253,1797 1252,1798 1250,1798 1248,1800 1247,1800 1242,1805 1234,1805 1233,1806 1219,1806 1218,1807 1217,1807 1215,1805 1204,1805 1202,1807 1186,1807 1185,1806 1185,1805 1184,1805 1183,1804 1182,1804 1181,1803 1179,1803 1178,1802 1164,1802 1163,1803 1162,1803 1161,1804 1159,1804 1158,1805 1155,1805 1154,1804 1153,1804 1152,1803 1151,1803 1150,1802 1133,1801 1132,1800 1123,1800 1122,1801 1120,1801 1119,1802 1118,1802 1118,1803 1117,1804 1116,1804 1114,1802 1114,1801 1113,1801 1112,1800 1111,1800 1110,1799 1107,1799 1106,1798 1098,1798 1097,1799 1093,1799 1092,1800 1091,1800 1089,1802 1089,1803 1087,1805 1087,1807 1086,1808 998,1808 997,1809 974,1809 973,1808 973,1805 971,1803 971,1802 969,1800 968,1800 966,1798 952,1798 950,1800 949,1800 947,1802 947,1803 945,1805 945,1809 944,1810 941,1810 939,1808 939,1807 937,1805 937,1804 936,1803 935,1803 933,1801 932,1801 931,1800 918,1800 916,1802 915,1802 914,1803 914,1804 912,1806 912,1808 911,1809 863,1808 862,1807 862,1805 861,1804 861,1803 859,1801 859,1800 858,1799 857,1799 856,1798 828,1798 827,1799 826,1799 823,1802 823,1803 821,1805 821,1807 819,1809 762,1809 761,1808 761,1806 759,1804 759,1803 755,1799 754,1799 752,1797 745,1797 744,1798 740,1798 739,1799 738,1799 735,1802 735,1803 733,1805 730,1802 730,1801 729,1800 728,1800 726,1798 711,1798 709,1800 708,1800 707,1801 706,1801 705,1800 704,1800 702,1798 692,1798 691,1799 686,1799 684,1801 683,1801 681,1803 681,1804 678,1807 676,1807 675,1808 668,1807 667,1808 653,1808 652,1809 626,1809 625,1808 590,1808 589,1807 585,1807 583,1805 572,1805 570,1807 546,1807 544,1805 534,1805 532,1807 524,1807 523,1808 490,1808 489,1809 438,1808 437,1809 431,1809 430,1808 424,1808 423,1807 423,1805 421,1803 421,1802 419,1800 418,1800 416,1798 402,1798 400,1800 399,1800 397,1802 397,1803 395,1805 393,1803 393,1802 390,1799 389,1799 388,1798 383,1798 382,1797 376,1797 375,1798 373,1798 371,1800 371,1857 420,1857 421,1858 436,1858 441,1863 442,1863 444,1866 445,1866 446,1867 460,1867 462,1865 463,1865 465,1863 466,1863 467,1862 468,1862 469,1861 470,1861 472,1859 473,1859 474,1858 482,1858 483,1859 487,1859 488,1858 497,1858 498,1857 515,1857 516,1856 729,1857 730,1856 759,1856 760,1855 781,1855 782,1854 793,1854 794,1855 825,1855 826,1856 936,1857 939,1860 939,1861 941,1863 942,1863 944,1865 946,1865 947,1866 953,1866 955,1864 956,1864 957,1863 958,1863 959,1862 960,1862 961,1861 962,1861 963,1860 964,1860 965,1859 967,1859 968,1858 969,1858 970,1857 989,1857 990,1856 1008,1856 1009,1857 1026,1857 1027,1858 1040,1858 1041,1859 1046,1859 1047,1860 1049,1860 1050,1861 1055,1861 1056,1862 1065,1862 1066,1861 1074,1861 1075,1860 1077,1860 1078,1859 1079,1860 1087,1860 1088,1859 1094,1859 1095,1858 1104,1858 1105,1857 1120,1857 1121,1856 1153,1857 1154,1856 1406,1857 1407,1856 1443,1856 1444,1855 1460,1855 1461,1854 1475,1854 1476,1855 1544,1855 1545,1856 1594,1856 1595,1855 1651,1856 1652,1857 1652,1859 1654,1861 1654,1862 1656,1864 1657,1864 1659,1866 1672,1866 1673,1865 1678,1865 1679,1864 1680,1864 1682,1862 1682,1861 1684,1859 1684,1857 1685,1856 1709,1856 1710,1855 1751,1855 1752,1856 1825,1856 1826,1855 1845,1856 1846,1855 1942,1855 1943,1856 2016,1856 2017,1855 2172,1856 2172,1808 2067,1808 2066,1809 2063,1809 2062,1808 2054,1807 2053,1806 2052,1806 2050,1804 2049,1804 2048,1803 2033,1803 2032,1802 2027,1802 2026,1801 2022,1801 2020,1799 2009,1799 2008,1798 1996,1798 1995,1797 1958,1797 1957,1798 1955,1798 1953,1800 1952,1800 1950,1802 1950,1803 1947,1806 1942,1806 1941,1807 1925,1807 1924,1808 1899,1808 1898,1807 1870,1807 1869,1806 1869,1803 1867,1801 1867,1800 1865,1798 1863,1798 1862,1797"/>
+                <pc:Baseline points="371,1845 2172,1844"/>
+                <pc:Word id="region0005_line0004_word0000">
+                    <pc:Coords points="377,1798 377,1846 608,1847 608,1808 590,1808 589,1807 585,1807 583,1805 572,1805 570,1807 546,1807 544,1805 534,1805 532,1807 524,1807 523,1808 490,1808 489,1809 438,1808 437,1809 431,1809 430,1808 424,1808 423,1807 423,1805 421,1803 421,1802 419,1800 418,1800 416,1798 401,1798 400,1800 399,1800 397,1802 397,1803 395,1805 393,1803 393,1802 390,1799 389,1799 388,1798"/>
+                    <pc:TextEquiv conf="0.927939605712891">
+                        <pc:Unicode>hingesetzte</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0001">
+                    <pc:Coords points="621,1837 701,1838 701,1801 684,1801 684,1801 683,1801 681,1803 681,1804 678,1807 676,1807 675,1808 668,1807 667,1808 653,1808 652,1809 626,1809 625,1808 621,1808"/>
+                    <pc:TextEquiv conf="0.96822883605957">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0002">
+                    <pc:Coords points="715,1801 715,1838 905,1839 905,1809 863,1808 862,1807 862,1805 861,1804 861,1803 860,1802 823,1802 823,1802 823,1803 821,1805 821,1807 819,1809 762,1809 761,1808 761,1806 759,1804 759,1803 757,1801 736,1801 735,1802 735,1803 733,1805 730,1802 730,1801"/>
+                    <pc:TextEquiv conf="0.923868942260742">
+                        <pc:Unicode>bisweilen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0003">
+                    <pc:Coords points="918,1803 918,1837 941,1837 941,1810 939,1808 939,1807 937,1805 937,1804 936,1803 935,1803"/>
+                    <pc:TextEquiv conf="0.876761474609375">
+                        <pc:Unicode>ä</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0004">
+                    <pc:Coords points="949,1800 948,1801 948,1848 1039,1848 1039,1808 998,1808 997,1809 974,1809 973,1808 973,1805 971,1803 971,1802 969,1800 968,1800 950,1800"/>
+                    <pc:TextEquiv conf="0.949208755493164">
+                        <pc:Unicode>jour</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0005">
+                    <pc:Coords points="1089,1802 1089,1803 1087,1805 1087,1807 1086,1808 1050,1808 1050,1849 1240,1850 1240,1805 1234,1805 1233,1806 1219,1806 1218,1807 1217,1807 1215,1805 1204,1805 1202,1807 1186,1807 1185,1806 1185,1805 1184,1805 1183,1804 1182,1804 1181,1803 1179,1803 1179,1803 1163,1803 1163,1803 1162,1803 1161,1804 1159,1804 1158,1805 1155,1805 1154,1804 1153,1804 1152,1803 1151,1803 1151,1803 1118,1802 1118,1803 1117,1804 1116,1804 1114,1802"/>
+                    <pc:TextEquiv conf="0.932435455322266">
+                        <pc:Unicode>gebildete</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0006">
+                    <pc:Coords points="1251,1802 1251,1840 1545,1841 1545,1807 1541,1807 1540,1806 1540,1804 1539,1803 1513,1803 1513,1803 1511,1805 1511,1806 1510,1807 1492,1807 1491,1808 1469,1808 1468,1809 1451,1809 1450,1808 1439,1808 1438,1807 1438,1805 1437,1804 1437,1803 1437,1803 1410,1803 1410,1803 1408,1805 1408,1807 1407,1808 1392,1808 1391,1809 1343,1808 1342,1807 1320,1807 1319,1806 1319,1804 1317,1802 1291,1802 1291,1803 1289,1805 1282,1805 1280,1803 1280,1802"/>
+                    <pc:TextEquiv conf="0.91907341003418">
+                        <pc:Unicode>Schmuckwerk</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0007">
+                    <pc:Coords points="1558,1816 1625,1817 1625,1842 1558,1841"/>
+                    <pc:TextEquiv conf="0.932939910888672">
+                        <pc:Unicode>aus</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0008">
+                    <pc:Coords points="1636,1803 1636,1853 1885,1854 1885,1807 1870,1807 1869,1806 1869,1804 1815,1804 1815,1804 1814,1805 1814,1807 1813,1808 1769,1808 1768,1807 1730,1807 1728,1805 1715,1805 1714,1804 1713,1804 1712,1803 1688,1803 1687,1804 1686,1804 1685,1805 1685,1806 1683,1808 1677,1808 1676,1807 1668,1807 1667,1806 1667,1805 1665,1803"/>
+                    <pc:TextEquiv conf="0.916539459228516">
+                        <pc:Unicode>Spätrocaille</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0009">
+                    <pc:Coords points="1897,1807 1897,1843 1978,1843 1978,1807 1941,1807 1925,1807 1924,1808 1899,1808 1898,1807"/>
+                    <pc:TextEquiv conf="0.933006896972656">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0004_word0010">
+                    <pc:Coords points="1991,1806 1991,1843 2170,1844 2170,1808 2067,1808 2066,1809 2063,1809 2062,1808 2054,1807 2053,1806"/>
+                    <pc:TextEquiv conf="0.9063330078125">
+                        <pc:Unicode>Blumen-</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.926030523126775">
+                    <pc:Unicode>hingesetzte und bisweilen ä jour gebildete Schmuckwerk aus Spätrocaille und Blumen-</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0005">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0005_region0005_line0005.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1846,1856 1845,1857 1835,1857 1834,1858 1833,1858 1831,1860 1831,1861 1829,1863 1829,1868 1828,1869 1817,1868 1816,1867 1810,1867 1809,1866 1809,1864 1807,1862 1807,1861 1805,1859 1804,1859 1802,1857 1792,1857 1791,1858 1787,1858 1785,1860 1784,1860 1782,1862 1782,1863 1780,1865 1780,1866 1779,1867 1758,1867 1756,1865 1746,1865 1745,1866 1744,1866 1743,1867 1733,1867 1732,1868 1725,1868 1724,1867 1724,1865 1722,1863 1722,1862 1719,1859 1718,1859 1716,1857 1704,1857 1702,1859 1701,1859 1699,1861 1699,1862 1697,1864 1697,1865 1696,1866 1696,1867 1695,1868 1682,1868 1680,1866 1673,1866 1672,1867 1666,1867 1665,1868 1618,1868 1617,1869 1584,1868 1583,1867 1583,1865 1581,1863 1581,1862 1579,1860 1578,1860 1576,1858 1562,1858 1561,1859 1559,1857 1545,1857 1544,1856 1490,1856 1489,1857 1481,1857 1480,1858 1477,1858 1476,1859 1474,1859 1472,1861 1471,1861 1469,1863 1466,1860 1465,1860 1463,1858 1450,1858 1449,1859 1445,1859 1444,1858 1419,1858 1418,1857 1407,1857 1406,1858 1385,1858 1383,1860 1382,1860 1380,1862 1380,1863 1378,1865 1378,1867 1376,1869 1361,1868 1360,1869 1350,1869 1349,1868 1349,1865 1347,1863 1347,1862 1345,1860 1344,1860 1342,1858 1329,1858 1327,1860 1326,1860 1323,1863 1323,1864 1321,1866 1321,1868 1320,1869 1298,1869 1297,1868 1297,1865 1295,1863 1295,1862 1293,1860 1292,1860 1290,1858 1275,1858 1274,1859 1273,1859 1271,1861 1270,1861 1269,1862 1269,1863 1267,1865 1267,1868 1266,1869 1232,1869 1231,1868 1231,1865 1229,1863 1229,1862 1228,1861 1227,1861 1225,1859 1224,1859 1223,1858 1211,1858 1210,1859 1209,1859 1207,1861 1206,1861 1205,1862 1205,1863 1203,1865 1202,1865 1200,1863 1200,1862 1198,1860 1197,1860 1195,1858 1179,1858 1177,1860 1176,1860 1174,1862 1174,1863 1172,1865 1172,1867 1171,1868 1160,1868 1159,1869 1138,1869 1137,1868 1137,1866 1135,1864 1135,1863 1133,1860 1132,1860 1130,1858 1115,1858 1114,1859 1113,1859 1111,1861 1110,1861 1109,1862 1109,1863 1107,1865 1107,1867 1106,1868 1103,1868 1102,1869 1099,1869 1098,1868 1091,1868 1089,1866 1089,1865 1087,1863 1086,1863 1084,1861 1079,1861 1078,1860 1077,1861 1075,1861 1074,1862 1066,1862 1065,1863 1056,1863 1055,1862 1050,1862 1049,1861 1047,1861 1046,1860 1041,1860 1040,1859 1027,1859 1026,1858 1014,1858 1013,1859 1011,1859 1010,1860 1009,1860 1007,1862 1006,1862 1005,1863 1005,1864 1003,1866 1003,1867 1002,1868 984,1868 983,1867 983,1866 981,1864 981,1863 978,1860 977,1860 975,1858 970,1858 969,1859 968,1859 967,1860 965,1860 964,1861 963,1861 962,1862 961,1862 960,1863 959,1863 958,1864 957,1864 956,1865 955,1865 953,1867 953,1868 952,1869 921,1869 920,1868 918,1868 917,1867 917,1866 915,1864 915,1863 913,1861 912,1861 910,1859 897,1858 896,1859 894,1859 892,1861 891,1861 890,1862 890,1863 889,1864 888,1864 887,1863 887,1862 885,1860 884,1860 882,1858 867,1858 865,1860 864,1860 862,1862 862,1863 860,1865 860,1866 858,1868 845,1868 844,1867 844,1866 842,1864 842,1863 841,1862 840,1862 838,1860 837,1860 835,1858 807,1858 806,1859 794,1859 793,1858 779,1858 778,1859 773,1859 772,1858 757,1858 756,1857 730,1857 729,1858 696,1858 694,1860 693,1860 691,1862 691,1863 689,1865 689,1868 688,1869 686,1869 685,1870 683,1870 682,1869 682,1866 680,1864 680,1863 678,1861 677,1861 675,1859 647,1858 646,1859 645,1859 643,1861 642,1861 641,1862 641,1863 639,1865 639,1868 638,1869 598,1869 597,1868 597,1865 595,1863 595,1862 594,1861 593,1861 591,1859 590,1859 589,1858 577,1858 575,1860 574,1860 571,1863 571,1864 569,1866 569,1868 568,1869 540,1869 539,1868 539,1865 537,1863 537,1862 535,1860 534,1860 532,1858 520,1858 519,1859 517,1859 515,1861 514,1861 512,1863 512,1864 510,1866 510,1868 509,1869 490,1869 489,1868 489,1865 487,1863 487,1862 485,1860 483,1860 482,1859 474,1859 473,1860 472,1860 470,1862 469,1862 468,1863 467,1863 466,1864 465,1864 463,1866 462,1866 459,1869 446,1869 445,1870 433,1869 432,1868 432,1867 430,1865 429,1865 427,1863 405,1863 403,1865 402,1865 399,1868 398,1868 397,1867 396,1867 393,1864 393,1863 390,1860 389,1860 387,1858 374,1858 373,1859 372,1859 371,1860 371,1861 372,1862 372,1915 404,1915 405,1916 429,1916 430,1917 475,1918 476,1917 661,1917 662,1916 925,1918 926,1917 1099,1917 1100,1916 1113,1916 1114,1917 1157,1918 1158,1917 1271,1917 1272,1918 1284,1918 1285,1917 1294,1917 1295,1918 1298,1918 1301,1921 1302,1921 1305,1924 1314,1924 1315,1923 1316,1923 1318,1921 1319,1921 1321,1919 1344,1919 1345,1918 1371,1919 1372,1918 1384,1918 1385,1917 1402,1917 1403,1918 1409,1918 1410,1917 1565,1917 1566,1916 1656,1917 1657,1916 1667,1916 1668,1917 1690,1917 1691,1918 1692,1917 1702,1917 1703,1918 1708,1918 1709,1919 1711,1919 1713,1921 1714,1921 1715,1922 1716,1922 1718,1924 1720,1924 1721,1925 1725,1925 1726,1926 1739,1926 1746,1919 1748,1919 1749,1918 1756,1918 1757,1917 1761,1917 1762,1918 1765,1918 1766,1919 1770,1919 1771,1918 1780,1918 1781,1917 1801,1917 1802,1916 1918,1917 1919,1916 2106,1917 2107,1916 2173,1916 2173,1869 2127,1869 2126,1868 2126,1864 2124,1862 2124,1861 2123,1860 2122,1860 2120,1858 2104,1858 2102,1860 2101,1860 2099,1862 2099,1863 2097,1865 2097,1868 2096,1869 2074,1869 2073,1870 2049,1869 2048,1870 2044,1870 2043,1869 2021,1869 2020,1868 1992,1868 1991,1867 1990,1867 1988,1865 1977,1865 1975,1867 1974,1867 1973,1868 1920,1868 1919,1867 1919,1863 1917,1861 1917,1860 1916,1859 1915,1859 1913,1857 1912,1857 1911,1856"/>
+                <pc:Baseline points="372,1904 2173,1904"/>
+                <pc:Word id="region0005_line0005_word0000">
+                    <pc:Coords points="376,1859 376,1896 560,1897 560,1869 540,1869 539,1868 539,1865 537,1863 537,1862 535,1860 534,1860 534,1860 516,1860 515,1861 514,1861 512,1863 512,1864 510,1866 510,1868 509,1869 490,1869 489,1868 489,1865 487,1863 487,1862 485,1860 483,1860 483,1860 473,1860 473,1860 472,1860 470,1862 469,1862 468,1863 467,1863 466,1864 465,1864 463,1866 462,1866 459,1869 446,1869 445,1870 433,1869 432,1868 432,1867 430,1865 429,1865 427,1863 405,1863 403,1865 402,1865 399,1868 398,1868 397,1867 396,1867 393,1864 393,1863 390,1860 389,1860 388,1859"/>
+                    <pc:TextEquiv conf="0.916794509887695">
+                        <pc:Unicode>büscheln</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0001">
+                    <pc:Coords points="578,1861 578,1897 618,1897 618,1869 598,1869 597,1868 597,1865 595,1863 595,1862 594,1861 593,1861"/>
+                    <pc:TextEquiv conf="0.968387985229492">
+                        <pc:Unicode>in</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0002">
+                    <pc:Coords points="641,1862 641,1863 639,1865 639,1868 638,1869 636,1869 636,1898 698,1899 698,1863 691,1863 691,1863 689,1865 689,1868 688,1869 686,1869 685,1870 683,1870 682,1869 682,1866 680,1864 680,1863 680,1863"/>
+                    <pc:TextEquiv conf="0.930258331298828">
+                        <pc:Unicode>die</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0003">
+                    <pc:Coords points="717,1863 717,1899 932,1900 932,1869 921,1869 920,1868 918,1868 917,1867 917,1866 915,1864 915,1864 889,1864 889,1864 888,1864 888,1864 861,1864 860,1865 860,1866 858,1868 845,1868 844,1867 844,1866 842,1864 842,1864"/>
+                    <pc:TextEquiv conf="0.919452133178711">
+                        <pc:Unicode>Hohlkehle</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0004">
+                    <pc:Coords points="959,1863 958,1864 957,1864 956,1865 955,1865 953,1867 953,1868 952,1869 950,1869 950,1899 1019,1899 1019,1863 1005,1863 1005,1864 1003,1866 1003,1867 1002,1868 984,1868 983,1867 983,1866 981,1864 981,1863 960,1863"/>
+                    <pc:TextEquiv conf="0.963948059082031">
+                        <pc:Unicode>der</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0005">
+                    <pc:Coords points="1035,1863 1035,1899 1164,1900 1164,1868 1160,1868 1159,1869 1138,1869 1137,1868 1137,1866 1135,1864 1135,1864 1108,1864 1107,1865 1107,1867 1106,1868 1103,1868 1102,1869 1099,1869 1098,1868 1091,1868 1089,1866 1089,1865 1087,1863"/>
+                    <pc:TextEquiv conf="0.964040985107422">
+                        <pc:Unicode>Decke</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0006">
+                    <pc:Coords points="1183,1863 1183,1908 1317,1908 1317,1869 1298,1869 1297,1868 1297,1865 1295,1863 1269,1863 1267,1865 1267,1868 1266,1869 1232,1869 1231,1868 1231,1865 1229,1863 1205,1863 1203,1865 1202,1865 1200,1863"/>
+                    <pc:TextEquiv conf="0.959444808959961">
+                        <pc:Unicode>hinab,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0007">
+                    <pc:Coords points="1330,1863 1330,1901 1384,1902 1384,1864 1379,1863 1378,1865 1378,1867 1376,1869 1361,1868 1360,1869 1350,1869 1349,1868 1349,1865 1347,1863"/>
+                    <pc:TextEquiv conf="0.963139572143555">
+                        <pc:Unicode>im</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0008">
+                    <pc:Coords points="1402,1864 1529,1864 1529,1902 1402,1902"/>
+                    <pc:TextEquiv conf="0.950111999511719">
+                        <pc:Unicode>Schiff</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0009">
+                    <pc:Coords points="1540,1866 1540,1902 1633,1903 1633,1868 1618,1868 1617,1869 1584,1868 1583,1867 1583,1866"/>
+                    <pc:TextEquiv conf="0.950111999511719">
+                        <pc:Unicode>aber</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0010">
+                    <pc:Coords points="1697,1864 1697,1865 1696,1866 1696,1867 1695,1868 1682,1868 1680,1866 1673,1866 1672,1867 1666,1867 1665,1868 1649,1868 1649,1912 1760,1912 1760,1867 1758,1867 1756,1865 1746,1865 1745,1866 1744,1866 1743,1867 1733,1867 1732,1868 1725,1868 1724,1867 1724,1865 1723,1864"/>
+                    <pc:TextEquiv conf="0.964391403198242">
+                        <pc:Unicode>steigt</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0011">
+                    <pc:Coords points="1780,1865 1780,1866 1779,1867 1777,1867 1777,1902 1845,1903 1845,1866 1829,1866 1829,1868 1828,1869 1817,1868 1816,1867 1810,1867 1809,1866 1809,1865"/>
+                    <pc:TextEquiv conf="0.932834091186523">
+                        <pc:Unicode>der</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0012">
+                    <pc:Coords points="1863,1866 1863,1903 1991,1903 1991,1867 1990,1867 1989,1866 1976,1866 1975,1867 1974,1867 1973,1868 1920,1868 1919,1867 1919,1866"/>
+                    <pc:TextEquiv conf="0.932738418579102">
+                        <pc:Unicode>Zierat</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0013">
+                    <pc:Coords points="2009,1878 2076,1879 2076,1903 2009,1902"/>
+                    <pc:TextEquiv conf="0.959550094604492">
+                        <pc:Unicode>aus</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0005_word0014">
+                    <pc:Coords points="2097,1866 2097,1868 2096,1869 2094,1869 2094,1902 2170,1902 2170,1869 2127,1869 2126,1868 2126,1866"/>
+                    <pc:TextEquiv conf="0.959550094604492">
+                        <pc:Unicode>den</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.948983632405599">
+                    <pc:Unicode>büscheln in die Hohlkehle der Decke hinab, im Schiff aber steigt der Zierat aus den</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0006">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0005_region0005_line0006.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="2154,1917 2152,1919 2151,1919 2149,1921 2149,1922 2146,1925 2142,1925 2141,1926 2134,1926 2133,1927 2123,1927 2122,1928 2095,1928 2094,1929 2093,1928 2064,1928 2063,1927 2063,1925 2061,1923 2061,1922 2059,1920 2058,1920 2056,1917 2043,1917 2042,1918 2041,1918 2039,1920 2038,1920 2036,1922 2036,1923 2034,1925 2034,1926 2033,1927 2025,1927 2024,1928 2009,1928 2008,1927 1998,1927 1997,1926 1997,1925 1995,1923 1995,1922 1992,1919 1991,1919 1989,1917 1919,1917 1918,1918 1917,1918 1916,1919 1915,1919 1914,1920 1914,1921 1912,1923 1912,1926 1911,1927 1905,1927 1904,1928 1838,1928 1837,1927 1837,1924 1835,1922 1835,1921 1834,1920 1833,1920 1831,1918 1814,1917 1812,1919 1811,1919 1810,1920 1810,1921 1808,1923 1808,1926 1807,1927 1771,1927 1770,1926 1770,1923 1768,1921 1768,1920 1766,1920 1765,1919 1762,1919 1761,1918 1757,1918 1756,1919 1749,1919 1748,1920 1746,1920 1741,1925 1741,1926 1740,1927 1726,1927 1725,1926 1721,1926 1720,1925 1718,1925 1716,1923 1715,1923 1714,1922 1713,1922 1711,1920 1709,1920 1708,1919 1703,1919 1702,1918 1692,1918 1691,1919 1690,1918 1668,1918 1667,1917 1657,1917 1656,1918 1648,1918 1647,1919 1642,1919 1641,1920 1640,1920 1639,1921 1638,1921 1636,1923 1635,1923 1634,1924 1633,1924 1632,1925 1630,1925 1629,1926 1625,1926 1624,1927 1617,1927 1616,1928 1601,1928 1600,1929 1572,1928 1571,1927 1571,1924 1569,1922 1569,1921 1568,1920 1567,1920 1565,1918 1534,1918 1533,1919 1532,1919 1530,1921 1530,1922 1528,1924 1528,1925 1527,1926 1514,1926 1513,1925 1513,1924 1511,1922 1511,1921 1509,1919 1508,1919 1507,1918 1490,1918 1488,1920 1487,1920 1486,1921 1486,1922 1484,1924 1484,1926 1483,1927 1482,1927 1481,1928 1455,1928 1454,1929 1412,1929 1411,1928 1411,1926 1409,1924 1409,1923 1405,1919 1403,1919 1402,1918 1385,1918 1384,1919 1382,1919 1381,1920 1381,1921 1380,1922 1379,1922 1377,1924 1377,1925 1375,1927 1375,1928 1373,1930 1324,1929 1323,1928 1306,1928 1305,1927 1305,1925 1302,1922 1301,1922 1298,1919 1295,1919 1294,1918 1285,1918 1284,1919 1282,1919 1280,1921 1280,1922 1278,1924 1278,1925 1277,1926 1276,1925 1276,1923 1274,1921 1274,1920 1273,1919 1272,1919 1271,1918 1254,1918 1252,1920 1251,1920 1249,1922 1249,1923 1247,1925 1247,1926 1246,1927 1225,1927 1224,1928 1194,1928 1193,1927 1178,1927 1177,1926 1177,1925 1176,1924 1176,1923 1174,1921 1174,1920 1173,1919 1172,1919 1171,1918 1158,1918 1157,1919 1153,1919 1152,1920 1151,1920 1150,1921 1148,1921 1146,1919 1114,1918 1113,1917 1100,1917 1099,1918 991,1918 990,1919 989,1919 987,1921 986,1921 985,1922 985,1923 983,1925 983,1926 982,1927 977,1927 976,1928 954,1928 953,1927 953,1924 951,1922 951,1921 949,1919 948,1919 947,1918 930,1918 928,1920 927,1920 926,1921 926,1922 924,1924 924,1927 923,1928 908,1928 907,1929 893,1928 892,1929 886,1929 885,1928 789,1928 788,1929 728,1929 727,1928 727,1925 725,1923 725,1922 723,1920 722,1920 720,1918 662,1917 661,1918 649,1918 648,1919 647,1919 645,1921 644,1921 643,1922 643,1923 640,1926 639,1926 638,1927 621,1927 620,1926 620,1925 618,1923 618,1922 615,1919 614,1919 613,1918 597,1918 595,1920 594,1920 592,1922 592,1923 590,1925 590,1926 589,1927 581,1927 580,1928 550,1928 549,1927 549,1925 547,1923 547,1922 544,1919 543,1919 542,1918 526,1918 524,1920 523,1920 522,1921 522,1922 520,1924 520,1927 519,1928 502,1928 501,1927 501,1924 499,1922 499,1921 498,1920 497,1920 495,1918 479,1918 477,1920 476,1920 474,1922 474,1923 472,1925 472,1927 471,1928 466,1928 465,1927 465,1926 463,1924 463,1923 460,1920 459,1920 458,1919 444,1919 442,1920 441,1920 439,1922 439,1923 437,1925 437,1928 436,1929 435,1928 435,1922 433,1920 433,1919 432,1918 430,1918 429,1917 405,1917 404,1916 372,1916 371,1976 408,1976 409,1977 412,1977 413,1976 433,1976 434,1975 707,1977 708,1978 722,1978 725,1981 725,1982 744,1982 745,1983 748,1983 749,1984 751,1984 752,1983 753,1984 754,1984 755,1985 760,1985 761,1986 769,1986 770,1985 775,1985 776,1984 777,1984 779,1982 779,1981 782,1978 790,1978 791,1977 811,1977 812,1976 826,1976 827,1977 892,1977 893,1976 965,1977 966,1976 1064,1976 1065,1977 1120,1977 1121,1976 1186,1977 1187,1976 1343,1976 1344,1977 1379,1978 1380,1979 1386,1979 1388,1981 1389,1981 1391,1983 1404,1983 1406,1981 1407,1981 1409,1979 1424,1979 1425,1978 1433,1978 1434,1977 1452,1977 1453,1976 1631,1977 1632,1976 1651,1976 1652,1975 1660,1975 1662,1974 1676,1974 1677,1973 1685,1973 1686,1974 1696,1974 1696,1975 1708,1975 1709,1976 1803,1976 1804,1975 1844,1976 1846,1975 1859,1975 1860,1974 1862,1974 1863,1975 2102,1976 2104,1975 2123,1975 2123,1976 2172,1976 2173,1920 2172,1919 2171,1919 2169,1917"/>
+                <pc:Baseline points="372,1965 2173,1964"/>
+                <pc:Word id="region0005_line0006_word0000">
+                    <pc:Coords points="377,1919 377,1957 569,1958 569,1928 550,1928 549,1927 549,1925 547,1923 547,1922 545,1920 524,1920 524,1920 523,1920 522,1921 522,1922 520,1924 520,1927 519,1928 502,1928 501,1927 501,1924 499,1922 499,1921 498,1920 497,1920 497,1920 477,1920 477,1920 476,1920 474,1922 474,1923 472,1925 472,1927 471,1928 466,1928 465,1927 465,1926 463,1924 463,1923 460,1920 459,1920 458,1919 443,1919 442,1920 441,1920 439,1922 439,1923 437,1925 437,1928 436,1929 435,1928 435,1922 433,1920 433,1919"/>
+                    <pc:TextEquiv conf="0.922671508789062">
+                        <pc:Unicode>Zwickeln</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0001">
+                    <pc:Coords points="594,1920 592,1922 592,1923 590,1925 590,1926 589,1927 587,1927 587,1957 656,1957 656,1920 646,1920 645,1921 644,1921 643,1922 643,1923 640,1926 639,1926 638,1927 621,1927 620,1926 620,1925 618,1923 618,1922 616,1920 595,1920"/>
+                    <pc:TextEquiv conf="0.969166259765625">
+                        <pc:Unicode>der</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0002">
+                    <pc:Coords points="668,1920 668,1966 836,1967 836,1928 789,1928 788,1929 728,1929 727,1928 727,1925 725,1923 725,1922 723,1920"/>
+                    <pc:TextEquiv conf="0.966417388916016">
+                        <pc:Unicode>Kappen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0003">
+                    <pc:Coords points="854,1933 902,1933 902,1957 854,1957"/>
+                    <pc:TextEquiv conf="0.969347686767578">
+                        <pc:Unicode>zu</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0004">
+                    <pc:Coords points="926,1922 924,1924 924,1927 923,1928 921,1928 921,1959 996,1959 996,1922 985,1922 985,1923 983,1925 983,1926 982,1927 977,1927 976,1928 954,1928 953,1927 953,1924 951,1922"/>
+                    <pc:TextEquiv conf="0.932490310668945">
+                        <pc:Unicode>den</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0005">
+                    <pc:Coords points="1009,1923 1009,1961 1239,1962 1239,1927 1225,1927 1224,1928 1194,1928 1193,1927 1178,1927 1177,1926 1177,1925 1176,1924 1176,1924"/>
+                    <pc:TextEquiv conf="0.914304733276367">
+                        <pc:Unicode>Bildfeldern</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0006">
+                    <pc:Coords points="1258,1921 1258,1967 1406,1968 1406,1922 1380,1922 1380,1922 1379,1922 1377,1924 1377,1925 1375,1927 1375,1928 1373,1930 1324,1929 1323,1928 1306,1928 1305,1927 1305,1925 1302,1922 1301,1922 1300,1921 1280,1921 1280,1922 1278,1924 1278,1925 1277,1926 1276,1925 1276,1923 1274,1921"/>
+                    <pc:TextEquiv conf="0.953713912963867">
+                        <pc:Unicode>hinauf,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0007">
+                    <pc:Coords points="1426,1961 1506,1961 1506,1924 1484,1924 1484,1926 1483,1927 1482,1927 1481,1928 1455,1928 1454,1929 1426,1929"/>
+                    <pc:TextEquiv conf="0.964364242553711">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0008">
+                    <pc:Coords points="1528,1925 1527,1926 1525,1926 1525,1963 1646,1964 1646,1926 1629,1926 1629,1926 1625,1926 1624,1927 1617,1927 1616,1928 1601,1928 1600,1929 1572,1928 1571,1927 1571,1925"/>
+                    <pc:TextEquiv conf="0.967301254272461">
+                        <pc:Unicode>dieser</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0009">
+                    <pc:Coords points="1657,1926 1657,1964 1830,1965 1830,1927 1807,1927 1807,1927 1771,1927 1771,1927 1741,1926 1740,1927 1726,1927 1725,1926"/>
+                    <pc:TextEquiv conf="0.968828277587891">
+                        <pc:Unicode>Wechsel</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0010">
+                    <pc:Coords points="1847,1939 1924,1939 1924,1964 1847,1964"/>
+                    <pc:TextEquiv conf="0.932808303833008">
+                        <pc:Unicode>von</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0011">
+                    <pc:Coords points="1937,1927 1937,1963 2070,1964 2070,1928 2064,1928 2064,1928 2024,1928 2024,1928 2009,1928 2009,1928"/>
+                    <pc:TextEquiv conf="0.922663421630859">
+                        <pc:Unicode>Hinab</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0006_word0012">
+                    <pc:Coords points="2123,1927 2122,1928 2095,1928 2094,1929 2093,1928 2089,1928 2089,1964 2169,1964 2169,1927 2133,1927"/>
+                    <pc:TextEquiv conf="0.969940338134766">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.950309049166166">
+                    <pc:Unicode>Zwickeln der Kappen zu den Bildfeldern hinauf, und dieser Wechsel von Hinab und</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0007">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0005_region0005_line0007.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="2114,1977 2113,1978 2111,1978 2109,1980 2108,1980 2106,1982 2106,1983 2104,1985 2104,1986 2103,1987 2092,1987 2091,1988 2071,1988 2070,1989 2022,1988 2021,1987 1948,1987 1947,1986 1947,1985 1945,1983 1945,1982 1942,1979 1941,1979 1939,1977 1927,1977 1926,1978 1924,1978 1922,1980 1921,1980 1919,1982 1919,1983 1917,1985 1917,1986 1916,1987 1897,1987 1896,1988 1887,1988 1886,1987 1886,1986 1885,1985 1885,1984 1883,1982 1883,1981 1881,1979 1880,1979 1878,1977 1866,1977 1865,1978 1864,1978 1862,1980 1861,1980 1860,1981 1860,1982 1858,1984 1858,1985 1857,1986 1857,1987 1856,1988 1846,1988 1845,1987 1836,1987 1833,1984 1833,1983 1830,1980 1829,1980 1827,1978 1817,1977 1816,1978 1813,1978 1811,1980 1810,1980 1808,1982 1808,1983 1805,1986 1791,1986 1790,1987 1753,1987 1751,1985 1751,1983 1749,1981 1749,1980 1748,1979 1747,1979 1745,1977 1733,1977 1732,1978 1729,1978 1727,1980 1726,1980 1724,1982 1724,1983 1722,1985 1722,1986 1721,1987 1710,1987 1709,1988 1673,1988 1672,1987 1660,1987 1659,1986 1659,1984 1657,1982 1657,1981 1656,1980 1655,1980 1653,1978 1638,1978 1636,1980 1635,1980 1633,1982 1633,1983 1631,1985 1631,1987 1630,1988 1611,1988 1610,1989 1589,1988 1588,1987 1575,1987 1573,1985 1573,1984 1571,1982 1571,1981 1570,1980 1569,1980 1567,1978 1552,1978 1550,1980 1549,1980 1548,1981 1547,1981 1546,1980 1544,1980 1543,1979 1525,1979 1524,1978 1523,1978 1522,1977 1509,1977 1508,1978 1506,1978 1505,1979 1490,1979 1489,1980 1487,1980 1485,1982 1484,1982 1482,1984 1481,1984 1480,1985 1478,1985 1477,1986 1473,1986 1472,1987 1452,1987 1451,1986 1451,1984 1449,1982 1449,1981 1448,1980 1447,1980 1445,1978 1434,1978 1433,1979 1428,1979 1427,1980 1426,1980 1424,1982 1424,1983 1422,1985 1422,1986 1421,1987 1393,1987 1390,1984 1390,1983 1389,1982 1388,1982 1386,1980 1380,1980 1379,1979 1372,1979 1371,1980 1369,1980 1367,1982 1366,1982 1365,1983 1365,1984 1363,1985 1363,1986 1362,1987 1359,1987 1358,1988 1336,1988 1335,1987 1310,1987 1309,1986 1309,1984 1307,1982 1307,1981 1306,1980 1305,1980 1303,1978 1287,1978 1285,1980 1284,1980 1282,1982 1282,1983 1280,1985 1280,1986 1279,1987 1255,1987 1254,1986 1254,1985 1252,1983 1252,1982 1250,1980 1249,1980 1247,1978 1241,1978 1240,1977 1187,1977 1186,1978 1180,1978 1179,1979 1178,1979 1176,1981 1175,1981 1174,1982 1174,1983 1172,1985 1172,1987 1171,1988 1157,1988 1156,1989 1092,1988 1091,1987 1063,1987 1062,1986 1062,1985 1060,1983 1060,1982 1058,1980 1057,1980 1055,1978 1041,1978 1040,1979 1039,1979 1037,1981 1036,1981 1035,1982 1035,1983 1033,1985 1033,1986 1032,1987 1027,1987 1026,1986 1026,1985 1024,1983 1024,1982 1023,1981 1022,1981 1020,1979 1019,1979 1018,1978 990,1978 988,1980 987,1980 985,1982 985,1983 983,1985 979,1985 977,1987 945,1987 944,1988 920,1988 919,1989 889,1988 888,1989 851,1989 850,1988 805,1988 804,1987 783,1987 782,1986 770,1986 769,1987 761,1987 760,1986 752,1986 751,1985 749,1985 748,1984 745,1984 744,1983 725,1983 722,1986 720,1986 719,1987 716,1987 715,1986 715,1985 713,1983 713,1982 711,1980 710,1980 709,1979 708,1979 707,1978 696,1978 695,1979 694,1979 692,1981 691,1981 690,1982 690,1983 688,1985 688,1988 687,1989 683,1989 682,1988 646,1987 645,1986 633,1986 632,1987 612,1987 611,1988 608,1988 607,1987 607,1986 606,1985 605,1985 603,1983 581,1983 579,1985 578,1985 576,1987 572,1987 571,1986 559,1986 558,1985 551,1985 550,1984 540,1984 539,1983 539,1982 538,1981 537,1981 535,1979 534,1979 533,1978 532,1978 531,1977 518,1977 517,1978 516,1978 515,1979 514,1979 512,1981 511,1981 507,1985 505,1985 504,1986 502,1986 501,1987 497,1987 496,1988 489,1988 488,1989 450,1989 449,1988 439,1987 438,1986 437,1986 434,1983 434,1982 432,1980 431,1980 429,1978 422,1978 421,1977 413,1977 412,1978 409,1978 408,1977 371,1977 371,2034 421,2034 422,2035 482,2036 483,2035 534,2035 535,2034 549,2034 550,2035 565,2035 566,2036 581,2036 582,2037 590,2037 591,2038 598,2038 599,2039 600,2039 601,2040 602,2040 604,2042 605,2042 606,2043 608,2043 609,2044 626,2044 627,2043 629,2043 631,2041 632,2041 634,2039 653,2039 654,2038 661,2038 662,2037 670,2037 671,2036 684,2037 685,2036 695,2036 696,2035 711,2035 712,2036 725,2036 726,2035 728,2035 729,2034 740,2034 741,2035 849,2035 850,2034 872,2034 873,2033 882,2033 883,2034 921,2035 922,2034 935,2034 936,2035 985,2035 986,2034 1004,2034 1005,2035 1022,2035 1023,2034 1036,2034 1037,2035 1041,2035 1042,2036 1058,2036 1059,2035 1074,2035 1075,2036 1125,2036 1126,2035 1146,2036 1147,2035 1157,2035 1158,2034 1197,2034 1198,2035 1214,2035 1215,2036 1270,2036 1271,2035 1422,2036 1423,2035 1465,2035 1466,2034 1484,2034 1485,2035 1501,2035 1502,2034 1520,2034 1521,2035 1582,2035 1583,2034 1600,2035 1601,2034 1697,2034 1698,2035 1811,2035 1812,2034 1841,2035 1842,2036 1859,2036 1860,2037 1871,2037 1872,2036 1875,2036 1876,2037 1878,2037 1879,2038 1881,2038 1882,2037 1888,2037 1889,2036 1891,2036 1892,2035 1926,2035 1927,2034 1990,2034 1991,2033 2025,2033 2026,2034 2082,2035 2083,2034 2172,2034 2172,1987 2133,1987 2132,1986 2132,1984 2130,1982 2130,1981 2128,1979 2127,1979 2125,1977"/>
+                <pc:Baseline points="371,2022 2172,2021"/>
+                <pc:Word id="region0005_line0007_word0000">
+                    <pc:Coords points="377,2013 532,2014 532,1978 531,1977 518,1977 517,1978 516,1978 515,1979 514,1979 512,1981 511,1981 507,1985 505,1985 504,1986 502,1986 501,1987 497,1987 496,1988 489,1988 488,1989 450,1989 449,1988 439,1987 438,1986 437,1986 434,1983 434,1982 432,1980 431,1980 429,1978 422,1978 421,1977 413,1977 412,1978 409,1978 408,1977 377,1977"/>
+                    <pc:TextEquiv conf="0.923953475952148">
+                        <pc:Unicode>Hinauf</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0001">
+                    <pc:Coords points="581,1983 579,1985 578,1985 576,1987 572,1987 571,1986 559,1986 558,1985 551,1985 550,1984 547,1984 547,2023 648,2023 648,1987 646,1987 645,1986 633,1986 632,1987 612,1987 611,1988 608,1988 607,1987 607,1986 606,1985 605,1985 603,1983"/>
+                    <pc:TextEquiv conf="0.967808609008789">
+                        <pc:Unicode>trägt</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0002">
+                    <pc:Coords points="669,2012 775,2013 775,1986 770,1986 769,1987 761,1987 760,1986 752,1986 751,1985 749,1985 748,1984 745,1984 744,1983 725,1983 722,1986 720,1986 719,1987 716,1987 715,1986 715,1985 713,1983 713,1982 711,1980 710,1980 709,1979 708,1979 707,1978 696,1978 695,1979 694,1979 692,1981 691,1981 690,1982 690,1983 688,1985 688,1988 687,1989 683,1989 682,1988 669,1987"/>
+                    <pc:TextEquiv conf="0.964957580566406">
+                        <pc:Unicode>nicht</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0003">
+                    <pc:Coords points="988,1980 988,1980 987,1980 985,1982 985,1983 983,1985 979,1985 977,1987 945,1987 944,1988 920,1988 919,1989 889,1988 888,1989 851,1989 850,1988 805,1988 804,1987 796,1987 796,2014 1069,2015 1069,1987 1063,1987 1062,1986 1062,1985 1060,1983 1060,1982 1058,1980 1057,1980 1057,1980 1038,1980 1037,1981 1036,1981 1035,1982 1035,1983 1033,1985 1033,1986 1032,1987 1027,1987 1026,1986 1026,1985 1024,1983 1024,1982 1023,1981 1022,1981 1021,1980"/>
+                    <pc:TextEquiv conf="0.965095443725586">
+                        <pc:Unicode>unwesentlich</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0004">
+                    <pc:Coords points="1090,1992 1181,1993 1181,2016 1090,2015"/>
+                    <pc:TextEquiv conf="0.963134613037109">
+                        <pc:Unicode>zum</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0005">
+                    <pc:Coords points="1203,1981 1203,2017 1398,2018 1398,1987 1393,1987 1390,1984 1390,1983 1389,1982 1388,1982 1388,1982 1367,1982 1367,1982 1366,1982 1365,1983 1365,1984 1363,1985 1363,1986 1362,1987 1359,1987 1358,1988 1336,1988 1335,1987 1310,1987 1309,1986 1309,1984 1307,1982 1307,1982 1283,1981 1282,1982 1282,1983 1280,1985 1280,1986 1279,1987 1255,1987 1254,1986 1254,1985 1252,1983 1252,1982 1251,1981"/>
+                    <pc:TextEquiv conf="0.968006591796875">
+                        <pc:Unicode>Eindruck</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0006">
+                    <pc:Coords points="1424,1983 1422,1985 1422,1986 1421,1987 1419,1987 1419,2018 1484,2018 1484,1983 1483,1983 1482,1984 1481,1984 1480,1985 1478,1985 1477,1986 1473,1986 1472,1987 1452,1987 1451,1986 1451,1984 1450,1983"/>
+                    <pc:TextEquiv conf="0.93290168762207">
+                        <pc:Unicode>des</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0007">
+                    <pc:Coords points="1505,1982 1505,2017 1795,2018 1795,1986 1791,1986 1790,1987 1753,1987 1751,1985 1751,1983 1751,1983 1724,1983 1724,1983 1722,1985 1722,1986 1721,1987 1710,1987 1709,1988 1673,1988 1672,1987 1660,1987 1659,1986 1659,1984 1658,1983 1633,1982 1633,1983 1631,1985 1631,1987 1630,1988 1611,1988 1610,1989 1589,1988 1588,1987 1575,1987 1573,1985 1573,1984 1571,1982"/>
+                    <pc:TextEquiv conf="0.903837051391602">
+                        <pc:Unicode>Schwebenden</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0008">
+                    <pc:Coords points="1817,1982 1817,2025 1891,2026 1891,1988 1887,1988 1886,1987 1886,1986 1885,1985 1885,1984 1883,1982 1859,1982 1858,1984 1858,1985 1857,1986 1857,1987 1856,1988 1846,1988 1845,1987 1836,1987 1833,1984 1833,1983 1832,1982"/>
+                    <pc:TextEquiv conf="0.963059844970703">
+                        <pc:Unicode>bei,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0009">
+                    <pc:Coords points="1919,1983 1917,1985 1917,1986 1916,1987 1914,1987 1914,2018 1982,2018 1982,1987 1948,1987 1947,1986 1947,1985 1945,1983"/>
+                    <pc:TextEquiv conf="0.962500991821289">
+                        <pc:Unicode>der</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0010">
+                    <pc:Coords points="2002,1996 2079,1997 2079,2020 2002,2019"/>
+                    <pc:TextEquiv conf="0.968575592041016">
+                        <pc:Unicode>von</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0007_word0011">
+                    <pc:Coords points="2105,1984 2104,1985 2104,1986 2103,1987 2100,1987 2100,2019 2169,2019 2169,1987 2133,1987 2132,1986 2132,1984"/>
+                    <pc:TextEquiv conf="0.963567657470703">
+                        <pc:Unicode>der</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.953949928283691">
+                    <pc:Unicode>Hinauf trägt nicht unwesentlich zum Eindruck des Schwebenden bei, der von der</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0008">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0005_region0005_line0008.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1991,2034 1990,2035 1927,2035 1926,2036 1892,2036 1891,2037 1889,2037 1888,2038 1882,2038 1881,2039 1879,2039 1878,2038 1876,2038 1875,2037 1872,2037 1871,2038 1864,2038 1863,2039 1859,2039 1858,2040 1853,2040 1852,2041 1843,2041 1842,2042 1823,2041 1822,2042 1797,2042 1796,2043 1781,2043 1780,2044 1741,2044 1740,2043 1691,2043 1690,2044 1604,2044 1603,2045 1548,2044 1547,2043 1541,2043 1540,2042 1537,2042 1536,2041 1534,2041 1532,2039 1531,2039 1530,2038 1529,2038 1528,2037 1525,2037 1524,2036 1521,2036 1520,2035 1502,2035 1501,2036 1485,2036 1484,2035 1466,2035 1465,2036 1454,2036 1453,2037 1452,2037 1451,2038 1450,2038 1448,2040 1447,2040 1445,2042 1443,2042 1442,2043 1437,2043 1436,2044 1347,2043 1346,2042 1346,2041 1344,2039 1344,2038 1343,2037 1342,2037 1341,2036 1326,2036 1325,2037 1324,2037 1322,2039 1322,2040 1319,2043 1298,2043 1297,2044 1288,2044 1287,2043 1256,2043 1255,2042 1239,2042 1238,2041 1230,2041 1229,2040 1226,2040 1225,2039 1223,2039 1222,2038 1220,2038 1219,2037 1215,2037 1214,2036 1198,2036 1197,2035 1158,2035 1157,2036 1147,2036 1146,2037 1144,2037 1143,2038 1143,2039 1141,2041 1141,2043 1140,2044 1138,2044 1137,2045 1119,2044 1118,2045 1109,2045 1108,2044 1107,2044 1105,2042 1094,2042 1092,2044 1091,2044 1090,2045 1082,2045 1081,2044 1081,2043 1080,2042 1080,2041 1078,2039 1078,2038 1077,2037 1075,2037 1074,2036 1059,2036 1058,2037 1056,2037 1055,2038 1055,2039 1053,2041 1053,2042 1052,2043 1048,2039 1047,2039 1045,2037 1042,2037 1041,2036 1037,2036 1036,2035 1023,2035 1022,2036 1005,2036 1004,2035 986,2035 985,2036 966,2036 965,2037 963,2037 962,2038 961,2038 960,2039 958,2039 957,2040 955,2040 954,2041 951,2041 950,2042 942,2042 941,2041 941,2040 939,2038 939,2037 938,2036 936,2036 935,2035 922,2035 921,2036 918,2036 917,2037 916,2037 915,2038 915,2039 913,2041 913,2043 912,2044 910,2044 909,2045 895,2044 894,2045 873,2045 872,2046 750,2046 749,2045 749,2043 748,2042 748,2041 746,2039 746,2038 745,2037 744,2037 743,2036 741,2036 740,2035 729,2035 728,2036 726,2036 725,2037 724,2037 723,2038 723,2039 721,2041 721,2042 720,2043 718,2043 717,2042 717,2041 715,2039 715,2038 714,2037 712,2037 711,2036 696,2036 695,2037 693,2037 692,2038 692,2039 690,2041 690,2045 689,2046 680,2046 679,2047 653,2046 652,2045 557,2045 556,2044 556,2041 554,2039 554,2038 552,2036 550,2036 549,2035 535,2035 534,2036 532,2036 529,2039 529,2040 527,2042 522,2042 520,2044 502,2044 501,2045 469,2045 468,2046 435,2045 434,2046 428,2046 427,2045 427,2040 425,2038 425,2037 424,2036 422,2036 421,2035 371,2035 371,2092 496,2093 497,2092 587,2092 588,2093 618,2093 619,2094 619,2096 651,2096 651,2094 652,2093 675,2094 676,2093 726,2093 727,2092 832,2092 833,2093 856,2093 857,2094 866,2094 867,2095 867,2096 904,2097 904,2096 905,2095 920,2095 921,2094 935,2094 936,2093 993,2093 994,2092 1188,2093 1189,2092 1358,2092 1359,2091 1444,2092 1445,2091 1476,2091 1477,2092 1597,2093 1598,2092 1643,2092 1644,2091 1674,2091 1675,2092 1736,2092 1737,2093 1758,2093 1759,2094 1773,2094 1775,2096 1884,2097 1885,2096 1886,2096 1887,2095 1889,2095 1890,2094 1893,2094 1894,2093 1898,2093 1899,2092 1902,2092 1903,2093 1910,2093 1911,2094 1933,2094 1935,2096 1935,2097 1947,2097 1948,2096 1958,2096 1960,2094 1966,2094 1967,2093 1982,2093 1983,2092 2039,2092 2040,2091 2124,2092 2125,2093 2128,2093 2129,2094 2129,2095 2131,2097 2153,2097 2154,2096 2172,2096 2172,2035 2083,2035 2082,2036 2066,2036 2065,2037 2063,2037 2062,2038 2061,2038 2060,2039 2059,2039 2057,2041 2055,2040 2054,2041 2052,2041 2051,2042 2043,2042 2042,2041 2036,2041 2033,2038 2033,2037 2032,2036 2031,2036 2030,2035 2026,2035 2025,2034 2012,2034 2010,2036 2003,2036 2001,2034"/>
+                <pc:Baseline points="371,2080 2172,2082"/>
+                <pc:Word id="region0005_line0008_word0000">
+                    <pc:Coords points="728,2036 728,2036 726,2036 725,2037 724,2037 723,2038 723,2039 721,2041 721,2042 720,2043 718,2043 717,2042 717,2041 715,2039 715,2038 714,2037 712,2037 711,2036 696,2036 695,2037 693,2037 692,2038 692,2039 690,2041 690,2045 689,2046 680,2046 679,2047 653,2046 652,2045 557,2045 556,2044 556,2041 554,2039 554,2038 552,2036 550,2036 549,2035 535,2035 534,2036 532,2036 529,2039 529,2040 527,2042 522,2042 520,2044 502,2044 501,2045 469,2045 468,2046 435,2045 434,2046 428,2046 427,2045 427,2040 425,2038 425,2037 424,2036 422,2036 421,2035 377,2035 377,2083 793,2085 793,2046 750,2046 749,2045 749,2043 748,2042 748,2041 746,2039 746,2038 745,2037 744,2037 743,2036 741,2036 741,2036"/>
+                    <pc:TextEquiv conf="0.919726715087891">
+                        <pc:Unicode>Gesamtkomposition</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0008_word0001">
+                    <pc:Coords points="915,2038 915,2038 915,2039 913,2041 913,2043 912,2044 910,2044 909,2045 895,2044 894,2045 873,2045 872,2046 806,2046 806,2084 977,2085 977,2038 962,2038 962,2038 961,2038 960,2039 958,2039 957,2040 955,2040 954,2041 951,2041 950,2042 942,2042 941,2041 941,2040 939,2038 939,2038"/>
+                    <pc:TextEquiv conf="0.963754272460937">
+                        <pc:Unicode>ausgeht.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0008_word0002">
+                    <pc:Coords points="991,2040 991,2077 1162,2078 1162,2041 1141,2041 1141,2041 1141,2043 1140,2044 1138,2044 1137,2045 1119,2044 1118,2045 1109,2045 1108,2044 1107,2044 1105,2042 1094,2042 1092,2044 1091,2044 1090,2045 1082,2045 1081,2044 1081,2043 1080,2042 1080,2041 1080,2041 1054,2040 1053,2041 1053,2042 1052,2043 1049,2040"/>
+                    <pc:TextEquiv conf="0.960930328369141">
+                        <pc:Unicode>Meister:</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0008_word0003">
+                    <pc:Coords points="1177,2041 1177,2076 1307,2076 1307,2043 1298,2043 1297,2044 1288,2044 1287,2043 1256,2043 1255,2042 1239,2042 1238,2041 1230,2041"/>
+                    <pc:TextEquiv conf="0.929017791748047">
+                        <pc:Unicode>PETER</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0008_word0004">
+                    <pc:Coords points="1320,2042 1319,2043 1316,2043 1316,2077 1459,2078 1459,2043 1442,2043 1442,2043 1437,2043 1436,2044 1347,2043 1346,2042"/>
+                    <pc:TextEquiv conf="0.908440093994141">
+                        <pc:Unicode>ANTON</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0008_word0005">
+                    <pc:Coords points="1471,2042 1471,2084 1792,2085 1792,2043 1781,2043 1780,2044 1741,2044 1740,2043 1691,2043 1690,2044 1604,2044 1603,2045 1548,2044 1547,2043 1541,2043 1540,2042"/>
+                    <pc:TextEquiv conf="0.88295783996582">
+                        <pc:Unicode>MOOSBRUGGER,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0008_word0006">
+                    <pc:Coords points="1809,2044 1919,2045 1919,2090 1809,2089"/>
+                    <pc:TextEquiv conf="0.300066452026367">
+                        <pc:Unicode>1778"</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0008_word0007">
+                    <pc:Coords points="1938,2044 2054,2044 2054,2091 1938,2091"/>
+                    <pc:TextEquiv conf="0.960689315795898">
+                        <pc:Unicode>(Abb.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0008_word0008">
+                    <pc:Coords points="2168,2094 2168,2046 2071,2046 2071,2091 2124,2092 2125,2093 2128,2093 2129,2094"/>
+                    <pc:TextEquiv conf="0.887290954589844">
+                        <pc:Unicode>188).</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.85698597378201">
+                    <pc:Unicode>Gesamtkomposition ausgeht. Meister: PETER ANTON MOOSBRUGGER, 1778" (Abb. 188).</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.934380514030042">
+                <pc:Unicode>Die Stukkaturen empfangen das Gesetz ihrer Komposition von den Gemäldefeldern,
+den Linien der Stichkappen und den Fensteröffnungen, die sie umspinnen. Von
+den Kartuschen im Chor und dem Querschiff flattert das mit leichter Hand graziös
+hingesetzte und bisweilen ä jour gebildete Schmuckwerk aus Spätrocaille und Blumen-
+büscheln in die Hohlkehle der Decke hinab, im Schiff aber steigt der Zierat aus den
+Zwickeln der Kappen zu den Bildfeldern hinauf, und dieser Wechsel von Hinab und
+Hinauf trägt nicht unwesentlich zum Eindruck des Schwebenden bei, der von der
+Gesamtkomposition ausgeht. Meister: PETER ANTON MOOSBRUGGER, 1778" (Abb. 188).</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0006" orientation="-0.248462378406941" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="429,2123 2175,2123 2175,2172 429,2172"/>
+            <pc:TextLine id="region0006_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0006_region0006_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1957,2123 1955,2125 1950,2125 1949,2126 1946,2126 1945,2125 1936,2125 1935,2124 1855,2124 1855,2125 1853,2127 1684,2126 1683,2127 1588,2126 1587,2125 1587,2124 1586,2123 1562,2123 1560,2125 1560,2126 1559,2127 1539,2127 1538,2126 1520,2126 1518,2124 1487,2124 1487,2125 1486,2126 1425,2126 1424,2125 1411,2125 1410,2126 1392,2126 1391,2125 1386,2125 1385,2124 1361,2123 1358,2126 1345,2126 1344,2125 1344,2124 1343,2123 1319,2123 1317,2125 1310,2125 1309,2126 1201,2126 1200,2127 1156,2127 1153,2124 1129,2123 1126,2126 1102,2126 1101,2125 1098,2125 1097,2124 1095,2124 1094,2123 1084,2123 1083,2124 1017,2124 1016,2125 1014,2125 1013,2126 982,2126 980,2124 968,2124 966,2126 942,2126 940,2124 918,2124 917,2125 906,2124 905,2125 869,2125 868,2124 774,2124 773,2125 771,2125 770,2126 741,2126 740,2127 739,2126 731,2126 729,2124 656,2123 654,2125 648,2125 647,2126 618,2126 616,2124 590,2124 590,2125 589,2126 555,2126 554,2125 541,2125 540,2124 513,2124 512,2125 511,2124 440,2123 439,2124 437,2124 436,2125 431,2125 430,2126 429,2126 429,2169 497,2170 498,2169 526,2169 527,2168 566,2168 567,2169 648,2169 649,2170 708,2171 709,2170 714,2170 716,2172 815,2172 816,2171 820,2171 821,2170 830,2170 831,2169 969,2170 970,2169 1164,2170 1165,2171 1174,2171 1175,2172 1266,2172 1267,2171 1273,2171 1274,2170 1288,2170 1289,2169 1415,2170 1416,2169 1514,2169 1515,2168 1551,2168 1552,2169 1666,2170 1667,2169 1887,2170 1888,2169 2072,2170 2073,2169 2168,2169 2169,2168 2174,2168 2174,2126 2123,2126 2122,2125 2118,2125 2117,2124 2039,2123 2038,2124 2034,2124 2033,2125 1985,2125 1984,2124 1984,2123"/>
+                <pc:Baseline points="429,2158 773,2164 824,2156 1237,2162 2174,2157"/>
+                <pc:Word id="region0006_line0001_word0000">
+                    <pc:Coords points="434,2135 442,2135 442,2154 434,2154"/>
+                    <pc:TextEquiv conf="0.837922210693359">
+                        <pc:Unicode>ı</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0001">
+                    <pc:Coords points="471,2124 471,2155 563,2155 563,2126 555,2126 554,2125 541,2125 540,2124 513,2124 512,2125 511,2124"/>
+                    <pc:TextEquiv conf="0.881612396240234">
+                        <pc:Unicode>Siche</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0002">
+                    <pc:Coords points="590,2125 589,2126 579,2126 579,2154 662,2154 662,2125 654,2125 648,2125 647,2126 618,2126 617,2125"/>
+                    <pc:TextEquiv conf="0.93123420715332">
+                        <pc:Unicode>oben</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0003">
+                    <pc:Coords points="680,2124 710,2124 710,2154 680,2154"/>
+                    <pc:TextEquiv conf="0.910430297851562">
+                        <pc:Unicode>S.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0004">
+                    <pc:Coords points="726,2131 792,2131 792,2163 726,2163"/>
+                    <pc:TextEquiv conf="0.952144622802734">
+                        <pc:Unicode>195.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0005">
+                    <pc:Coords points="810,2125 900,2125 900,2154 810,2154"/>
+                    <pc:TextEquiv conf="0.966707153320313">
+                        <pc:Unicode>Peter</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0006">
+                    <pc:Coords points="916,2126 1024,2126 1024,2156 916,2156"/>
+                    <pc:TextEquiv conf="0.927565078735352">
+                        <pc:Unicode>Anton</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0007">
+                    <pc:Coords points="1042,2125 1042,2162 1274,2163 1274,2126 1201,2126 1200,2127 1156,2127 1154,2125 1127,2125 1126,2126 1102,2126 1101,2125"/>
+                    <pc:TextEquiv conf="0.918653182983398">
+                        <pc:Unicode>Moosbrugger</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0008">
+                    <pc:Coords points="1290,2126 1443,2127 1443,2157 1290,2156"/>
+                    <pc:TextEquiv conf="0.965494079589844">
+                        <pc:Unicode>arbeitete</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0009">
+                    <pc:Coords points="1458,2126 1458,2156 1612,2157 1612,2127 1559,2127 1559,2127 1539,2127 1539,2127"/>
+                    <pc:TextEquiv conf="0.747532424926758">
+                        <pc:Unicode>zeitweise</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0010">
+                    <pc:Coords points="1627,2136 1812,2136 1812,2158 1627,2158"/>
+                    <pc:TextEquiv conf="0.964710464477539">
+                        <pc:Unicode>zusammen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0011">
+                    <pc:Coords points="1829,2128 1886,2129 1886,2159 1829,2158"/>
+                    <pc:TextEquiv conf="0.964634780883789">
+                        <pc:Unicode>mit</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0012">
+                    <pc:Coords points="1903,2128 2047,2128 2047,2160 1903,2160"/>
+                    <pc:TextEquiv conf="0.91863166809082">
+                        <pc:Unicode>Andreas</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0006_line0001_word0013">
+                    <pc:Coords points="2063,2131 2172,2131 2172,2161 2063,2161"/>
+                    <pc:TextEquiv conf="0.908902206420898">
+                        <pc:Unicode>Moos-</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.91401248386928">
+                    <pc:Unicode>ı Siche oben S. 195. Peter Anton Moosbrugger arbeitete zeitweise zusammen mit Andreas Moos-</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.91401248386928">
+                <pc:Unicode>ı Siche oben S. 195. Peter Anton Moosbrugger arbeitete zeitweise zusammen mit Andreas Moos-</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0008" orientation="-0.248462378406941" type="caption" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="553,3080 1984,3080 1984,3127 553,3127"/>
+            <pc:TextLine id="region0008_line">
+                <pc:AlternativeImage filename="OCR-D-DEW/OCR-D-DEW_PHYS_0006_region0008_region0008_line.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="553,3080 1984,3080 1984,3127 553,3127"/>
+                <pc:Word id="region0008_line_word0000">
+                    <pc:Coords points="558,3086 642,3086 642,3117 558,3117"/>
+                    <pc:TextEquiv conf="0.958718109130859">
+                        <pc:Unicode>Abb.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0001">
+                    <pc:Coords points="661,3085 727,3086 727,3119 661,3118"/>
+                    <pc:TextEquiv conf="0.939773330688477">
+                        <pc:Unicode>188.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0002">
+                    <pc:Coords points="750,3086 795,3086 795,3118 750,3118"/>
+                    <pc:TextEquiv conf="0.863136749267578">
+                        <pc:Unicode>St.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0003">
+                    <pc:Coords points="803,3087 912,3087 912,3118 803,3118"/>
+                    <pc:TextEquiv conf="0.863136749267578">
+                        <pc:Unicode>Fiden.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0004">
+                    <pc:Coords points="930,3086 1061,3087 1061,3119 930,3118"/>
+                    <pc:TextEquiv conf="0.917622146606445">
+                        <pc:Unicode>Kirche.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0005">
+                    <pc:Coords points="1076,3087 1237,3088 1237,3120 1076,3119"/>
+                    <pc:TextEquiv conf="0.966527557373047">
+                        <pc:Unicode>Teilstück</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0006">
+                    <pc:Coords points="1251,3087 1309,3087 1309,3118 1251,3118"/>
+                    <pc:TextEquiv conf="0.925715789794922">
+                        <pc:Unicode>der</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0007">
+                    <pc:Coords points="1323,3087 1628,3088 1628,3119 1323,3118"/>
+                    <pc:TextEquiv conf="0.910946807861328">
+                        <pc:Unicode>Deckenstukkatur.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0008">
+                    <pc:Coords points="1735,3089 1649,3089 1649,3127 1735,3127"/>
+                    <pc:TextEquiv conf="0.923837127685547">
+                        <pc:Unicode>1778.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0009">
+                    <pc:Coords points="1755,3107 1776,3107 1776,3112 1755,3112"/>
+                    <pc:TextEquiv conf="0.185832214355469">
+                        <pc:Unicode>—-</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0010">
+                    <pc:Coords points="1789,3090 1872,3091 1872,3122 1789,3121"/>
+                    <pc:TextEquiv conf="0.968763122558594">
+                        <pc:Unicode>Text</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0008_line_word0011">
+                    <pc:Coords points="1887,3089 1981,3089 1981,3121 1887,3121"/>
+                    <pc:TextEquiv conf="0.962617111206055">
+                        <pc:Unicode>oben.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.865552234649658">
+                    <pc:Unicode>Abb. 188. St. Fiden. Kirche. Teilstück der Deckenstukkatur. 1778. —- Text oben.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.865552234649658">
+                <pc:Unicode>Abb. 188. St. Fiden. Kirche. Teilstück der Deckenstukkatur. 1778. —- Text oben.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0002" orientation="-0.248462378406941">
+            <pc:Coords points="374,397 2180,397 2180,1471 374,1471"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0007" orientation="-0.248462378406941">
+            <pc:Coords points="370,2226 2170,2226 2170,3040 370,3040"/>
+        </pc:ImageRegion>
+    </pc:Page>
+</pc:PcGts>
