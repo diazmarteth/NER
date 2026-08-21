@@ -1,0 +1,7 @@
+torch
+transformers>=4.40
+datasets
+seqeval
+pyyaml
+segtok
+numpy

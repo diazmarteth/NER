@@ -1,0 +1,56 @@
+# Default config for the stacked-hmBERT HIPE coarse-NER model.
+# Override any field on the command line, e.g.:
+#   python -m hipe_ner.train --config configs/default.yaml training.epochs=12
+
+model:
+  # hmBERT: multilingual historic BERT pretrained on Europeana/British Library
+  # newspapers for de/fr/en/fi/sv. Base for all three languages we target.
+  base_model: dbmdz/bert-base-historic-multilingual-cased
+  # "Noise-adaptation stack": extra Transformer encoder layers on top of hmBERT,
+  # meant to absorb OCR noise / spelling variation the base model's own
+  # pretraining never saw at fine-tuning time. Set to 0 to get a plain
+  # hmBERT + linear head baseline for comparison.
+  num_extra_layers: 2
+  num_heads: 8
+  ffn_size: 1024
+  dropout: 0.1
+  classifier_dropout: 0.1
+  max_length: 256
+
+data:
+  hipe_root: data/raw/data/v2.1
+  cache_dir: data/cache
+  # Every HIPE de/fr/en subset with coarse NE annotations. See README for the
+  # label-ontology mismatch across these (hipe2020 vs newseye vs ajmc vs
+  # topres19th) and why they're still trained jointly under a unified,
+  # canonicalized label set rather than silently merged.
+  datasets:
+    - {dataset: hipe2020, lang: de}
+    - {dataset: hipe2020, lang: fr}
+    - {dataset: letemps, lang: fr}
+    - {dataset: newseye, lang: de}
+    - {dataset: newseye, lang: fr}
+    - {dataset: ajmc, lang: de}
+    - {dataset: ajmc, lang: fr}
+    - {dataset: ajmc, lang: en}
+    - {dataset: topres19th, lang: en}
+    - {dataset: sonar, lang: de}
+
+training:
+  output_dir: checkpoints/stacked-hmbert-hipe
+  seed: 42
+  batch_size: 16
+  eval_batch_size: 32
+  epochs: 8
+  # Train only the noise-adaptation stack + classifier for this many epochs
+  # before unfreezing hmBERT itself. Keeps early gradients from the randomly
+  # initialized extra layers from disturbing the pretrained encoder.
+  freeze_base_epochs: 1
+  lr_base: 2e-5
+  lr_head: 3e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  grad_clip: 1.0
+  log_every: 50
+  eval_every_epoch: true
+  device: auto  # auto | cuda | mps | cpu

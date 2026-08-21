@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hipe-ner"
+version = "0.1.0"
+description = "Stacked hmBERT NER for HIPE-style historical NE recognition on OCR-D output"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "transformers>=4.40",
+    "datasets",
+    "seqeval",
+    "pyyaml",
+    "segtok",
+    "numpy",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

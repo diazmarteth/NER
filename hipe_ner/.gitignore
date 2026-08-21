@@ -1,0 +1,9 @@
+data/raw/
+data/cache/
+checkpoints/
+*.pt
+*.bin
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+wandb/
