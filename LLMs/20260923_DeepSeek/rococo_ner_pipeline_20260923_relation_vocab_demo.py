@@ -506,24 +506,32 @@ Categories:
    - Art historians, authors cited: e.g. Wegelin, Vadian, Keßler, Rütiner, H. Rott
    - Bell casters, craftsmen: e.g. Ulrich Schnabelburg, Karl Rosenlächer, Schalch
    Include abbreviated names ("Jon.", "J. C.", "H.") as separate entries if they appear.
- Are not PER: saints, biblical, mythological and allegorical figures in depictions (→ ICO, see 4.3); workshops and institutions. 
+ Are not PER (by default): saints, biblical, mythological and allegorical figures in depictions (→ ICO, see category 5). EXCEPTION: a saint or biblical figure IS PER when the text discusses them as a historical actor — a real event, deed, sermon, or office — rather than as an image subject: "Bernhard von Clairvaux predigte 1146 in Speyer" → PER. The same figure is ICO when depicted or discussed as an image subject: "der heilige Hieronymus im Gehäus" → ICO. Decide per mention from its own sentence context, not once per name — the same figure can be PER in one sentence and ICO in another. Also not PER: workshops and institutions (→ GROUP, see category 7).
   
 2. PLACE – Place (E53) — Extents in natural space, in particular on the Earth's surface, independent of time and matter. Places describe where things or events are located. They are usually determined by reference to immobile objects (buildings, cities, mountains, rivers), may have fuzzy boundaries, and can be defined relative to a physical thing, such as a room within a church. All named locations, including:
    - Cities and towns: St. Gallen, Konstanz, Salem, Überlingen, Ravensburg, Bischofszell, Wien, Zürich, Lindau, Teufen, Rorschach, Mosnang, Landsberg, Florenz, Schaffhausen
    - Churches and religious buildings: St. Laurenzen, St. Mangen, Münster, Stiftskirche, Kloster Salem
    - Specific spaces within buildings: Sakristei, Chor, Langhaus, Empore, Kapelle, Turm
    - Archives, museums: Historisches Museum, Stiftsarchiv (StA), Stiftsbibliothek
-A building or space is PLACE only when it locates something else; as a product of human activity it is OBJ (see 4.2).
+A building or space (whole buildings like Münster, St. Laurenzen, Stiftskirche, AND spaces within them like Chor, Langhaus, Empore, Turm, Kapelle) is PLACE only when it locates something else — cues: "steht in", "befindet sich auf/in", an object or event located at/in it: "Im Chor steht das Gestühl." As a product of human activity it is OBJ instead (see category 3) — cues: construction, architect, style, parts, damage, restoration: "Das Münster wurde 1755–1766 neu errichtet." DEFAULT when neither framing is clear from context: OBJ — architecture is a core subject of this corpus, so a neutral, otherwise-unqualified mention of a building or space defaults to OBJ, not PLACE.
 Is Not PLACE: nationality adjectives and style labels ("Konstanzer Werkstatt", "Bodensee-Gotik").
 
-3. OBJ – Physical human-made thing (E24 / E22) — TDiscrete, identifiable human-made items documented as single units and characterised by relative stability. A building is OBJ when it is cited not as a place but as the product of human activity. It can be a building, when its cited not as places in a relationship but as product of human activitiy.
+3. OBJ – Physical human-made thing (E24 / E22) — Discrete, identifiable human-made items documented as single units and characterised by relative stability. A building or space is OBJ when it is cited as the product of human activity rather than as a location — see category 2 for the full building/space cue table and default.
 It can include, for example: artworks, everyday utensils, textile products, and architectural elements, for example:
    - Altars: Hochaltar, Seitenaltar, Marienaltar, Sebastianaltar, Jakobsaltar, Annaaltar, Mauritiusaltar
    - Furnishings: Kanzel (pulpit), Orgel (organ), Taufstein (baptismal font), Gestühl, Empore
    - Artworks: Glasgemälde, Flügelaufsatz, Skulpturen, Figuren, Kreuzigungsgruppe, Reliquiare
    - Architectural elements: Arkaden, Pfeiler, Fenster, Maßwerk, Turm, Portal, Gewölbe, Glocke
    - Documents: Jahrzeitbuch, Ablaßbrief, Urkunde
-  Some terms also appear under PLACE (Empore, Turm) or VIS (Maßwerk). 
+
+OBJ vs. VIS on the SAME title: ask "would this statement also be true of a copy, a print impression, or a photograph of this work?" If yes → VIS (composition, motif, iconography, style, meaning, copies/versions, reception are true of every impression). If no → OBJ (material, technique, dimensions, condition, restoration, provenance, location, purchase, theft — true of this physical instance only). For creation verbs ("malte", "schuf"): OBJ for a unique work (painting, sculpture); VIS for a work existing in multiples (prints, editions). The SAME title can be OBJ in one sentence and VIS in another — decide per mention from its own context, never once per name.
+
+Terms that can fall under two categories — resolve by what THIS mention says, not by the term alone:
+   - Empore, Turm: locates something else → PLACE; built/damaged/restored/added as a structure → OBJ (see category 2).
+   - Maßwerk: built, damaged, or replaced as a physical element → OBJ; described as an ornamental form/pattern → VIS.
+   - Kapitell, Halbsäule, Lisene: decorative form → VIS; load-bearing or counted structural member → OBJ.
+   - Vergoldung, Eisengitter: VIS by default (surface decoration); OBJ only when a separate physical object is clearly meant, e.g. "das Eisengitter vor dem Chor wurde 1780 geschmiedet".
+   - Arkaden / Arkadenarchitektur: built arcades → OBJ; arcades depicted within an image → ICO (see category 5).
 
 
 4. VIS – Visual item (E36) — The intellectual or conceptual aspect of recognisable marks, images and other visual works: the underlying prototype, not an individual physical embodiment. A logo stays the same logo on any number of publications, even if size, orientation and colour change; the same holds for images reproduced many times. Visual items are therefore independent of their physical support. VIS links physical things that carry the same visual qualities (symbols, marks, images).
@@ -547,6 +555,8 @@ It can include for example:
 • Allegories and symbols: Allegorie, Tugenden/Laster, Darstellung der Jahreszeiten, Darstellung der Winterjahreszeit, Symbole für Christi Geburt, Marterwerkzeugen der Kreuzigung
 • Landscape, architecture and everyday life: Landschaftsbilder, Häusern in Landschaft, Gebäude am See, Arkadenarchitektur, Szenen aus dem Dorfleben,Alpabfahrt, Scheibenschiessen, Fechten, Reiten, Jagen und Fischen
 
+Titles that name other entities (e.g. "Die Madonna des Kanzlers Rolin", "Die Anbetung der Könige"): if the phrase functions as the TITLE of one specific work → label the whole title OBJ or VIS (per the OBJ-vs-VIS test in category 3), not ICO. If the phrase instead describes WHAT IS SHOWN in general — a theme, not one named work — → ICO. Example: "Dürers Anbetung der Könige in den Uffizien" (a specific, located work) → OBJ/VIS; "Das Thema der Anbetung der Könige war beliebt" (the subject in general) → ICO.
+
 6. DATE – Date / time expression (E52, E49) — All temporal references (be exhaustive):
    - Years: 1225, 1413, 1418, 1504, 1577, 1764, 1851
    - Ranges: 1851–1853, 1730–1745
@@ -561,6 +571,17 @@ IMPORTANT: like ICO, GROUP entities are often generic role/body phrases, not uni
   Contrast: "Kloster Salem" as the physical monastery building/complex being located-in or built → PLACE (category 2); the community of monks living under that name acting collectively ("das Kloster beschloss...", "die Mönche von Salem") → GROUP. A single named craftsman → PER, not GROUP. "Werkstatt Feuchtmayer" (the collective workshop, not one person) → GROUP.
 
 BEFORE YOU FINISH: re-scan the text specifically for GROUP and ICONOGRAPHIC_SUBJECT entities — these two categories are the easiest to under-report because, unlike persons/places/objects, they are frequently generic common-noun phrases (a type of figure, a type of collective body) rather than unique proper names.
+
+SPAN BOUNDARIES — apply these to every entity in every category, regardless of type, so the extracted string is exactly the entity name and nothing else:
+- Extract the SHORTEST string that fully names the entity. Include all name parts, titles that are part of the name, and ordinals: "Abt Heinrich III.", "Maler Michael", "Joh. Chr. Kunkler".
+- EXCLUDE leading articles and prepositions: "im Chor" → "Chor"; "von Johannes Murer" → "Johannes Murer"; "der Hochaltar" → "Hochaltar".
+- KEEP inflection exactly as it appears in the text — do not normalise to a dictionary/nominative form: "Grubenmanns Pläne" → "Grubenmanns"; "des Münsters" → "Münsters".
+- For type-level/generic terms, DROP purely descriptive adjectives unless the adjective is part of a fixed, conventional term: "spätgotischer Flügelaufsatz" → "Flügelaufsatz"; "reiches Laubwerk" → "Laubwerk"; but keep fixed terms whole: "Laufender Hund", "Heilige Familie".
+- NEVER split a compound — annotate the whole compound as one entity: "Fischblasenmaßwerk", "Sebastianaltar", "Heiligenbrustbildern".
+- When a genitive or prepositional phrase attaches a SECOND, separately-nameable entity, extract that second entity on its own, not merged into the first: "Hochaltar der Stiftskirche" → two entities, "Hochaltar" (physical_human_made_thing) and "Stiftskirche" (place); "Figur der hl. Barbara" → "Figur" (physical_human_made_thing) and "hl. Barbara" (its own entity).
+- Coordination: extract each conjunct separately when each names a distinct, independent thing ("Kanzel und Taufstein" → two entities), but keep a fixed subject phrase that names ONE thing together ("Josef und Maria mit Kind" stays one iconographic_subject entity, not three).
+- Quoted titles: extract the title text only, without the surrounding quotation marks.
+- A name or place that is only part of ANOTHER entity's full name is not extracted a second time on its own: "Michel von Saroy" → one person entity only (do not also extract "Saroy" as a separate place); "Kloster Salem" → one place entity only (do not also extract "Salem" separately). This differs from the attached-phrase rule above, which is for a genuinely separate, independently-nameable entity, not a name component.
 
 Return ONLY valid JSON — no markdown fences, no commentary. Use exactly these 7 keys (empty list if none found):
 {{
@@ -578,6 +599,7 @@ Rules:
 - Output ALL person names in correct Title Case (fix small-caps OCR artefacts)
 - Preserve German spelling with umlauts
 - Each entity once only (deduplicate)
+- Follow the SPAN BOUNDARIES rules above for every entity — shortest full name, no leading article/preposition, no split compounds, no unnamed nested components
 - Every entity must go into exactly one of the 7 lists above — never invent additional keys"""
 
         raw = self._chat(prompt, max_tokens=4000, json_object=True)
