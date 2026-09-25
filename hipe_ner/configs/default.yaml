@@ -46,8 +46,8 @@ training:
   # before unfreezing hmBERT itself. Keeps early gradients from the randomly
   # initialized extra layers from disturbing the pretrained encoder.
   freeze_base_epochs: 1
-  lr_base: 2e-5
-  lr_head: 3e-4
+  lr_base: 2.0e-5
+  lr_head: 3.0e-4
   weight_decay: 0.01
   warmup_ratio: 0.1
   grad_clip: 1.0

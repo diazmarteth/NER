@@ -1,0 +1,1122 @@
+[
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "has_designer",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "is_designer_of_building"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "is_current_location_of_collection",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "has_current_location_building"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "is_former_location_of_collection",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "has_former_location_building"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "is_current_location_of_work",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "has_current_location_building"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "is_former_location_of_work",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "has_former_location_building"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "has_current_owner_person",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "is_current_owner_of_building"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "has_current_location_city",
+    "relation_type": "manyToMany",
+    "target_entity": "api::city.city",
+    "inverse_relation_name": "is_current_location_of_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "has_current_building_functions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building-function.building-function",
+    "inverse_relation_name": "is_current_function_of_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "has_former_building_functions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building-function.building-function",
+    "inverse_relation_name": "is_former_function_of_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "right_held_by_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "has_right_on_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "is_current_location_of_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "has_current_location_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "has_current_owner_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "is_current_owner_of_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "is_former_location_of_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "has_former_location_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "physical_archival_documents",
+    "relation_type": "oneToMany",
+    "target_entity": "api::physical-archival-document.physical-archival-document",
+    "inverse_relation_name": "has_current_location_building"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "carries_inscriptions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::inscription.inscription",
+    "inverse_relation_name": "is_carried_by_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "data_provenance_from_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "data_provider_of_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "data_provenance_from_people",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "data_provider_of_buildings"
+  },
+  {
+    "source_entity": "api::building.building",
+    "source_display_name": "Building",
+    "relation_name": "iconclass_terms",
+    "relation_type": "manyToMany",
+    "target_entity": "api::iconclass.iconclass",
+    "inverse_relation_name": "buildings"
+  },
+  {
+    "source_entity": "api::building-function.building-function",
+    "source_display_name": "Building_function",
+    "relation_name": "is_current_function_of_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "has_current_building_functions"
+  },
+  {
+    "source_entity": "api::building-function.building-function",
+    "source_display_name": "Building_function",
+    "relation_name": "is_former_function_of_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "has_former_building_functions"
+  },
+  {
+    "source_entity": "api::building-function.building-function",
+    "source_display_name": "Building_function",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "building_functions"
+  },
+  {
+    "source_entity": "api::city.city",
+    "source_display_name": "City",
+    "relation_name": "is_place_of_birth_of",
+    "relation_type": "oneToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "has_place_of_birth"
+  },
+  {
+    "source_entity": "api::city.city",
+    "source_display_name": "City",
+    "relation_name": "has_current_location_region",
+    "relation_type": "manyToOne",
+    "target_entity": "api::region.region",
+    "inverse_relation_name": "is_current_location_of_city"
+  },
+  {
+    "source_entity": "api::city.city",
+    "source_display_name": "City",
+    "relation_name": "is_current_location_of_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "has_current_location_city"
+  },
+  {
+    "source_entity": "api::city.city",
+    "source_display_name": "City",
+    "relation_name": "work_productions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "has_production_location_cities"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "has_current_location_building",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "is_current_location_of_collection"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "has_former_location_building",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "is_former_location_of_collection"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "has_former_curator_person",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "is_former_curator_of_collection"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "has_current_curator_person",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "is_current_curator_of_collection"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "has_current_owner_person",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "is_current_owner_of_collection"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "consists_of",
+    "relation_type": "oneToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "is_part_of_collection"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "collections"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "has_former_curator_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "is_former_curator_of_collections"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "has_current_curator_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "is_current_curator_of_collections"
+  },
+  {
+    "source_entity": "api::collection.collection",
+    "source_display_name": "Collection",
+    "relation_name": "has_current_owner_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "is_current_owner_of_collections"
+  },
+  {
+    "source_entity": "api::country.country",
+    "source_display_name": "Country",
+    "relation_name": "is_current_location_of_region",
+    "relation_type": "oneToMany",
+    "target_entity": "api::region.region",
+    "inverse_relation_name": "has_current_location_country"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "has_right_on_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "right_held_by_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "has_current_location_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "is_current_location_of_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "is_former_curator_of_collections",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "has_former_curator_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "is_current_owner_of_collections",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "has_current_owner_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "is_current_owner_of_works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "has_current_owner_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "created_works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "was_created_by_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "is_current_owner_of_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "has_current_owner_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "has_former_members",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "is_former_member_of_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "has_current_members",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "is_current_member_of_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "has_former_location_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "is_former_location_of_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "group_type",
+    "relation_type": "manyToOne",
+    "target_entity": "api::group-type.group-type",
+    "inverse_relation_name": "groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "is_current_curator_of_collections",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "has_current_curator_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "data_provider_of_works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "data_provenance_from_groups"
+  },
+  {
+    "source_entity": "api::group.group",
+    "source_display_name": "Group",
+    "relation_name": "data_provider_of_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "data_provenance_from_groups"
+  },
+  {
+    "source_entity": "api::group-type.group-type",
+    "source_display_name": "Group_type",
+    "relation_name": "groups",
+    "relation_type": "oneToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "group_type"
+  },
+  {
+    "source_entity": "api::iconclass.iconclass",
+    "source_display_name": "ICONCLASS",
+    "relation_name": "works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "iconclass_terms"
+  },
+  {
+    "source_entity": "api::iconclass.iconclass",
+    "source_display_name": "ICONCLASS",
+    "relation_name": "visual_items",
+    "relation_type": "manyToMany",
+    "target_entity": "api::visual-item.visual-item",
+    "inverse_relation_name": "iconclass_terms"
+  },
+  {
+    "source_entity": "api::iconclass.iconclass",
+    "source_display_name": "ICONCLASS",
+    "relation_name": "buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "iconclass_terms"
+  },
+  {
+    "source_entity": "api::image.image",
+    "source_display_name": "Image",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "images"
+  },
+  {
+    "source_entity": "api::inscription.inscription",
+    "source_display_name": "Inscription",
+    "relation_name": "is_carried_by_works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "carries_inscriptions"
+  },
+  {
+    "source_entity": "api::inscription.inscription",
+    "source_display_name": "Inscription",
+    "relation_name": "is_carried_by_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "carries_inscriptions"
+  },
+  {
+    "source_entity": "api::inscription.inscription",
+    "source_display_name": "Inscription",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "inscriptions"
+  },
+  {
+    "source_entity": "api::inscription.inscription",
+    "source_display_name": "Inscription",
+    "relation_name": "has_inscription_types",
+    "relation_type": "manyToMany",
+    "target_entity": "api::inscription-type.inscription-type",
+    "inverse_relation_name": "inscriptions"
+  },
+  {
+    "source_entity": "api::inscription-type.inscription-type",
+    "source_display_name": "Inscription_type",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "inscription_types"
+  },
+  {
+    "source_entity": "api::inscription-type.inscription-type",
+    "source_display_name": "Inscription_type",
+    "relation_name": "inscriptions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::inscription.inscription",
+    "inverse_relation_name": "has_inscription_types"
+  },
+  {
+    "source_entity": "api::intervention.intervention",
+    "source_display_name": "Intervention",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "interventions"
+  },
+  {
+    "source_entity": "api::material.material",
+    "source_display_name": "Material",
+    "relation_name": "works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "materials"
+  },
+  {
+    "source_entity": "api::material.material",
+    "source_display_name": "Material",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "materials"
+  },
+  {
+    "source_entity": "api::material.material",
+    "source_display_name": "Material",
+    "relation_name": "physical_archival_document",
+    "relation_type": "manyToOne",
+    "target_entity": "api::physical-archival-document.physical-archival-document",
+    "inverse_relation_name": "cover_materials"
+  },
+  {
+    "source_entity": "api::motif-category.motif-category",
+    "source_display_name": "Motif_category",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "motif_categories"
+  },
+  {
+    "source_entity": "api::motif-category.motif-category",
+    "source_display_name": "Motif_category",
+    "relation_name": "motif_units",
+    "relation_type": "manyToMany",
+    "target_entity": "api::motif-subcategory.motif-subcategory",
+    "inverse_relation_name": "motif_categories"
+  },
+  {
+    "source_entity": "api::motif-subcategory.motif-subcategory",
+    "source_display_name": "Motif_unit",
+    "relation_name": "motif_categories",
+    "relation_type": "manyToMany",
+    "target_entity": "api::motif-category.motif-category",
+    "inverse_relation_name": "motif_units"
+  },
+  {
+    "source_entity": "api::motif-subcategory.motif-subcategory",
+    "source_display_name": "Motif_unit",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "motif_units"
+  },
+  {
+    "source_entity": "api::motif-subcategory.motif-subcategory",
+    "source_display_name": "Motif_unit",
+    "relation_name": "works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "shows_motif_units"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "is_current_owner_of_work",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "has_current_owner_person"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "is_designer_of_building",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "has_designer"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "is_current_owner_of_building",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "has_current_owner_person"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "is_former_curator_of_collection",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "has_former_curator_person"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "is_current_curator_of_collection",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "has_current_curator_person"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "is_current_owner_of_collection",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "has_current_owner_person"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "created_work",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "was_produced_by_person"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "has_place_of_birth",
+    "relation_type": "manyToOne",
+    "target_entity": "api::city.city",
+    "inverse_relation_name": "is_place_of_birth_of"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "people"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "is_former_member_of_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "has_former_members"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "is_current_member_of_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "has_current_members"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "professions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::profession.profession",
+    "inverse_relation_name": "people"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "data_provider_of_works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "data_provenance_from_people"
+  },
+  {
+    "source_entity": "api::person.person",
+    "source_display_name": "Person",
+    "relation_name": "data_provider_of_buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "data_provenance_from_people"
+  },
+  {
+    "source_entity": "api::physical-archival-document.physical-archival-document",
+    "source_display_name": "Physical_archival_document",
+    "relation_name": "has_current_location_building",
+    "relation_type": "manyToOne",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "physical_archival_documents"
+  },
+  {
+    "source_entity": "api::physical-archival-document.physical-archival-document",
+    "source_display_name": "Physical_archival_document",
+    "relation_name": "cover_materials",
+    "relation_type": "oneToMany",
+    "target_entity": "api::material.material",
+    "inverse_relation_name": "physical_archival_document"
+  },
+  {
+    "source_entity": "api::physical-archival-document.physical-archival-document",
+    "source_display_name": "Physical_archival_document",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "physical_archival_documents"
+  },
+  {
+    "source_entity": "api::profession.profession",
+    "source_display_name": "Profession",
+    "relation_name": "people",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "professions"
+  },
+  {
+    "source_entity": "api::profession.profession",
+    "source_display_name": "Profession",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "professions"
+  },
+  {
+    "source_entity": "api::region.region",
+    "source_display_name": "Region",
+    "relation_name": "is_current_location_of_city",
+    "relation_type": "oneToMany",
+    "target_entity": "api::city.city",
+    "inverse_relation_name": "has_current_location_region"
+  },
+  {
+    "source_entity": "api::region.region",
+    "source_display_name": "Region",
+    "relation_name": "has_current_location_country",
+    "relation_type": "manyToOne",
+    "target_entity": "api::country.country",
+    "inverse_relation_name": "is_current_location_of_region"
+  },
+  {
+    "source_entity": "api::region.region",
+    "source_display_name": "Region",
+    "relation_name": "works_production",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "has_production_location_regions"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "buildings",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "collections",
+    "relation_type": "manyToMany",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "motif_units",
+    "relation_type": "manyToMany",
+    "target_entity": "api::motif-subcategory.motif-subcategory",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "materials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::material.material",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "motif_categories",
+    "relation_type": "manyToMany",
+    "target_entity": "api::motif-category.motif-category",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "interventions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::intervention.intervention",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "professions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::profession.profession",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "building_functions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building-function.building-function",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "work_types",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work-type.work-type",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "images",
+    "relation_type": "manyToMany",
+    "target_entity": "api::image.image",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "people",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "physical_archival_documents",
+    "relation_type": "manyToMany",
+    "target_entity": "api::physical-archival-document.physical-archival-document",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "work_type_categories",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work-type-category.work-type-category",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "inscriptions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::inscription.inscription",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::tag-editorial.tag-editorial",
+    "source_display_name": "Tag_editorial",
+    "relation_name": "inscription_types",
+    "relation_type": "manyToMany",
+    "target_entity": "api::inscription-type.inscription-type",
+    "inverse_relation_name": "tag_editorials"
+  },
+  {
+    "source_entity": "api::visual-item.visual-item",
+    "source_display_name": "Visual_item",
+    "relation_name": "parents",
+    "relation_type": "manyToMany",
+    "target_entity": "api::visual-item.visual-item",
+    "inverse_relation_name": "children"
+  },
+  {
+    "source_entity": "api::visual-item.visual-item",
+    "source_display_name": "Visual_item",
+    "relation_name": "children",
+    "relation_type": "manyToMany",
+    "target_entity": "api::visual-item.visual-item",
+    "inverse_relation_name": "parents"
+  },
+  {
+    "source_entity": "api::visual-item.visual-item",
+    "source_display_name": "Visual_item",
+    "relation_name": "iconclass_terms",
+    "relation_type": "manyToMany",
+    "target_entity": "api::iconclass.iconclass",
+    "inverse_relation_name": "visual_items"
+  },
+  {
+    "source_entity": "api::visual-item.visual-item",
+    "source_display_name": "Visual_item",
+    "relation_name": "scene_is_shown_in_works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "shows_scenes"
+  },
+  {
+    "source_entity": "api::visual-item.visual-item",
+    "source_display_name": "Visual_item",
+    "relation_name": "element_is_shown_in_works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "shows_visual_item_elements"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "was_produced_by_person",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "created_work"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "has_current_owner_person",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "is_current_owner_of_work"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "is_part_of_collection",
+    "relation_type": "manyToOne",
+    "target_entity": "api::collection.collection",
+    "inverse_relation_name": "consists_of"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "has_current_location_building",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "is_current_location_of_work"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "has_former_location_building",
+    "relation_type": "manyToMany",
+    "target_entity": "api::building.building",
+    "inverse_relation_name": "is_former_location_of_work"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "has_work_types",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work-type.work-type",
+    "inverse_relation_name": "is_type_of_works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "materials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::material.material",
+    "inverse_relation_name": "works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "has_current_owner_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "is_current_owner_of_works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "was_created_by_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "created_works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "has_production_location_cities",
+    "relation_type": "manyToMany",
+    "target_entity": "api::city.city",
+    "inverse_relation_name": "work_productions"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "carries_inscriptions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::inscription.inscription",
+    "inverse_relation_name": "is_carried_by_works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "has_production_location_regions",
+    "relation_type": "manyToMany",
+    "target_entity": "api::region.region",
+    "inverse_relation_name": "works_production"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "data_provenance_from_people",
+    "relation_type": "manyToMany",
+    "target_entity": "api::person.person",
+    "inverse_relation_name": "data_provider_of_works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "data_provenance_from_groups",
+    "relation_type": "manyToMany",
+    "target_entity": "api::group.group",
+    "inverse_relation_name": "data_provider_of_works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "shows_motif_units",
+    "relation_type": "manyToMany",
+    "target_entity": "api::motif-subcategory.motif-subcategory",
+    "inverse_relation_name": "works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "iconclass_terms",
+    "relation_type": "manyToMany",
+    "target_entity": "api::iconclass.iconclass",
+    "inverse_relation_name": "works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "shows_scenes",
+    "relation_type": "manyToMany",
+    "target_entity": "api::visual-item.visual-item",
+    "inverse_relation_name": "scene_is_shown_in_works"
+  },
+  {
+    "source_entity": "api::work.work",
+    "source_display_name": "Work",
+    "relation_name": "shows_visual_item_elements",
+    "relation_type": "manyToMany",
+    "target_entity": "api::visual-item.visual-item",
+    "inverse_relation_name": "element_is_shown_in_works"
+  },
+  {
+    "source_entity": "api::work-type.work-type",
+    "source_display_name": "Work_type",
+    "relation_name": "is_type_of_works",
+    "relation_type": "manyToMany",
+    "target_entity": "api::work.work",
+    "inverse_relation_name": "has_work_types"
+  },
+  {
+    "source_entity": "api::work-type.work-type",
+    "source_display_name": "Work_type",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "work_types"
+  },
+  {
+    "source_entity": "api::work-type.work-type",
+    "source_display_name": "Work_type",
+    "relation_name": "work_type_category",
+    "relation_type": "manyToOne",
+    "target_entity": "api::work-type-category.work-type-category",
+    "inverse_relation_name": "work_types"
+  },
+  {
+    "source_entity": "api::work-type-category.work-type-category",
+    "source_display_name": "Work_type_category",
+    "relation_name": "work_types",
+    "relation_type": "oneToMany",
+    "target_entity": "api::work-type.work-type",
+    "inverse_relation_name": "work_type_category"
+  },
+  {
+    "source_entity": "api::work-type-category.work-type-category",
+    "source_display_name": "Work_type_category",
+    "relation_name": "tag_editorials",
+    "relation_type": "manyToMany",
+    "target_entity": "api::tag-editorial.tag-editorial",
+    "inverse_relation_name": "work_type_categories"
+  }
+]

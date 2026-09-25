@@ -98,23 +98,56 @@ spend GPU-hours on a real run.
 hmBERT-base (110M params) + the extra layers (~8M for the default 2-layer
 stack) fine-tuned over ~90k sentences for several epochs is a multi-hour job
 even on MPS, and MPS lacks some of the memory/throughput headroom a real GPU
-gives you for this size of run. `jobs/euler_train.sbatch` is a skeleton for
-ETH Euler:
+gives you for this size of run. `jobs/euler_train.sbatch` targets ETH Euler.
+
+Euler compute nodes have **no internet access**, so two things must be staged
+from a **login node** first (do this once):
+
+```bash
+module load stack/2024-06 python_cuda/3.11.6    # 1a. Euler's Python (no conda on Euler)
+python -m venv ~/ner-venv
+source ~/ner-venv/bin/activate
+pip install -e .                                 # 1b. package + deps installed
+scripts/download_hipe_data.sh                    # 2. HIPE data cloned into data/raw/
+python -c "from transformers import AutoTokenizer, AutoModel; \
+  m='dbmdz/bert-base-historic-multilingual-cased'; \
+  AutoTokenizer.from_pretrained(m); AutoModel.from_pretrained(m)"  # 3. hmBERT cached locally
+```
+
+Then submit:
 
 ```bash
 sbatch jobs/euler_train.sbatch
 ```
 
-Adjust the `module load` line for whatever software stack is current on Euler
-when you run this (`module avail python`, `module avail cuda`), and check
+The script checks for (2) and (3) and exits immediately with a clear error if
+either is missing, rather than hanging on a network call the compute node
+can never complete. Adjust the `module load` line if the software-stack
+release has moved on (`module avail python_cuda` on a login node), and check
 `--gpus`/`--gres`/`--time` against your allocation. It runs
-`build_dataset.py` then `hipe_ner.train`, writing the best-dev-F1 checkpoint
-to `checkpoints/stacked-hmbert-hipe/best/`.
+`build_dataset.py` (skipped if `data/cache/label_map.json` already exists;
+set `FORCE_REBUILD=1` to force a rebuild) then `hipe_ner.train`, writing
+checkpoints to `$SCRATCH` during training (`$HOME` has a small quota on
+Euler) and copying the best-dev-F1 checkpoint back to
+`checkpoints/stacked-hmbert-hipe/best/` when the job finishes.
 
 Key knobs in `configs/default.yaml`: `num_extra_layers`, `freeze_base_epochs`,
 `lr_base` vs `lr_head` (separate learning rates — the pretrained encoder
 needs a much smaller LR than the freshly initialized stack+classifier),
 `batch_size`, `max_length`.
+
+### Resuming an interrupted run
+
+Every epoch, `hipe_ner.train` writes a full training snapshot (model +
+optimizer + scheduler state, current epoch, best dev F1 so far) to
+`<output_dir>/resume_state.pt`. If that file exists the next time you run
+`hipe_ner.train` against the same `output_dir`, training automatically
+picks up right after the last completed epoch instead of starting over —
+useful if a job gets killed by a time limit (e.g. Euler's `gpu.24h`) or a
+Colab session disconnects. Pass `--fresh` to ignore an existing checkpoint
+and start over from scratch. This also means you can extend a finished run:
+bump `training.epochs` in the config and rerun — it'll continue from where
+it left off rather than retraining everything.
 
 ## Evaluation
 

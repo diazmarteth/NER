@@ -91,6 +91,7 @@ def evaluate(model, loader, device, id2label) -> dict:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="configs/default.yaml")
+    ap.add_argument("--fresh", action="store_true", help="ignore any existing resume checkpoint and start over")
     ap.add_argument("overrides", nargs="*", help="dotted.key=value overrides")
     args = ap.parse_args()
 
@@ -145,10 +146,28 @@ def main():
 
     out_dir = project_root / tcfg["output_dir"]
     out_dir.mkdir(parents=True, exist_ok=True)
+    resume_path = out_dir / "resume_state.pt"
     best_f1 = -1.0
     step = 0
+    start_epoch = 0
 
-    for epoch in range(tcfg["epochs"]):
+    if resume_path.exists() and not args.fresh:
+        # weights_only=False: this checkpoint holds optimizer/scheduler state,
+        # not just tensors, and we wrote it ourselves, so it's trusted.
+        state = torch.load(resume_path, map_location=device, weights_only=False)
+        model.load_state_dict(state["model_state_dict"])
+        optimizer.load_state_dict(state["optimizer_state_dict"])
+        scheduler.load_state_dict(state["scheduler_state_dict"])
+        start_epoch = state["epoch"] + 1
+        best_f1 = state["best_f1"]
+        step = state["step"]
+        model.set_encoder_trainable(start_epoch >= freeze_epochs)
+        print(f"resumed from {resume_path}: epoch {start_epoch}/{tcfg['epochs']}, "
+              f"step {step}, best dev f1 so far {best_f1:.4f}")
+    elif resume_path.exists() and args.fresh:
+        print(f"ignoring existing {resume_path} (--fresh passed), starting over")
+
+    for epoch in range(start_epoch, tcfg["epochs"]):
         if epoch == freeze_epochs:
             print("unfreezing hmBERT encoder")
             model.set_encoder_trainable(True)
@@ -178,6 +197,16 @@ def main():
                 tokenizer.save_pretrained(out_dir / "best")
                 (out_dir / "best" / "label_map.json").write_text(json.dumps({"labels": labels}, indent=2))
                 print(f"new best dev f1 {best_f1:.4f} -> saved to {out_dir / 'best'}")
+
+        torch.save({
+            "epoch": epoch,
+            "step": step,
+            "best_f1": best_f1,
+            "model_state_dict": model.state_dict(),
+            "optimizer_state_dict": optimizer.state_dict(),
+            "scheduler_state_dict": scheduler.state_dict(),
+        }, resume_path)
+        print(f"resume checkpoint saved (epoch {epoch}) -> {resume_path}")
 
     model.save_pretrained(out_dir / "last")
     tokenizer.save_pretrained(out_dir / "last")
